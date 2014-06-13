@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="615"
+   name=""
+   committed-date="2011-06-24T09:52:52.370002Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/com/jstun"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   name="demo"
+   kind="dir"/>
+<entry
+   name="core"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="100"
+   name=""
+   committed-date="2009-05-19T15:57:09.374710Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/zoolu/sip/authentication"
+   last-author="eriksson.mag"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="100"
+   name="DigestAuthentication.java"
+   text-time="2012-08-06T10:41:39.979849Z"
+   committed-date="2009-05-19T15:57:09.374710Z"
+   checksum="429cb52526cef0750e40415e16d69687"
+   last-author="eriksson.mag"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.964249Z"/>
+</wc-entries>

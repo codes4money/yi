@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/dialog_title_text"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+		android:background="@drawable/dialog_title"
+		android:gravity="center"
+	    android:text="title"
+	    android:singleLine="true"
+	    android:textColor="@color/white"
+	    android:textSize="20sp" />
+	
+    <LinearLayout
+        android:id="@+id/dialog_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_middle" >
+
+        <TextView
+            android:id="@+id/dialog_message_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="15dip"
+            android:gravity="center"
+            android:text="message"
+            android:autoLink="web"
+            android:textColor="@color/dark_black"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dialog_select"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/dialog_bottom_b"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/dialog_yes"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/apha"
+            android:gravity="center"
+            android:text="确定"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+
+        <View
+            android:id="@+id/dialog_divider"
+            style="@style/common_vertical_line_style"
+            android:layout_marginBottom="3dip"
+             />
+
+        <Button
+            android:id="@+id/dialog_cancel"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@drawable/apha"
+            android:gravity="center"
+            android:text="取消"
+            android:textSize="18sp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+</LinearLayout>

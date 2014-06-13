@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            style="@style/PLContentLayout"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/PLIndividualCenterLayout"
+                android:orientation="vertical" >
+                <RelativeLayout 
+                    android:id="@+id/individual_center_item_addfriend1"
+                    style="@style/PLIndividualCenterLayoutItem" >
+
+                    <ImageView
+                        android:id="@+id/individual_center_img_addfriend1"
+                        style="@style/PLIndividualCenterLayoutItemImage"
+                        android:src="@drawable/individual_center_location" />
+
+                    <TextView
+                        android:id="@+id/individual_center_txt_addfriend1"
+                        style="@style/PLIndividualCenterLayoutItemTextView"
+                        android:layout_alignBaseline="@+id/individual_center_img_addfriend1"
+                        android:layout_toRightOf="@+id/individual_center_img_addfriend1"
+                        android:text="附近的人" />
+
+                    <Button
+                        android:id="@+id/individual_center_btn_addfriend1"
+                        style="@style/PLNextButton"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                
+                 <include layout="@layout/h_line" />
+
+                <!-- 我的微博 -->
+
+                <RelativeLayout 
+                    android:id="@+id/individual_center_item_addfriend2"
+                    style="@style/PLIndividualCenterLayoutItem" >
+
+                    <ImageView
+                        android:id="@+id/individual_center_item_addfriend2"
+                        style="@style/PLIndividualCenterLayoutItemImage"
+                        android:src="@drawable/individual_center_more" />
+
+                    <TextView
+                        android:id="@+id/individual_center_item_addfriend2_txt"
+                        style="@style/PLIndividualCenterLayoutItemTextView"
+                        android:layout_alignBaseline="@+id/individual_center_item_addfriend1"
+                        android:layout_toRightOf="@+id/individual_center_item_addfriend2"
+                        android:text="通过ID号查找" />
+
+                    <Button
+                        android:id="@+id/individual_center_item_addfriend2_bnt"
+                        style="@style/PLNextButton"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="visible" />
+                </RelativeLayout>
+                
+                
+                <include layout="@layout/h_line" />
+
+                <!-- 更多 -->
+
+                <RelativeLayout 
+                    android:id="@+id/individual_center_item_addfriend3"
+                    style="@style/PLIndividualCenterLayoutItem" >
+
+                    <ImageView
+                        android:id="@+id/individual_center_img_addfriend3"
+                        style="@style/PLIndividualCenterLayoutItemImage"
+                        android:src="@drawable/individual_center_more" />
+
+                    <TextView
+                        android:id="@+id/individual_center_txt_addfriend3"
+                        style="@style/PLIndividualCenterLayoutItemTextView"
+                        android:layout_alignBaseline="@+id/individual_center_img_addfriend2"
+                        android:layout_toRightOf="@+id/individual_center_img_addfriend3"
+                        android:text="通过手机号或邮箱查找" />
+
+                    <Button
+                        android:id="@+id/individual_center_btn_addfriend3"
+                        style="@style/PLNextButton"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:visibility="visible" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

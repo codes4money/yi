@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="574"
+   name=""
+   committed-date="2010-09-01T11:48:07.857346Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/zoolu/sip/dialog"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="50"
+   name="Dialog.java"
+   text-time="2012-08-06T10:41:40.198249Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="dbad5f64800126592c515bb40a9e3863"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.011049Z"/>
+<entry
+   committed-rev="574"
+   name="ExtendedInviteDialog.java"
+   text-time="2012-08-06T10:41:40.198249Z"
+   committed-date="2010-09-01T11:48:07.857346Z"
+   checksum="88e47cd49dc2d3f58a0c97d829722089"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.026649Z"/>
+<entry
+   committed-rev="50"
+   name="NotifierDialog.java"
+   text-time="2012-08-06T10:41:40.213849Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="df764359bd9ba5d256f61b6990de1db8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.042249Z"/>
+<entry
+   committed-rev="50"
+   name="SubscriberDialog.java"
+   text-time="2012-08-06T10:41:40.229449Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="96f91293423944ea53921d3f81c05f48"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.042249Z"/>
+<entry
+   committed-rev="50"
+   name="InviteDialogListener.java"
+   text-time="2012-08-06T10:41:40.245049Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="84de2f6e3c0a54924d0342897abcd61f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.057849Z"/>
+<entry
+   committed-rev="50"
+   name="ExtendedInviteDialogListener.java"
+   text-time="2012-08-06T10:41:40.260649Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="9f0a303ce3d19ff83797f45ab05c8b3c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.073449Z"/>
+<entry
+   committed-rev="50"
+   name="NotifierDialogListener.java"
+   text-time="2012-08-06T10:41:40.276249Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7809b163dbe18a1e6c4a21c79c0cd191"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.073449Z"/>
+<entry
+   committed-rev="50"
+   name="SubscriberDialogListener.java"
+   text-time="2012-08-06T10:41:40.276249Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7bbcb5bcc9a32391b3f290dcd1bf1a74"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.089049Z"/>
+<entry
+   committed-rev="50"
+   name="DialogInfo.java"
+   text-time="2012-08-06T10:41:40.291849Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="53ae444f00a723bf027a1634d97979a5"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.104649Z"/>
+<entry
+   committed-rev="555"
+   name="InviteDialog.java"
+   text-time="2012-08-06T10:41:40.307449Z"
+   committed-date="2010-07-08T18:58:54.366480Z"
+   checksum="61d6758c3da3297197578a42994f3aa9"
+   last-author="mandrajg"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.182649Z"/>
+</wc-entries>

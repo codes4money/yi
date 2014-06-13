@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_size_10"
+            android:background="@drawable/newmsgf"
+            android:padding="@dimen/layout_size_10" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/fork" />
+
+            <EditText
+                android:id="@+id/bak_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_size_10"
+            android:background="@drawable/bak_bg"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/layout_size_10"
+            android:visibility="gone" >
+
+            <TextView android:textSize="@dimen/txt_size_max_18" android:textColor="@color/gray" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="推荐把陈宏的备注名设置为手机通讯录的姓名 '陈宏'" android:layout_weight="1.0" android:layout_centerVertical="true" />
+            <Button android:textSize="@dimen/txt_size_max_20" android:background="@drawable/bakset_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="设置" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </LinearLayout>
+
+        <Button
+            android:id="@id/bakSet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/layout_size_40"
+            android:background="@drawable/login_btn"
+            android:text="保存"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_max_20" />
+
+    </LinearLayout>
+</LinearLayout>

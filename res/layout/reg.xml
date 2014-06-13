@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/headerEvent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10">
+            </LinearLayout>
+            <TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_20" android:layout_marginRight="@dimen/layout_size_20">
+                <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/txt_size_max_20" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="帐号:" />
+                    <EditText android:id="@+id/userName" android:background="@drawable/reginput" android:paddingLeft="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:hint="请输入帐号!" android:singleLine="true" android:layout_weight="1.0" />
+
+                    <ImageView
+                        android:id="@+id/userNameTips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/reg_hook"
+                        android:visibility="gone" />
+
+                </TableRow>
+                <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/txt_size_max_20" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="昵称:" />
+                    <EditText android:id="@+id/userNickName" android:background="@drawable/reginput" android:paddingLeft="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:hint="请输入昵称!" android:singleLine="true" android:layout_weight="1.0" />
+
+                    <ImageView
+                        android:id="@+id/userNickTips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/reg_hook"
+                        android:visibility="gone" />
+
+                </TableRow>
+                <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/txt_size_max_20" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="密码:" />
+
+                    <EditText
+                        android:id="@+id/userPsw"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/layout_size_10"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/reginput"
+                        android:hint="请输入密码!"
+                        android:inputType="textPassword"
+                        android:paddingLeft="@dimen/layout_size_10"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:id="@+id/userPswTips"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/reg_hook"
+                        android:visibility="gone" />
+
+                </TableRow>
+                <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/txt_size_max_20" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="确认密码:" />
+
+                    <EditText
+                        android:id="@+id/userPswConfig"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/layout_size_10"
+                        android:layout_weight="1.0"
+                        android:background="@drawable/reginput"
+                        android:hint="请输入确认密码!"
+                        android:inputType="textPassword"
+                        android:paddingLeft="@dimen/layout_size_10"
+                        android:singleLine="true" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:src="@drawable/reg_hook"
+                        android:visibility="gone" />
+
+                </TableRow>
+                <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/txt_size_max_20" android:textStyle="bold" android:textColor="@color/black" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="性别:" />
+                    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <ImageButton android:id="@+id/sexMale" android:background="@drawable/reg_hook" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginBottom="@dimen/layout_size_10" />
+                        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:text="男" />
+                        <ImageButton android:id="@+id/sexFeMale" android:background="@drawable/reg_unhook" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" />
+                        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginBottom="@dimen/layout_size_10" android:text="女" />
+                    </LinearLayout>
+                    <ImageView android:layout_gravity="center_vertical" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" />
+                </TableRow>
+            </TableLayout>
+            <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:id="@+id/regBtn" android:background="@drawable/login_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_30" android:text="注册" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

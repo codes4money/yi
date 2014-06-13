@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="538"
+   name=""
+   committed-date="2010-06-07T13:17:41.994597Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/zoolu/sdp"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="538"
+   name="SessionDescriptor.java"
+   text-time="2012-08-06T10:41:39.777048Z"
+   committed-date="2010-06-07T13:17:41.994597Z"
+   checksum="9281e2b26ceb2b607233f54e59537283"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.652248Z"/>
+<entry
+   committed-rev="50"
+   name="TimeField.java"
+   text-time="2012-08-06T10:41:39.792648Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="5cb3b3011c8bdd24677c00ffe152b3cc"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.667848Z"/>
+<entry
+   committed-rev="50"
+   name="MediaField.java"
+   text-time="2012-08-06T10:41:39.808248Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="dd58e8934c893013d783a28389effdf8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.683448Z"/>
+<entry
+   committed-rev="50"
+   name="ConnectionField.java"
+   text-time="2012-08-06T10:41:39.808248Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="1cb475aad96cf6c15c78eac7c4f6aaba"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.699048Z"/>
+<entry
+   committed-rev="50"
+   name="SdpParser.java"
+   text-time="2012-08-06T10:41:39.823848Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a2e293d2bc32e1f4c15801a667f0c5da"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.714648Z"/>
+<entry
+   committed-rev="50"
+   name="AttributeField.java"
+   text-time="2012-08-06T10:41:39.839448Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="b1cda4a66eb003ca994201e9a9a4f74e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.714648Z"/>
+<entry
+   committed-rev="50"
+   name="SessionNameField.java"
+   text-time="2012-08-06T10:41:39.855048Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="0e0c7b1ad3012f72bc87c1f48c1cc453"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.730248Z"/>
+<entry
+   committed-rev="50"
+   name="SdpField.java"
+   text-time="2012-08-06T10:41:39.870649Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7ce277f3a7f6ca1ef7bb793a05c75faf"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.745848Z"/>
+<entry
+   committed-rev="50"
+   name="OriginField.java"
+   text-time="2012-08-06T10:41:39.886249Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="818e61d3f6ef947b3aa9bc92662f91da"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.745848Z"/>
+<entry
+   committed-rev="447"
+   name="MediaDescriptor.java"
+   text-time="2012-08-06T10:41:39.886249Z"
+   committed-date="2010-02-08T03:50:26.731515Z"
+   checksum="278aef356306ea2e7200db6970a90b57"
+   last-author="tm.inoue@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:39.761448Z"/>
+</wc-entries>

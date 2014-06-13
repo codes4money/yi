@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/support_card_bk_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/contact_sms_number_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dip"
+        android:textColor="@color/text_dark_black"
+        android:textSize="18sp"
+        android:paddingRight="40dp"
+        android:text="TextView" />
+
+    <CheckBox
+        android:id="@+id/contact_sms_checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:checked="false"
+        android:focusable="false"
+        android:paddingRight="15dp" />
+
+    <View 
+        android:layout_below="@id/contact_sms_number_text"
+        android:layout_marginTop="27dp"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/horizontal_line"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="开启横屏模式" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/openHm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用高速录音模式" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/hrecod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用听筒播放模式" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/hplay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_unhook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="回车键发送消息" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/csendMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

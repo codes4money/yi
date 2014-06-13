@@ -1,0 +1,887 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="50"
+   name=""
+   committed-date="2009-04-28T00:22:15.939425Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/res/drawable-finger"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="50"
+   name="dial_num_9.xml"
+   text-time="2012-08-06T10:41:52.927871Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="4d6fe228c6594df153e7ae542da76435"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.274269Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_1_no_vm_blk.png"
+   text-time="2012-08-06T10:41:52.943471Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e1ac46eb4832d41f9c56e020be4611e7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.289869Z"/>
+<entry
+   committed-rev="50"
+   name="dark_header.9.png"
+   text-time="2012-08-06T10:41:52.959072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ce89d1ac2d6bd9775345abdf9c2d1d49"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.305469Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_pressed_full.9.png"
+   text-time="2012-08-06T10:41:52.974672Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="67ec703278ebfc93dd8cbe476cd28ca1"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.321069Z"/>
+<entry
+   committed-rev="50"
+   name="ic_dialer_voicemail_white.png"
+   text-time="2012-08-06T10:41:52.990272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="bc94ecfd6b98cc3fbc64d77f597b0a4f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.336669Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_delete_active.xml"
+   text-time="2012-08-06T10:41:52.990272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="50197e9e90268b8dcafc8e69a685bb52"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.336669Z"/>
+<entry
+   committed-rev="50"
+   name="tray_handle.xml"
+   text-time="2012-08-06T10:41:53.005872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="c826bcce98988a83ecf1c87b51108342"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.352269Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dialer_dial.xml"
+   text-time="2012-08-06T10:41:53.021472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="9bca13c3dc045e88bae709331d9d2ece"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.352269Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_selected_dialer.png"
+   text-time="2012-08-06T10:41:53.068272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="73a740f6e37bbc42d7c7ae02ad4162d8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.383469Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_pound.xml"
+   text-time="2012-08-06T10:41:53.052672Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="3502d3e271adf7b35e00b523d960937d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.383469Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_star_blk.png"
+   text-time="2012-08-06T10:41:53.037072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="767c736ba5f2512d5f84779b7550fea0"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.367869Z"/>
+<entry
+   committed-rev="50"
+   name="ic_dial_number_wht.png"
+   text-time="2012-08-06T10:41:53.068272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="5c8d2146fe0d9b47e8b3b635723c2da1"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.399069Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_delete_activated.9.png"
+   text-time="2012-08-06T10:41:53.099472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="20cc9b219c4378a5eae48ae77413e41e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.414669Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_0_wht.png"
+   text-time="2012-08-06T10:41:53.083872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8e21c05e8c1771822bc89bfe89c5f42d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.399069Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_unselected_contacts.png"
+   text-time="2012-08-06T10:41:53.115072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ce4847f0eac7d6a4c03dadde00f7ed6a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.430269Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_1_wht.png"
+   text-time="2012-08-06T10:41:53.130672Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="1dfb705184f5ebcb3b6d74d0feb2d003"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.445869Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_delete_pressed.9.png"
+   text-time="2012-08-06T10:41:53.146272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f8a5380ec9cfe6299cc7b0d9831362d8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.461469Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_2_wht.png"
+   text-time="2012-08-06T10:41:53.146272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="b920d0cfc7a1996d32c4a2470beb1a65"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.461469Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_3_wht.png"
+   text-time="2012-08-06T10:41:53.161872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="98634637e8fdae51d4dc36e1fc6c0597"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.477069Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_4_wht.png"
+   text-time="2012-08-06T10:41:53.177472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7e808cd8947378745ee69dded08f1945"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.492669Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_5_wht.png"
+   text-time="2012-08-06T10:41:53.193072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="37c43977033d264015e87fb2500897a3"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.492669Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_6_wht.png"
+   text-time="2012-08-06T10:41:53.193072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="279d865f27431463b89140338f9d398a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.508269Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_7_wht.png"
+   text-time="2012-08-06T10:41:53.208672Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="12e1c4b27d1295e8956b4fedbc9c3995"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.523869Z"/>
+<entry
+   committed-rev="50"
+   name="ic_delete_phone_number_wht.png"
+   text-time="2012-08-06T10:41:53.224272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="29e8c507b5e54bb2f952b7481c25c938"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.523869Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_8_wht.png"
+   text-time="2012-08-06T10:41:53.239872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ae62d6390414b41b7ba802f909aa02be"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.539469Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_9_wht.png"
+   text-time="2012-08-06T10:41:53.255472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="77f5a60eec5b77cbf420dddd92312e33"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.555069Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_selected.9.png"
+   text-time="2012-08-06T10:41:53.271072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8f0bfe2a630ea5e4f1316534bb64db8a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.601869Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_normal.9.png"
+   text-time="2012-08-06T10:41:53.271072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="5a0f1eb0d4a3f7a9aa0c362e4ffc4d42"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.633069Z"/>
+<entry
+   committed-rev="50"
+   name="tray_handle_selected.9.png"
+   text-time="2012-08-06T10:41:53.286672Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="83f82eb7d976deed1f8d29f26fd9e934"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.664269Z"/>
+<entry
+   committed-rev="50"
+   name="tray_handle_normal.9.png"
+   text-time="2012-08-06T10:41:53.302272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="df5425dd15c7009d63b0cf650f624255"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.664269Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_delete.xml"
+   text-time="2012-08-06T10:41:53.317872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="db8523a3e43264a2b5775d683144c8b6"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.679869Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dialer.xml"
+   text-time="2012-08-06T10:41:53.349072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="4be6a4863e373bf86d553b7ceb1d3e8d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.742269Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_pound_wht.png"
+   text-time="2012-08-06T10:41:53.333472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="3140ac651125dcc207ad85e5db5b8e9a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.742269Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_activated.9.png"
+   text-time="2012-08-06T10:41:53.333472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8dec119b9861654003b7a13920296669"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.711069Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_pressed.9.png"
+   text-time="2012-08-06T10:41:53.364672Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="9fb100fdb5e3896021e3009667e0de2d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.804669Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_starred.xml"
+   text-time="2012-08-06T10:41:53.380272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="90ac8fc71bd6de740ab1538f192e3d6f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.804669Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dialer_selected.9.png"
+   text-time="2012-08-06T10:41:53.395872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="75892ec7bac53f8f0ea9621a23376077"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.835870Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_1_no_vm.xml"
+   text-time="2012-08-06T10:41:53.395872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="42ff064cfc682523f42880d48fbaec0b"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.820270Z"/>
+<entry
+   committed-rev="50"
+   name="ic_dial_number_blk.png"
+   text-time="2012-08-06T10:41:53.411472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="d254d2136de51a5e7f6435db11b0d9f9"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.835870Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_star.xml"
+   text-time="2012-08-06T10:41:53.427072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="bde16df2d8411579f6e6d209df5a12dc"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.929470Z"/>
+<entry
+   committed-rev="50"
+   name="ic_dialer_voicemail_black.png"
+   text-time="2012-08-06T10:41:53.458272Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="dc60d9e152bf6bb03897b622f0d36901"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.960670Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_0_blk.png"
+   text-time="2012-08-06T10:41:53.442672Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="706f14ce36614f309671cdb891786c19"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.945070Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dialer_default_dial.png"
+   text-time="2012-08-06T10:41:53.489472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="b535538f635a468c3be42f5d9a275863"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.976270Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_1_blk.png"
+   text-time="2012-08-06T10:41:53.489472Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="5e8726be6488e9cfc91a96c47f201b0a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.976270Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield.xml"
+   text-time="2012-08-06T10:41:53.473872Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="d48ff67d8d27c7fc029d7c1770a9169f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.960670Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_2_blk.png"
+   text-time="2012-08-06T10:41:53.520673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="49ca5eb997057d63421ed59ef1e18734"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.991870Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_pressed.png"
+   text-time="2012-08-06T10:41:53.505072Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="835c13e7e6b600a00df7e82a22bd9f47"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.991870Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_3_blk.png"
+   text-time="2012-08-06T10:41:53.536273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="81f39abdd3db11342ecfe827474cf126"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.007470Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_4_blk.png"
+   text-time="2012-08-06T10:41:53.551873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="fd51c0c0705fc2b546dfc6428eb5634c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.023070Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_5_blk.png"
+   text-time="2012-08-06T10:41:53.551873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a3fc05e9e87016bdda1e933397c6bad8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.023070Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_6_blk.png"
+   text-time="2012-08-06T10:41:53.567473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ed686d9cfe27959baa6a296d7ecc2eb7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.054270Z"/>
+<entry
+   committed-rev="50"
+   name="ic_delete_phone_number_blk.png"
+   text-time="2012-08-06T10:41:53.598673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7b44bd17a9205397d911d780fba785c2"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.085470Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_7_blk.png"
+   text-time="2012-08-06T10:41:53.583073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="6c75eceef655cb62340f0331093dfb42"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.069870Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_8_blk.png"
+   text-time="2012-08-06T10:41:53.598673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="c529c935c45ca3023beb341d58d364af"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.101070Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_9_blk.png"
+   text-time="2012-08-06T10:41:53.614273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="17c84661b4eaf7427c7907b23b5f28dc"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.132270Z"/>
+<entry
+   committed-rev="50"
+   name="ic_headphone_deactive.png"
+   text-time="2012-08-06T10:41:53.645473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="4292e6f71f13b543b2aa6364f48edf21"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.163470Z"/>
+<entry
+   committed-rev="50"
+   name="ic_launcher_contacts.png"
+   text-time="2012-08-06T10:41:53.629873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="620dc443f38c75a45df5234277a470f3"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.147870Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_delete_normal.9.png"
+   text-time="2012-08-06T10:41:53.661073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="d793f8f6d1d29c4d68abcf1a559b4466"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.272670Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_delete_selected.9.png"
+   text-time="2012-08-06T10:41:53.645473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="cfa606836cdeb039018fd673d17f9f8e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.225870Z"/>
+<entry
+   committed-rev="50"
+   name="ic_dialer_voicemail.xml"
+   text-time="2012-08-06T10:41:53.676673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="134819e5e840b9fd19449743f90c54c8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.272670Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_normal_full.9.png"
+   text-time="2012-08-06T10:41:53.739073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e5e0bf8d29bda65e0c2564f38182a631"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.459871Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_pound_blk.png"
+   text-time="2012-08-06T10:41:53.707873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f8f5db13928797874d50348c43a9301e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.444271Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_selected_full.9.png"
+   text-time="2012-08-06T10:41:53.692273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a0bf8cdb643d85dc39fe7d8575cfb689"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.335070Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_1_no_vm_wht.png"
+   text-time="2012-08-06T10:41:53.739073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="4d30f926e7d589e637994dd74f7ed3ff"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.459871Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_contacts.xml"
+   text-time="2012-08-06T10:41:53.754673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="59e6e616fce69aac8954cee00e94652d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.475471Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_active.xml"
+   text-time="2012-08-06T10:41:53.770273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8b39a9ff491fd82cf66e156f2b85caa8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.475471Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_unselected_recent.png"
+   text-time="2012-08-06T10:41:53.785873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a136083f082f7cfa41917c165174d1cc"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.491071Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_recent.xml"
+   text-time="2012-08-06T10:41:53.801473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="b548bcf8fdb09155f03f4d97296bdcb8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.491071Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_unselected_stared.png"
+   text-time="2012-08-06T10:41:53.801473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="019a4a9b077080496d8e70a104cfc2a7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.506671Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dialer_pressed.9.png"
+   text-time="2012-08-06T10:41:53.817073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="45655b40d1e055e16957ad9d37fcef40"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.506671Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_textfield_activated_full.9.png"
+   text-time="2012-08-06T10:41:53.832673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="2a548818924b81115db21f78fb39d6e1"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.522271Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_star_wht.png"
+   text-time="2012-08-06T10:41:53.848273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="632fcb67109d4364168b374b30495792"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.553471Z"/>
+<entry
+   committed-rev="50"
+   name="ic_headphone.png"
+   text-time="2012-08-06T10:41:53.848273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e3d41447c7048d4ee3789094f1a18885"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.569071Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dialer_default.png"
+   text-time="2012-08-06T10:41:53.863873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="93317cdd36258aa19ebe853271bfbf8d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.584671Z"/>
+<entry
+   committed-rev="50"
+   name="ic_dial_number.xml"
+   text-time="2012-08-06T10:41:53.879473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7909f304cded880e1815a2026689c7b1"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.600271Z"/>
+<entry
+   committed-rev="50"
+   name="ic_dialpad_tray.png"
+   text-time="2012-08-06T10:41:53.895073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="28dbc978e21afece53a6db3c3a6a2213"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.615871Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_unselected_dialer.png"
+   text-time="2012-08-06T10:41:53.910673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a1600541dd0076ea2f5d198b5d935d7a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.647071Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_dialer.xml"
+   text-time="2012-08-06T10:41:53.926273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8cffc42d43b64e44d93f1cdb6a7ff1de"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.647071Z"/>
+<entry
+   committed-rev="50"
+   name="dark_header_dithered.xml"
+   text-time="2012-08-06T10:41:53.926273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="defde78686b1e2cd9434afa273c7e9a3"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.662671Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_0.xml"
+   text-time="2012-08-06T10:41:53.941873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="43720b28a3607dc7159ef46a7ace53b4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.662671Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_normal.png"
+   text-time="2012-08-06T10:41:53.957473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="9959898da706efae2257d485c08731db"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.693871Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_1.xml"
+   text-time="2012-08-06T10:41:53.973073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7de08cc5bc96b26e03009d95406f4a7a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.709471Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial_selected.png"
+   text-time="2012-08-06T10:41:53.988673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="65afe64c602e05f391564162b90f1beb"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.725071Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_2.xml"
+   text-time="2012-08-06T10:41:54.004273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e52cd45454971c1e918a392e5fcea3cc"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.740671Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_3.xml"
+   text-time="2012-08-06T10:41:54.004273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="abd7e45259ae712551869b86ebcd1701"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.740671Z"/>
+<entry
+   committed-rev="50"
+   name="tray_handle_pressed.9.png"
+   text-time="2012-08-06T10:41:54.019873Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="35f89a0f1a9781dec17b849d80da4718"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.756271Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_4.xml"
+   text-time="2012-08-06T10:41:54.035473Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="84d642055ef3b0eb7b4707d6c09652f9"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.771871Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_selected_contacts.png"
+   text-time="2012-08-06T10:41:54.051073Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="58fee2fd9251501e55e370f3fd13390e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.771871Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_5.xml"
+   text-time="2012-08-06T10:41:54.066673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8c8d075dc738544610d8ab815d3d69e3"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.787471Z"/>
+<entry
+   committed-rev="50"
+   name="btn_dial.xml"
+   text-time="2012-08-06T10:41:54.066673Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="76e5c9899b4394a274ef1efad1a97667"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.803071Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_6.xml"
+   text-time="2012-08-06T10:41:54.082273Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="6938436e1c49baf8d37ce80d13b43c62"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.803071Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_selected_recent.png"
+   text-time="2012-08-06T10:41:54.097874Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="86f7330c49202d0273d49e2aabdbd51d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.818671Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_7.xml"
+   text-time="2012-08-06T10:41:54.113474Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a4297a7ffc0de6b720a30c333915497c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.849871Z"/>
+<entry
+   committed-rev="50"
+   name="ic_menu_contact.png"
+   text-time="2012-08-06T10:41:54.113474Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="c18d75ec5af3c850814d638c5701edf5"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.849871Z"/>
+<entry
+   committed-rev="50"
+   name="ic_delete_phone_number.xml"
+   text-time="2012-08-06T10:41:54.175874Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="2eea5abc1d3565b110af283113954a27"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.865471Z"/>
+<entry
+   committed-rev="50"
+   name="dial_num_8.xml"
+   text-time="2012-08-06T10:41:54.191474Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="11ae4ab24929d4e6f2d282d65ada4564"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.881071Z"/>
+<entry
+   committed-rev="50"
+   name="ic_tab_selected_stared.png"
+   text-time="2012-08-06T10:41:54.207074Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="03cf1ac636178d3105759161d9afcba4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:52.896671Z"/>
+</wc-entries>

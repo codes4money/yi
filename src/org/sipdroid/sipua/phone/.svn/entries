@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="624"
+   name=""
+   committed-date="2012-05-21T11:49:51.954770Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/sipdroid/sipua/phone"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="624"
+   name="Connection.java"
+   text-time="2012-08-06T10:41:45.361858Z"
+   committed-date="2012-05-21T11:49:51.954770Z"
+   checksum="2e2d851a3d2c54f22ab1bb26e14b8722"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.706657Z"/>
+<entry
+   committed-rev="50"
+   name="ButtonGridLayout.java"
+   text-time="2012-08-06T10:41:45.377458Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7d294f09c859f6de65339d1ce2717a70"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.722257Z"/>
+<entry
+   committed-rev="332"
+   name="CallerInfoAsyncQuery.java"
+   text-time="2012-08-06T10:41:45.439858Z"
+   committed-date="2009-10-10T22:39:38.690036Z"
+   checksum="f3b432ce211ce7b62047376e2e0fe869"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.737857Z"/>
+<entry
+   committed-rev="542"
+   name="CallCard.java"
+   text-time="2012-08-06T10:41:45.455458Z"
+   committed-date="2010-06-16T21:10:27.288048Z"
+   checksum="e3d8cb91da3cb82d6c1c10fcce25fcbc"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.971857Z"/>
+<entry
+   committed-rev="50"
+   name="Phone.java"
+   text-time="2012-08-06T10:41:45.471058Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f09e98ee6b1af433dcc9dcc5fc5f0eea"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.987458Z"/>
+<entry
+   committed-rev="50"
+   name="PhoneUtils.java"
+   text-time="2012-08-06T10:41:45.486658Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="336d0f0cf131da3eb140dbd97fe28827"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.034258Z"/>
+<entry
+   committed-rev="50"
+   name="Call.java"
+   text-time="2012-08-06T10:41:45.502258Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f1cc61a84c2e24d0f72089302309742c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.049858Z"/>
+<entry
+   committed-rev="50"
+   name="CallStateException.java"
+   text-time="2012-08-06T10:41:45.517858Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="3a1b4c4a6384023f50177d2554103760"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.065458Z"/>
+<entry
+   committed-rev="50"
+   name="ContactsAsyncHelper.java"
+   text-time="2012-08-06T10:41:45.533458Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a972ffbc25e5709ae251e26e633c4a1e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.143458Z"/>
+<entry
+   committed-rev="621"
+   name="SlidingCardManager.java"
+   text-time="2012-08-06T10:41:45.533458Z"
+   committed-date="2012-04-24T19:01:54.783498Z"
+   checksum="9decfb601aec58ab9ecd2af680bf0ede"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.299458Z"/>
+<entry
+   committed-rev="50"
+   name="CallerInfo.java"
+   text-time="2012-08-06T10:41:45.549058Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="36f123dfc61644b31063eeaa5ca76be6"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.346258Z"/>
+</wc-entries>

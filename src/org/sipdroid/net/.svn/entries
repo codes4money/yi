@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="437"
+   name=""
+   committed-date="2010-01-31T09:31:30.597620Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/sipdroid/net"
+   last-author="tm.inoue@gmail.com"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   name="impl"
+   kind="dir"/>
+<entry
+   committed-rev="50"
+   name="KeepAliveSip.java"
+   text-time="2012-08-06T10:41:47.452262Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="3b0071b722edd390c3df853d32265a00"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.389862Z"/>
+<entry
+   committed-rev="156"
+   name="SipdroidSocket.java"
+   text-time="2012-08-06T10:41:47.467862Z"
+   committed-date="2009-07-05T22:39:04.228246Z"
+   checksum="adb2ea7bed2d9130d8b9d7af1dfe77b3"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.405462Z"/>
+<entry
+   committed-rev="437"
+   name="RtpPacket.java"
+   text-time="2012-08-06T10:41:47.483462Z"
+   committed-date="2010-01-31T09:31:30.597620Z"
+   checksum="e3752360c20429e361a9b182d02083b0"
+   last-author="tm.inoue@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.421062Z"/>
+<entry
+   committed-rev="182"
+   name="KeepAliveUdp.java"
+   text-time="2012-08-06T10:41:47.483462Z"
+   committed-date="2009-07-17T20:44:36.326783Z"
+   checksum="cc8fc7996c8444d170e6ad59f3ab115b"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.421062Z"/>
+<entry
+   committed-rev="156"
+   name="RtpSocket.java"
+   text-time="2012-08-06T10:41:47.499062Z"
+   committed-date="2009-07-05T22:39:04.228246Z"
+   checksum="107e7e96f1318d4ab42047918843eaff"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.436662Z"/>
+</wc-entries>

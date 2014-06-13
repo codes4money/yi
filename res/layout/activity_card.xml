@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <RelativeLayout android:gravity="center" android:id="@+id/showDialog" android:background="@drawable/sweepimgf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_50" android:layout_marginTop="@dimen/layout_size_40" android:layout_marginRight="@dimen/layout_size_50">
+        <ImageView android:id="@+id/cardHead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mycircle_head" />
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:id="@+id/cardTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="疯子" android:layout_toRightOf="@+id/cardHead" android:layout_alignParentTop="@+id/cardHead" />
+        <TextView android:textSize="@dimen/txt_size_max_15" android:textColor="@color/black" android:id="@+id/cardContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上海   虹口" android:layout_toRightOf="@+id/cardHead" android:layout_below="@+id/cardTitle" />
+        <ImageView android:id="@+id/cardSweep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_size_10" android:src="@drawable/sweepimg" android:layout_below="@+id/cardHead" />
+    </RelativeLayout>
+    <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_20" android:text="扫描上面的二维码图案,加我约架" />
+</LinearLayout>

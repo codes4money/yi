@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="453"
+   name=""
+   committed-date="2010-02-12T15:20:57.190806Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/com/jstun/core/attribute"
+   last-author="carlos.talbot@gmail.com"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="453"
+   name="ChangedAddress.java"
+   text-time="2012-08-06T10:41:47.967063Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="c0ed0699b9228449af75ada332fed765"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.764262Z"/>
+<entry
+   committed-rev="453"
+   name="Password.java"
+   text-time="2012-08-06T10:41:47.982663Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="2ab11ef314bf7bcca5e79b0737f26252"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.764262Z"/>
+<entry
+   committed-rev="453"
+   name="ResponseAddress.java"
+   text-time="2012-08-06T10:41:47.982663Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="1a60ee142f8d696f9d4eadb9f828974d"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.811062Z"/>
+<entry
+   committed-rev="453"
+   name="SourceAddress.java"
+   text-time="2012-08-06T10:41:47.998263Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="2f974269b4170356f8241eb6061da9d7"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.826663Z"/>
+<entry
+   committed-rev="453"
+   name="UnknownMessageAttributeException.java"
+   text-time="2012-08-06T10:41:48.013863Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="57b8fb2c4a3b9c6a6cd7217005b36fa9"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.842263Z"/>
+<entry
+   committed-rev="453"
+   name="MessageAttribute.java"
+   text-time="2012-08-06T10:41:48.029463Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="1938fc891f07d8c9544511fefaa0c833"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.842263Z"/>
+<entry
+   committed-rev="453"
+   name="MessageAttributeParsingException.java"
+   text-time="2012-08-06T10:41:48.045063Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="654084a5e5caf5c2691b27a6c23d7c8a"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.857863Z"/>
+<entry
+   committed-rev="453"
+   name="MappedAddress.java"
+   text-time="2012-08-06T10:41:48.060663Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="1f4222a274ca4cc1bd25a65a2f7a405b"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.873463Z"/>
+<entry
+   committed-rev="453"
+   name="Username.java"
+   text-time="2012-08-06T10:41:48.060663Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="050694661b8ae7998d16486f759f1616"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.873463Z"/>
+<entry
+   committed-rev="453"
+   name="ReflectedFrom.java"
+   text-time="2012-08-06T10:41:48.076263Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="96d573005ae5a94fc2f84f17b49d3e6e"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.889063Z"/>
+<entry
+   committed-rev="453"
+   name="MessageIntegrity.java"
+   text-time="2012-08-06T10:41:48.107463Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="54e371950af077a8f496b4b7b1d4354c"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.904663Z"/>
+<entry
+   committed-rev="453"
+   name="UnknownAttribute.java"
+   text-time="2012-08-06T10:41:48.091863Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="8613a78cbbca877cbc25e855dd94cd7e"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.889063Z"/>
+<entry
+   committed-rev="453"
+   name="ErrorCode.java"
+   text-time="2012-08-06T10:41:48.123063Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="6dcbeb351a41fd3b4d10d80cd9dd2727"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.904663Z"/>
+<entry
+   committed-rev="453"
+   name="MessageAttributeException.java"
+   text-time="2012-08-06T10:41:48.123063Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="cf52c6cd5666cc1c970c7d4cd5f1623e"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.920263Z"/>
+<entry
+   committed-rev="453"
+   name="MappedResponseChangedSourceAddressReflectedFrom.java"
+   text-time="2012-08-06T10:41:48.138663Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="5e50c5a90d31a9a6e9c54335d0d83c00"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.920263Z"/>
+<entry
+   committed-rev="453"
+   name="MessageAttributeInterface.java"
+   text-time="2012-08-06T10:41:48.154263Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="9421c483a68f8793e5e4b8f9ffd90230"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.935863Z"/>
+<entry
+   committed-rev="453"
+   name="Dummy.java"
+   text-time="2012-08-06T10:41:48.169863Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="6532ddfdc8e9d5e745b597a7132590d2"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.935863Z"/>
+<entry
+   committed-rev="453"
+   name="ChangeRequest.java"
+   text-time="2012-08-06T10:41:48.185463Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="9a840f057bb7d77c5dfeb2459b75bdf4"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.951463Z"/>
+</wc-entries>

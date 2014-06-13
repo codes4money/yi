@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg" >
+  <include layout="@layout/title"/>
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/nav_title"
+        android:scrollbars="none" >
+        
+       	<LinearLayout
+			android:layout_height="fill_parent"
+		   	android:layout_width="fill_parent"
+		   	android:orientation="vertical" >
+        
+		    <!-- get info -->
+
+		    <TextView
+		        android:id="@+id/add_friend_mod_txt"
+		        style="@style/login_texts_style"
+		        android:layout_marginLeft="15dip"
+		        android:layout_marginRight="15dip"
+		        android:layout_marginTop="20dip"
+		        android:text="输入手机号或邮箱:" />
+
+			<!-- input number -->
+
+		    <EditText
+		        android:id="@+id/add_friend_mod_input_name"
+		        style="@style/common_num_input_style"
+		        android:layout_marginLeft="40dip"
+		        android:layout_marginRight="40dip"
+		        android:layout_marginTop="25dip"
+		        android:hint="请输入"
+		        android:inputType="text"
+		        android:maxLength="12" />
+
+			<!-- button -->
+		    <Button
+		        android:id="@+id/group_ok_btn"
+		        style="@style/common_ok_btn_style"
+		        android:layout_marginTop="25dip"
+		        android:layout_marginLeft="88dip"
+		        android:layout_marginRight="88dip"
+		        android:text="确定"
+		        android:textColor="@android:color/background_light" />
+
+    		
+		</LinearLayout>
+		
+	</ScrollView>
+	
+</RelativeLayout>

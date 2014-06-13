@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_20" android:src="@drawable/reg_hook" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/txt_size_max_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="我们已经发送" />
+        <TextView android:textSize="@dimen/txt_size_max_16" android:textColor="@color/green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="验证码短信" />
+        <TextView android:textSize="@dimen/txt_size_max_16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="到这个号码" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/txt_size_max_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:text="1886 852 8471" />
+    <EditText android:gravity="center" android:background="@drawable/validateinput" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="请输入验证码" />
+    <Button android:textSize="@dimen/txt_size_max_15" android:background="@drawable/validates" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:text="接收短信大概需要58秒" />
+    <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:id="@+id/next" android:background="@drawable/login_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_40" android:text="下一步" />
+</LinearLayout>

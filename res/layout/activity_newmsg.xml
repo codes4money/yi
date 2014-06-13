@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="接收新消息通知" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/accectMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_2" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="声音" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/voices" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_2" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="震动" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/shock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_unhook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_20" android:layout_marginRight="@dimen/layout_size_10">
+        <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="朋友圈照片更新" android:layout_centerVertical="true" />
+        <ImageView android:id="@+id/friendUpdate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/txt_size_max_15" android:textColor="@color/gainsboro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:text="关闭后,朋友圈更新照片时,界面下面的发现切换按钮比不再出现红色提示" android:layout_centerVertical="true" />
+</LinearLayout>

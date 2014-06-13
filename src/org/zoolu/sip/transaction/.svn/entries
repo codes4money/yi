@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="583"
+   name=""
+   committed-date="2010-10-14T08:36:05.183309Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/zoolu/sip/transaction"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="50"
+   name="AckTransactionServerListener.java"
+   text-time="2012-08-06T10:41:41.181051Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="cbecc0c625acb80bb264b24724aa8575"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.056251Z"/>
+<entry
+   committed-rev="50"
+   name="InviteTransactionServerListener.java"
+   text-time="2012-08-06T10:41:41.196651Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="419b90d706ec50e1b42903e4dbe45362"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.071851Z"/>
+<entry
+   committed-rev="50"
+   name="TransactionServerListener.java"
+   text-time="2012-08-06T10:41:41.212251Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="14fb6764f0a162a49550bbd4872e9c78"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.071851Z"/>
+<entry
+   committed-rev="583"
+   name="InviteTransactionClient.java"
+   text-time="2012-08-06T10:41:41.227851Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="7b81acfaef2a8724bbe228f06eab3855"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.087451Z"/>
+<entry
+   committed-rev="50"
+   name="AckTransactionClient.java"
+   text-time="2012-08-06T10:41:41.243451Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="cc5f207f5e552b7a1e53df5f90e82806"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.103051Z"/>
+<entry
+   committed-rev="583"
+   name="TransactionClient.java"
+   text-time="2012-08-06T10:41:41.259051Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="4561a17cba21a86013c8004358359004"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.103051Z"/>
+<entry
+   committed-rev="50"
+   name="Transaction.java"
+   text-time="2012-08-06T10:41:41.274651Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e6675f723146ddf0c8bb14e0401be1ff"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.118651Z"/>
+<entry
+   committed-rev="50"
+   name="TransactionClientListener.java"
+   text-time="2012-08-06T10:41:41.290251Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="76671e34a9cf14d2c162fa673cbcf98d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.134251Z"/>
+<entry
+   committed-rev="583"
+   name="AckTransactionServer.java"
+   text-time="2012-08-06T10:41:41.305851Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="93ccae7bc66631452881983c88fc524f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.134251Z"/>
+<entry
+   committed-rev="583"
+   name="InviteTransactionServer.java"
+   text-time="2012-08-06T10:41:41.321451Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="39b2da8e752e5c63dec68dfc0998b695"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.149851Z"/>
+<entry
+   committed-rev="583"
+   name="TransactionServer.java"
+   text-time="2012-08-06T10:41:41.337051Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="db92bbe26822008402ca756a6547e767"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.165451Z"/>
+</wc-entries>

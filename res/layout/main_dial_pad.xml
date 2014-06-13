@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="3.00"
+        android:focusable="false" />
+
+    <LinearLayout
+        android:id="@+id/main_dial_pad_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="6.00"
+        android:focusable="true"
+        android:orientation="vertical" >
+
+        <View
+            android:id="@+id/view_id"
+            android:layout_width="fill_parent"
+            android:layout_height="1dip" />
+
+        <TableLayout
+            android:id="@+id/first_row_id"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="6.00" >
+
+            <TableRow android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/num_1"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src1" />
+
+                <ImageView
+                    android:id="@+id/num_2"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src2" />
+
+                <ImageView
+                    android:id="@+id/num_3"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src3" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/num_4"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src4" />
+
+                <ImageView
+                    android:id="@+id/num_5"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src5" />
+
+                <ImageView
+                    android:id="@+id/num_6"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src6" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/num_7"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src7" />
+
+                <ImageView
+                    android:id="@+id/num_8"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src8" />
+
+                <ImageView
+                    android:id="@+id/num_9"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src9" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/num_star"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src_star" />
+
+
+                <ImageView
+                    android:id="@+id/num_0"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src0" />
+
+                <ImageView
+                    android:id="@+id/num_jing"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src_jing" />
+            </TableRow>
+
+            <TableRow android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/num_contact"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src_contact" />
+
+                <ImageView
+                    android:id="@+id/num_call"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src_call" />
+
+                <ImageView
+                    android:id="@+id/num_delete"
+                    style="@style/img_dial_attr"
+                    android:src="@drawable/keyboard_src_del" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

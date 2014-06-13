@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="574"
+   name=""
+   committed-date="2010-09-01T11:48:07.857346Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/zoolu/sip/message"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="555"
+   name="BaseMessage.java"
+   text-time="2012-08-06T10:41:40.759850Z"
+   committed-date="2010-07-08T18:58:54.366480Z"
+   checksum="3733688c40c3a5a2ed84509ea0b20c31"
+   last-author="mandrajg"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.401049Z"/>
+<entry
+   committed-rev="50"
+   name="SipMethods.java"
+   text-time="2012-08-06T10:41:40.775450Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8b60ed0e58eefc5d1888b76f78d488d0"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.416649Z"/>
+<entry
+   committed-rev="50"
+   name="BaseMessageOtp.java"
+   text-time="2012-08-06T10:41:40.915850Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="436d44ba8d3afed34a549eb17bf7513f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.494650Z"/>
+<entry
+   committed-rev="50"
+   name="Message.java"
+   text-time="2012-08-06T10:41:40.931450Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ecc394aee8afd248311b95a1f5ebd6e2"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.525850Z"/>
+<entry
+   committed-rev="574"
+   name="BaseMessageFactory.java"
+   text-time="2012-08-06T10:41:40.947050Z"
+   committed-date="2010-09-01T11:48:07.857346Z"
+   checksum="daae42c687a0474a46301f2567451635"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.650650Z"/>
+<entry
+   committed-rev="50"
+   name="BaseSipResponses.java"
+   text-time="2012-08-06T10:41:40.962650Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="828fcb572e40750a6e075cd38c403889"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.666250Z"/>
+<entry
+   committed-rev="377"
+   name="BaseSipMethods.java"
+   text-time="2012-08-06T10:41:40.978250Z"
+   committed-date="2009-12-03T16:41:52.391144Z"
+   checksum="9dca4c5dfd8562438e18dabb39073bb5"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.697450Z"/>
+<entry
+   committed-rev="555"
+   name="MessageFactory.java"
+   text-time="2012-08-06T10:41:40.993850Z"
+   committed-date="2010-07-08T18:58:54.366480Z"
+   checksum="3034a27a354b66e77003581551b18856"
+   last-author="mandrajg"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.728650Z"/>
+<entry
+   committed-rev="50"
+   name="SipResponses.java"
+   text-time="2012-08-06T10:41:41.009451Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="7f3dc511a2079e0a3c45a4db7fe0c937"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:40.744250Z"/>
+</wc-entries>

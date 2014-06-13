@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="453"
+   name=""
+   committed-date="2010-02-12T15:20:57.190806Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/com/jstun/core/header"
+   last-author="carlos.talbot@gmail.com"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="453"
+   name="MessageHeaderParsingException.java"
+   text-time="2012-08-06T10:41:48.279063Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="e28255bfc0b6666eda8b5597f730ce0e"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:48.232263Z"/>
+<entry
+   committed-rev="453"
+   name="MessageHeaderException.java"
+   text-time="2012-08-06T10:41:48.294663Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="9baa357fb7e62b91f0d7028994f11528"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:48.247863Z"/>
+<entry
+   committed-rev="453"
+   name="MessageHeader.java"
+   text-time="2012-08-06T10:41:48.310263Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="f2b9cf23f367f92c277f216fb53d697b"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:48.263463Z"/>
+<entry
+   committed-rev="453"
+   name="MessageHeaderInterface.java"
+   text-time="2012-08-06T10:41:48.325863Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="0626c8d97abdd4bceb88e7adde1ef389"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:48.263463Z"/>
+</wc-entries>

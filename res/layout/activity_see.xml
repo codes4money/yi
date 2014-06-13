@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <ListView android:id="@+id/seeList" android:background="#00000000" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="1.0dip" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:id="@+id/txtL" android:background="@color/aliceblue" android:paddingLeft="@dimen/layout_size_5" android:paddingRight="@dimen/layout_size_5" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/txtSkip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice" />
+        <EditText android:layout_gravity="center_vertical" android:id="@+id/txtSend" android:background="@drawable/voice_input" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_5" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/txtExpress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/express" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/txtAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_5" android:src="@drawable/voice_add" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/voiceL" android:background="@color/aliceblue" android:paddingLeft="@dimen/layout_size_5" android:paddingRight="@dimen/layout_size_5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/voiceSkip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/keywork" />
+        <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/voiceSend" android:background="@drawable/voice_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_5" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/voice_txt" />
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/voiceExpress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/express" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/voiceAdd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_5" android:src="@drawable/voice_add" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:layout_gravity="center" android:id="@+id/viewpager" android:background="#fff32f33" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="135.0dip" />
+    <LinearLayout android:gravity="center_horizontal" android:id="@+id/page_select" android:background="#ffdddddd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/viewpager">
+        <ImageView android:id="@+id/page0_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/page_focused" android:scaleType="matrix" />
+        <ImageView android:id="@+id/page1_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/page_unfocused" android:scaleType="matrix" />
+        <ImageView android:id="@+id/page2_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:src="@drawable/page_unfocused" android:scaleType="matrix" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/mutilExpress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <HorizontalScrollView android:layout_gravity="center_vertical" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/expressList" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <Button android:id="@+id/sendFinish" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="完成" />
+    </LinearLayout>
+    <GridView android:id="@+id/seeAddGrid" android:paddingTop="@dimen/layout_size_7" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_5" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:horizontalSpacing="@dimen/layout_size_10" android:numColumns="4" />
+</LinearLayout>

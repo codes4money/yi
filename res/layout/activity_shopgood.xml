@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingRight="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@+id/mycircleImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:src="@drawable/mycircle_img2" />
+        <TextView android:textSize="@dimen/txt_size_max_18" android:textColor="@color/blue" android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="山人" android:layout_toRightOf="@+id/mycircleImg" android:layout_alignTop="@+id/mycircleImg" />
+        <TextView android:textSize="@dimen/txt_size_max_15" android:textColor="@color/grey" android:id="@+id/times" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3小时前" android:layout_alignTop="@+id/mycircleImg" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/txt_size_max_15" android:textColor="@color/black" android:id="@+id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="潮州凤凰山坞东明擦高档礼盒包装,限量50套,预购从速!" android:layout_toRightOf="@+id/mycircleImg" android:layout_alignBottom="@+id/mycircleImg" />
+        <Gallery android:id="@+id/mycircleGallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/content" android:layout_alignLeft="@+id/content" />
+        <TextView android:textSize="@dimen/txt_size_max_13" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/shopLast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:text="剩余: 280分钟" android:layout_below="@+id/mycircleGallery" android:layout_alignLeft="@+id/mycircleGallery" />
+        <TextView android:textSize="@dimen/txt_size_max_18" android:textStyle="bold" android:textColor="@color/red" android:id="@+id/mycirclePrice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$900.00" android:layout_below="@+id/shopLast" android:layout_alignLeft="@+id/shopLast" />
+        <ImageView android:id="@+id/numf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/numf_btn" android:layout_below="@+id/shopLast" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shopf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10">
+        <TextView android:textColor="@color/black" android:id="@+id/addres" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:text="请填写售货地址后购买    >" />
+        <EditText android:textColor="@color/black" android:background="@drawable/shopinput" android:paddingLeft="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:hint="输入详细地址" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:id="@+id/payment" android:background="@drawable/buys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_20" android:text="支付" />
+</LinearLayout>

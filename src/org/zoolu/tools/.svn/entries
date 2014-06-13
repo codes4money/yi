@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="570"
+   name=""
+   committed-date="2010-08-25T14:13:50.427823Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/zoolu/tools"
+   last-author="thilo.bangert"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="50"
+   name="HashSet.java"
+   text-time="2012-08-06T10:41:38.872247Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="c1341385231fe75ae4d1e5bb941aca22"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.388646Z"/>
+<entry
+   committed-rev="50"
+   name="Configurable.java"
+   text-time="2012-08-06T10:41:38.887847Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="3d85e6d19a7217af15dbafc2f25be853"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.388646Z"/>
+<entry
+   committed-rev="50"
+   name="Assert.java"
+   text-time="2012-08-06T10:41:38.965847Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="265a94de4ff65e279e07e1a955d65a19"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.404246Z"/>
+<entry
+   committed-rev="50"
+   name="ExceptionPrinter.java"
+   text-time="2012-08-06T10:41:38.981447Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e79c7748c56fdfde4e1e11ad0dafa77a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.419846Z"/>
+<entry
+   committed-rev="50"
+   name="Mangle.java"
+   text-time="2012-08-06T10:41:38.997047Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="0376fe93000edc934d22d569e1bf2117"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.419846Z"/>
+<entry
+   committed-rev="50"
+   name="MD5OTP.java"
+   text-time="2012-08-06T10:41:39.012647Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="5c837d9814cd33f45b9e7526385cb722"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.435446Z"/>
+<entry
+   committed-rev="50"
+   name="LogLevel.java"
+   text-time="2012-08-06T10:41:39.028247Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="fb502ac05dd70b1c48f953c152c40986"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.435446Z"/>
+<entry
+   committed-rev="50"
+   name="InnerTimer.java"
+   text-time="2012-08-06T10:41:39.043847Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="d81266eb9292aedf8a48622f8e21afe5"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.451046Z"/>
+<entry
+   committed-rev="50"
+   name="Random.java"
+   text-time="2012-08-06T10:41:39.090647Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e74ae9c24f272638fc41e0b9a0fc85a4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.482246Z"/>
+<entry
+   committed-rev="50"
+   name="Timer.java"
+   text-time="2012-08-06T10:41:39.075047Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="d875de1ba757cf01800f2cafcca5ca2b"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.466646Z"/>
+<entry
+   committed-rev="50"
+   name="AssertException.java"
+   text-time="2012-08-06T10:41:39.059447Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="758453d22465d7a5587b6f13f6ed69d4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.466646Z"/>
+<entry
+   committed-rev="50"
+   name="Configure.java"
+   text-time="2012-08-06T10:41:39.137447Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ea47a76ff214d0a9ffa628dc563dfb9d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.497846Z"/>
+<entry
+   committed-rev="50"
+   name="Archive.java"
+   text-time="2012-08-06T10:41:39.121847Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e6951a36e6c5319e344b9205a477e036"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.497846Z"/>
+<entry
+   committed-rev="50"
+   name="Log.java"
+   text-time="2012-08-06T10:41:39.106247Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="d37460792dde94f4b6fa093e46b802d2"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.482246Z"/>
+<entry
+   committed-rev="50"
+   name="InnerTimerListener.java"
+   text-time="2012-08-06T10:41:39.153047Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="1233a7e6d7d763cf391ae13951c1b422"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.513446Z"/>
+<entry
+   committed-rev="50"
+   name="InnerTimerST.java"
+   text-time="2012-08-06T10:41:39.168647Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="c4a8f2db1a37cd125c0c8d25b0902f6f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.513446Z"/>
+<entry
+   committed-rev="50"
+   name="MessageDigest.java"
+   text-time="2012-08-06T10:41:39.184247Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="6b5be11e5f72deff8ee535fad051ac10"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.529046Z"/>
+<entry
+   committed-rev="570"
+   name="Base64.java"
+   text-time="2012-08-06T10:41:39.199847Z"
+   committed-date="2010-08-25T14:13:50.427823Z"
+   checksum="599bcbb1f20b633f291c17922cdd8a2a"
+   last-author="thilo.bangert"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.529046Z"/>
+<entry
+   committed-rev="50"
+   name="MD5.java"
+   text-time="2012-08-06T10:41:39.215447Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="59073ecb302321ed0c188e31f306ea5d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.653846Z"/>
+<entry
+   committed-rev="50"
+   name="DateFormat.java"
+   text-time="2012-08-06T10:41:39.231047Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="afda94d8dba15c613f6441224164e048"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.700646Z"/>
+<entry
+   committed-rev="50"
+   name="TimerListener.java"
+   text-time="2012-08-06T10:41:39.246647Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="19baec6ebbbe86d4cf227e61c0a18e37"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.700646Z"/>
+<entry
+   committed-rev="50"
+   name="SimpleDigest.java"
+   text-time="2012-08-06T10:41:39.246647Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="6c157c7b03b4da046ea8da264da90e57"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.731847Z"/>
+<entry
+   committed-rev="50"
+   name="RotatingLog.java"
+   text-time="2012-08-06T10:41:39.262247Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="fafd396fdd1496711db800bad438a92d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.747447Z"/>
+<entry
+   committed-rev="50"
+   name="Iterator.java"
+   text-time="2012-08-06T10:41:39.277847Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="5604008a4cc6fc12513b0d6634580b3a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.763047Z"/>
+<entry
+   committed-rev="50"
+   name="Parser.java"
+   text-time="2012-08-06T10:41:39.293448Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="453d66661453f47923d4a1e9e8877e70"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:38.856647Z"/>
+</wc-entries>

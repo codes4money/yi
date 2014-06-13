@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg"
+    android:orientation="vertical" >
+
+  <include layout="@layout/title"/>
+
+  <WebView
+      android:id="@+id/weibo_main_web"
+      android:layout_width="fill_parent"
+      android:layout_height="fill_parent"
+      android:layout_centerVertical="true"
+      android:background="@color/BgColor" />
+  
+</LinearLayout>

@@ -1,0 +1,1312 @@
+﻿<resources>
+    <string name="app_default">系统默认</string>
+    <string name="app_zh_CN">简体中文</string>
+    <string name="app_zh_TW">繁體中文</string>
+    <string name="app_en">English</string>
+     <string name="sex_male">男</string>
+    <string name="sex_female">女</string>
+    <string name="app_lang_sys">跟随系统设置</string>
+    <string name="login_title">Super</string>
+    <string name="app_name">Super</string>
+    <string name="album_add">添加相册</string>
+    <string name="album_prompt_tag">你还没有相册，不妨创建一个</string>
+    <string name="album_title">相册</string>
+    <string name="new_password_hint">输入新密码</string>
+    <string name="new_repassword_hint">确认新密码</string>
+    <string name="new_repassword_title">新密码</string>
+    <string name="title_more">更多</string>
+    <string name="location_distance">距离</string>
+    <string name="location_comprehensivescore">综合评分</string>
+    <string name="btn_save">保存</string>
+    <string name="location_title">附近用户</string>
+    <string name="location_right">筛选</string>
+    <string name="location_left">我的位置</string>
+    <string name="notify_title">通知</string>
+    <string name="authorize_title">授权用户</string>
+    <string name="toast_nocity">您没有选择城市信息</string>
+    <string name="session_title">会话</string>
+    <string name="update_success">修改成功</string>
+    <string name="session_title_more">编辑</string>
+    <string name="title_mypoint">我的积分 </string>
+    <string name="register_title">新用户</string>
+    <string name="update">修改</string>
+    <string name="hello_world">Hello woasdfasdfasdfasdfasfdasfdasfdsadfasdfasdfasfdsafasdfsfdsafdasfdsfsadfasdfasdfasdfasdfasrld!12311321321321321321321231321321321321231321231321231213213132132131321321321321321325648544544564564564564564564</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_preview">商务伴侣UI预览</string>
+    <string name="title_activity_main">商务伴侣</string>
+    <string name="txt_comfirm">确    定</string>
+    <string name="txt_cannel">取   消</string>
+    <string name="my_evaluate">我要评价</string>
+    <string name="btn_enter">确定</string>
+    <string name="btn_album_new">马上去创建</string>
+    <string name="btn_album_cancle">不需要相册</string>
+    <string name="btn_return">返回</string>
+    <string name="title_content_login">Super</string>
+    <string name="title_content_individual_center">个人中心</string>
+    <string name="remeber_password">记住密码</string>
+    <string name="unremeber_password">忘记密码?</string>
+    <string name="btn_login">登录</string>
+    <string name="btn_new_user">新用户</string>
+    <string name="txt_user_name_tag">账号:</string>
+    <string name="txt_password_tag">密码:</string>
+    <string name="txt_phone_hint">输入手机号</string>
+    <string name="txt_password_hint">请输入密码</string>
+    <string name="txt_register_phone_hint">输入手机号/邮箱</string>
+    <string name="txt_register_password_hint">请输入密码</string>
+    <string name="location_load">正在获取定位信息......</string>
+    <string name="txt_register_repassword_hint">确认密码</string>
+    <string name="txt_register_recommended_hint">输入推荐人号码(会员或认证)</string>
+    <string name="txt_register_tag">填写推荐人手机号，您成为VIP会员后，推荐人和您可以返回10个积分。</string>
+    <string name="txt_protocol_tag">填写推荐人手机号，您成为VIP会员后，推荐人和您可以返回10个积分。
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议用户协议
+	    用户协议用户协议用户协议用户协议</string>
+    <string name="txt_protocol_check_tag">我已阅读用户协议</string>
+    <string name="protocol_btn_comfirm_tag">我同意</string>
+    <string name="protocol_btn_cnanel_tag">我不同意</string>
+    <string name="dialog_register_txt_title_tag">恭喜你，注册成功！</string>
+    <string name="register_validate_txt_validate_tag">请输入手机验证码</string>
+    <string name="chat_box_expra_expression">表情</string>
+    <string name="chat_box_expra_camera">相机</string>
+    <string name="chat_box_expra_pricture">图片</string>
+    <string name="chat_box_expra_location">位置</string>
+    <string name="register_grzl_must">*</string>
+    <string name="register_grzl_nickname">昵称:</string>
+    <string name="register_grzl_accout_type">帐号类型:</string>
+    <string name="register_grzl_service_location">交友场景:</string>
+    <string name="register_grzl_sex">性别:</string>
+    <string name="register_grzl_brith">出生年月:</string>
+    <string name="register_grzl_phone">联系电话:</string>
+    <string name="register_grzl_qq">QQ:</string>
+    <string name="register_grzl_height">身高(cm):</string>
+    <string name="register_grzl_body">体重(kg):</string>
+    <string name="register_grzl_profession">职业:</string>
+    <string name="register_grzl_wages">薪资意愿:</string>
+    <string name="register_grzl_signature">个性签名:</string>
+    <string name="register_head_btn_select_tag">使用相册</string>
+    <string name="register_head_btn_select_camera_tag">使用相机</string>
+    <string name="register_head_title_right_tag">下一步</string>
+    <string name="register_head_title_left_tag">跳过</string>
+    <string name="register_head_title">设置头像</string>
+    <string name="register_head_auth_btn_select_tag">照相</string>
+    <string name="register_head_auth_title_right_tag">下一步</string>
+    <string name="register_head_auth_title_left_tag">跳过</string>
+    <string name="register_head_auth_title">认证头像</string>
+    <string name="register_head_auth_tag">认证头像不显示在软件中，只作为系统管理员对照片的进行比对。</string>
+    <string name="toast_sdcard_mounted">SD卡拔出，不能使用某些功能!</string>
+    <string name="toast_sdcard_available">SD卡存储空间不足!</string>
+    <string name="toast_network">请检查网络是否连接正常!</string>
+    <string name="modify_password_edit_password_hint">输入原来的密码</string>
+    <string name="modify_password_edit_newpassword_hint">输入新密码</string>
+    <string name="modify_password_edit_renewpassword_hint">确定新密码</string>
+    <string name="modify_password_title">修改密码</string>
+    <string name="individual_centerActivity_title">个人中心</string>
+    <string name="individual_centerActivity_logining">注销</string>
+    <string name="individual_centerActivity_photo_tag">我的相册</string>
+    <string name="individual_centerActivity_location_tag">我的位置</string>
+    <string name="individual_centerActivity_hide_tag">隐私设置</string>
+    <string name="individual_centerActivity_info_tag">个人信息</string>
+    <string name="individual_centerActivity_sms_tag">短信推荐给好友</string>
+    <string name="individual_centerActivity_point_tag">我的积分</string>
+    <string name="individual_centerActivity_modify_password_tag">修改密码</string>
+    <string name="individual_centerActivity_more_tag">更多</string>
+    <string name="getback_password">找回密码</string>
+    <string name="detail_info_signature">签 名 ：</string>
+    <string name="detail_info_albums">相 册 ：</string>
+    <string name="detail_info_qq">Q  Q ：</string>
+    <string name="detail_info_tall">身 高(cm) ：</string>
+    <string name="detail_info_weight">体 重(kg) ：</string>
+    <string name="detail_info_job">职 业 ：</string>
+    <string name="detail_info_mobilephone">手 机 号 码 ：</string>
+    <string name="detail_info_salary">薪 资 意 愿 ：</string>
+    <string name="detail_info_savor">兴 趣 爱 好 ：</string>
+    <string name="details_appearance_score_tag">外貌评分:</string>
+    <string name="details_service_score_tag">服务评分:</string>
+    <string name="details_charm_tag">魅力值:</string>
+    <string name="details_btn_auth">我要认证</string>
+    <string name="details_btn_vip">成为VIP</string>
+    <string name="authed_customer">授权用户</string>
+    <string name="privacy_search">禁止搜索到我</string>
+    <string name="privacy_head">头像</string>
+    <string name="privacy_albums">相册</string>
+    <string name="privacy_qq">QQ</string>
+    <string name="privacy_mobliephone">手机</string>
+    <string name="privacy_setting">隐私设置</string>
+    <string name="tocash">提现申请</string>
+    <string name="mypoint_auth">我要认证</string>
+    <!-- 充值页面 -->
+    <string name="mypoint_vipbuy">购买</string>
+    <string name="mypoint_viprecharge">充值</string>
+    <string name="mypoint_vipdeadline">会员期限:</string>
+    <string name="mypoint_point">积分</string>
+    <string name="mypoint_tocashpoint">可提现积分:</string>
+    <string name="mypoint_zhu">注:</string>
+    <string name="mypoint_eg">申请成为会员，可查看用户资料\n  优惠会员价：10元/月\n  1元对应一个积分\n  有任何疑问，详询QQ：1234567</string>
+    <!-- 条件筛选页面 -->
+    <string name="conditionfilter_title">筛选</string>
+    <string name="conditionfilter_sex">性别选择:</string>
+    <string name="conditionfilter_service">服务场合:</string>
+    <string name="conditionfilter_logintime">登录时间:</string>
+    <string name="conditionfilter_auth">是否认证:</string>
+    <string name="conditionfilter_broker">是否经纪人:</string>
+    <string name="conditionfilter_composite">是否有综合评分:</string>
+    <string name="conditionfilter_age">年龄:</string>
+    <string name="conditionfilter_distance">距离:</string>
+    <string name="conditionfilter_distanceone">Km</string>
+    <string name="conditionfilter_ageone">year</string>
+    <string name="conditionfilter_tall">身高:</string>
+    <string name="conditionfilter_tallone">cm</string>
+    <string name="conditionfilter_weight">体重:</string>
+    <string name="conditionfilter_weightone">kg</string>
+    <string name="conditionfilter_boy">男</string>
+    <string name="conditionfilter_girl">女</string>
+    <string name="conditionfilter_not">不限</string>
+    <string name="conditionfilter_social">社交</string>
+    <string name="conditionfilter_alone">独处</string>
+    <string name="conditionfilter_online">30分钟内</string>
+    <string name="conditionfilter_threedday">1天内</string>
+    <string name="conditionfilter_sevenday">3天内</string>
+    <string name="conditionfilter_authed">已认证</string>
+    <string name="conditionfilter_notauth">未认证</string>
+    <string name="conditionfilter_yes">是</string>
+    <string name="conditionfilter_no">否</string>
+    <string name="conditionfilter_have">有</string>
+    <string name="conditionfilter_nothave">无</string>
+    <string name="issort">你逗我呢?后面的应该比前面的大</string>
+    <!-- vip条件筛选 -->
+    <string name="conditionfilter_vip">是否vip</string>
+    <string name="conditionfilter_honor">荣誉值:</string>
+    <!-- 编辑资料页面 -->
+    <string name="editdata_title">编辑资料</string>
+    <string name="editdata_name">昵称:</string>
+    <string name="editdata_birthday">生日:</string>
+    <string name="editdata_service">服务场合:</string>
+
+    <string-array name="editdata_asalary">
+        <item>小时</item>
+        <item>天</item>
+    </string-array>
+
+    <string name="editdata_salary_hour">小时</string>
+    <string name="editdata_salary_day">天</string>
+    <string name="register_protocol_confirm_toast">请勾选同意注册协议</string>
+    <!-- 充值页面 -->
+    <string name="recharge_pay">银联支付</string>
+    <string name="service_undefind">不限</string>
+    <string name="service_single">单独</string>
+    <string name="service_intercourse">社交</string>
+    <string name="accout_chatiing">Super</string>
+    <string name="accout_withchat">Super</string>
+    <string name="toast_album">请输入相册名</string>
+    <string name="toast_photo">请输入照片名</string>
+    <string name="toast_albumbitmap">请选择封面</string>
+    <string name="toast_updatebitmap">封面未做更改</string>
+    <string name="toast_photobitmap">请选择照片</string>
+    <!-- 相册 -->
+    <string name="falbum_title">好友相册</string>
+    <string name="new_album">新建相册:</string>
+    <string name="album_name">相册名:</string>
+    <string name="album_cover">相册封面:</string>
+    <string name="album_privacy">相册隐私:</string>
+    <string name="no_album">本地缓存中没有相册</string>
+    <string name="album_update">修改相册</string>
+    <!-- 相片 -->
+    <string name="no_photo">秀秀自己的相片吧！</string>
+    <string name="add_photo">添加相片</string>
+    <string name="upload_photo">上传</string>
+    <string name="photo_name">相片名:</string>
+    <string name="photo_privacy">是否隐私:</string>
+    <string name="photo_auth">是否认证:</string>
+    <string name="photo_del">删除相片</string>
+    <string name="friend_photo_no">该用户还没有上传相片</string>
+    <string name="friend_album_no">该用户还没有上传相册</string>
+    <!-- 隐私设置 -->
+    <string name="privacy_all">所有人可见</string>
+    <string name="privacy_vip">vip/认证用户可见</string>
+    <string name="privacy_friend">好友可见</string>
+    <string name="privacy_set">请设置隐私信息</string>
+    <!-- 地图定位 -->
+    <string name="map_myloc">当前位置</string>
+    <string name="map_customloc">确定</string>
+    <string name="map_send">发送</string>
+    <!-- 我的积分弹出框 -->
+    <string name="point_record">积分记录</string>
+    <string name="point_rule">提现规则</string>
+    <string name="point_apply">申请提现</string>
+    <!-- 提现申请 -->
+    <string name="openbankname">开户银行全名：</string>
+    <string name="openname">开户名：</string>
+    <string name="account">帐号：</string>
+    <string name="openmobile">手机号:</string>
+    <string name="nobankname">开户银行名为空</string>
+    <string name="noopenname">开户名为空</string>
+    <string name="noaccount">帐号为空</string>
+    <string name="nophone">手机号为空</string>
+    <string name="phoneworng">手机号不正确</string>
+    <string name="send_msg">发消息</string>
+    <string name="add_friend">加好友</string>
+      <string name="update_tip_recommended_down">新版本可用</string>
+    <string name="update_tip_critical">你的版本过低，请升级</string>
+    <string name="update_now">下载安装</string>
+    <string name="update_exit">　退出　</string>
+    <string name="update_cancel">　取消　</string>
+    <string name="app_err_password">密码错误，请重新输入</string>
+    <string name="app_err_nouser">错误，请重新输入</string>
+    <string name="app_err_mailexsit_title">邮箱地址已被使用</string>
+    <string name="app_err_mailexsit_tip">该邮箱地址已被一个帐号使用，请尝试更换一个地址</string>
+    <string name="app_err_reg_title">注册失败</string>
+    <string name="app_err_system_busy_tip">系统繁忙，请稍候重试</string>
+    <string name="verify_account_tip">帐号仅支持6-20个字母、数字、下划线或减号，以字母开头</string>
+    <string name="verify_account_tip_short">帐号仅支持6-20个字母、数字、下划线或减号</string>
+    <string name="verify_account_err_start">号只能以字母开头</string>
+    <string name="verify_account_err_chinese">不能使用汉字作为号</string>
+    <string name="verify_account_err_space">不能使用空格作为号</string>
+    <string name="verify_account_err_other">不能使用 %s 作为号</string>
+    <string name="verify_account_null_tip">名字不能为空，请重新输入</string>
+    <string name="verify_input_null_tip">输入不能为空，请重新输入</string>
+    <string name="verify_password_null_tip">密码不能为空，请输入密码</string>
+    <string name="verify_username_null_tip">帐号不能为空，请输入帐号</string>
+    <string name="verify_email_null_tip">邮箱不能为空，请输入邮箱</string>
+    <string name="verify_password_all_num_tip">密码不能是9位以下的纯数字</string>
+    <string name="verify_password_tip">密码必须是6位(含6位)以上的数字和其他字符组合，或者9位(含9位)以上的纯数字</string>
+    <string name="verify_seccode_tip">验证码不能为空</string>
+    <string name="verify_seccode_fail_tip">验证码错误，请重新输入</string>
+    <string name="verify_email_tip">邮箱地址格式不正确，例如：地址里必须包含‘@’、‘.’字符</string>
+    <string name="verify_email_err_tip">邮箱地址错误</string>
+    <string name="selectattach_image">选择本地图片</string>
+    <string name="selectattach_camera">拍照</string>
+    <string name="selectsmsapp_none">没有合适的短信应用程序</string>
+    <string name="selectcameraapp_none">没有合适的相机应用程序</string>
+    <string name="invite_sms">可以用语音发短信，挺简单的，推荐你用一下。下载地址： http://weixin.qq.com/m ，记得安装后加我的号：%s</string>
+    <string name="notification_fmt_multi_msg_and_talker" formatted="false">%d个联系人发来%d条消息</string>
+    <string name="notification_fmt_multi_msg_and_one_talker">发来%d条消息</string>
+    <string name="notification_fmt_one_txttype">%s发来1条消息</string>
+    <string name="notification_fmt_one_imgtype">%s发来1张图片</string>
+    <string name="notification_fmt_one_voicetype">%s发来1段语音</string>
+    <string name="notification_fmt_one_videotype">%s发来1段视频</string>
+    <string name="notification_fmt_one_mailtype">%s发来1封邮件</string>
+    <string name="notification_fmt_one_microblog_msgtype">%s发来1条微博私信</string>
+    <string name="notification_fmt_multi_bottle">有%d个瓶子收到新回应</string>
+    <string name="select_login_hint">使用号登录</string>
+    <string name="select_register_hint">"暂时不开放公共注册"</string>
+    <string name="select_login_by_qq_num">直接用号登录</string>
+    <string name="intro_title"></string>
+    <string name="intro_create_account_qq">注册</string>
+    <string name="intro_create_account_reg">没有号？使用手机号注册</string>
+    <string name="intro_existed_login">登录</string>
+    <string name="reg_type_mobile_text">使用手机号注册</string>
+    <string name="reg_type_email_text">使用邮箱帐号注册</string>
+    <string name="license_agree">已阅读并同意</string>
+    <string name="license_detail">使用条款和隐私政策</string>
+    <string name="regbyqq_auth_title">填写名字</string>
+    <string name="regbyqq_auth_waiting">正在验证...</string>
+    <string name="regbyqq_auth_err_title">验证失败</string>
+    <string name="regbyqq_auth_err_uinexsit">该QQ号已经开通，无法重新注册</string>
+    <string name="regbyqq_auth_err_nickinvalid">您的名字不合法，请重新填写</string>
+    <string name="regbyqq_reg_username_title">申请帐号</string>
+    <string name="regbyqq_reg_username_mod_tip">"请填写您要申请的号。
+支持6～20个字母、数字、下划线和减号，必须以字母开头"</string>
+    <string name="regbyqq_reg_username_suggest_tip">这是您的帐号，好友可以通过这个帐号名搜索到您</string>
+    <string name="regbyqq_confirm_tip" formatted="false">"号一旦注册不可更改
+请确认您的注册信息
+
+QQ号：%s
+号：%s"</string>
+    <string name="regbyqq_reg_waiting">正在完成注册...</string>
+    <string name="regbyqq_secimg_title">填写验证码</string>
+    <string name="regbyqq_secimg_change">换一张图片</string>
+    <string name="regbyqq_reg_nick_tip">建议填写真实姓名，让好友更容易认出您</string>
+    <string name="reg_reg_account_hint">帐号：注册后不可修改</string>
+    <string name="reg_username_exist_title">注册失败</string>
+    <string name="reg_username_exist_tip">该帐号已被使用或不可用，请尝试更换另一个帐号名</string>
+    <string name="reg_username_format_err_title">帐号格式不正确</string>
+    <string name="regbymail_reg_title">用邮箱地址注册</string>
+    <string name="regbymail_reg_addr_hint">邮箱地址：请在注册后15天内验证</string>
+    <string name="regbymoile_reg_title">填写手机号</string>
+    <string name="regbymoile_reg_addr_hint">请输入您的手机号码</string>
+    <string name="regbymoile_reg_private_tip">您可以用手机号登录。并启用手机通讯录匹配，帮您找到通讯录中使用的好友。不会公开您的手机号给其他用户。</string>
+    <string name="regbymobile_reg_setpwd_title">设置密码</string>
+    <string name="regbymobile_reg_setpwd_fill_pwd">填写密码</string>
+    <string name="regbymobile_reg_setpwd_fill_pwd_again">再次填写确认</string>
+    <string name="regbymobile_reg_setpwd_fill_tip">可使用英文、数字或下划线，不小于6个字。</string>
+    <string name="regbymobile_reg_setpwd_alert_title">提示</string>
+    <string name="regbymobile_reg_setpwd_alert_diff">两次填写的密码不一致</string>
+    <string name="regbymobile_reg_setpwd_alert_more_byte">密码不能超过16个字</string>
+    <string name="reg_forgetpwd_title">忘记密码</string>
+    <string name="reg_forgetpwd_byqq">通过QQ号找回密码</string>
+    <string name="reg_forgetpwd_bymobile">通过手机找回密码</string>
+    <string name="reg_forgetpwd_byemail">通过Email找回密码</string>
+    <string name="reg_forgetpwd_mobile_tip">请填写您的手机号码，我们会给您的发送一条短信，请点击短信中的链接重置密码。</string>
+    <string name="reg_forgetpwd_mobile_fin">请求成功，请留意短信。</string>
+    <string name="regbymobile_reg_setnick_title">填写名字</string>
+    <string name="regbymobile_reg_setnick_fill_nick">您的名字</string>
+    <string name="regbymobile_reg_setnick_tip">建议填写真实姓名，让好友更容易认出您，此名字以后可以随时修改。</string>
+    <string name="regbymail_reg_password_hint">密码：请设置登录密码</string>
+    <string name="regbymail_reg_waiting">正在注册...</string>
+    <string name="regbymail_nick_nick_hint">支持中、英文</string>
+    <string name="regbymail_confirm_tip">"号一旦注册不可更改
+请确认您的注册信息
+
+号：%s"</string>
+    <string name="regsuccess_nick_title">注册成功</string>
+    <string name="errcode_password">密码错误，请重新输入</string>
+    <string name="errcode_nouser">该用户不存在，请重新输入</string>
+    <string name="login_account_hint">账号</string>
+    <string name="login_password_hint">密码</string>
+    <string name="login_login">登录</string>
+    <string name="login_logining">正在登录...</string>
+    <string name="login_err_title">登录失败</string>
+    <string name="login_err_mailnotverify">邮箱地址未验证，您只能使用用户名</string>
+    <string name="login_foget_password">忘记密码?</string>
+    <string name="main_title">讯 聊</string>
+    <string name="main_contact">通讯录</string>
+    <string name="main_addcontact">查找好友</string>
+    <string name="main_delete">删除该会话</string>
+    <string name="main_delete_all">清空会话消息</string>
+    <string name="main_delete_qmessage">清空QQ离线消息</string>
+    <string name="main_delete_tmessage">清空微博私信消息</string>
+    <string name="main_delete_bottleentry">删除漂流瓶入口</string>
+    <string name="main_setting">设  置</string>
+    <string name="main_exit">退出</string>
+    <string name="main_exit_title">退出</string>
+    <string name="main_exit_warning">退出后，您将收不到新的消息。确定要退出？</string>
+    <string name="main_err_relogin">您的帐户信息已过期，请重新登录</string>
+    <string name="main_err_another_place">您的帐户已在另一台手机登录</string>
+    <string name="main_sending">正在发送中</string>
+    <string name="main_create_shortcut">是否要在桌面创建快捷方式？</string>
+    <string name="main_empty_conversation">暂无会话信息</string>
+    <string name="main_slide_toast">您可以通过点击标题栏回到列表顶部</string>
+    <string name="empty_tmsg_tip">暂无微博私信</string>
+    <string name="empty_qmsg_tip">暂无QQ离线消息</string>
+    <string name="address_title_select_contact">选择联系人</string>
+    <string name="address_title_add_contact">添加参与人</string>
+    <string name="address_searching">正在查找联系人...</string>
+    <string name="address_not_found">用户不存在</string>
+    <string name="address_delcontact">删除联系人</string>
+    <string name="address_delgroupcard">删除群</string>
+    <string name="address_empty_blacklist_tip">没有加入黑名单的联系人</string>
+    <string name="address_title_select_country_code">选择国家和地区代码</string>
+    <string name="chatting_send">发送</string>
+    <string name="chatting_menu_clean">清除聊天记录</string>
+    <string name="chatting_long_click_menu_delete_msg">删除信息</string>
+    <string name="chatting_long_click_menu_delete_img">删除图片</string>
+    <string name="chatting_long_click_menu_delete_voice">删除语音</string>
+    <string name="chatting_long_click_menu_delete_video">删除视频</string>
+    <string name="chatting_long_click_menu_set_ring">设置为铃声</string>
+    <string name="chatting_long_click_menu_copy_msg">复制信息</string>
+    <string name="chatting_long_click_menu_resend_msg_img">重新发送</string>
+    <string name="chatting_add_attach_tips">发送图片</string>
+    <string name="chatting_context_menu_image">从相册选择</string>
+    <string name="chatting_context_menu_take_picture">拍照</string>
+    <string name="chatting_toast_sdk_fail">请插入SD卡</string>
+    <string name="chatting_status_typing">对方正在输入...</string>
+    <string name="chatting_status_voice_typing">对方正在讲话...</string>
+    <string name="chatting_moreinfo">显示更早的消息</string>
+    <string name="chatting_addcontact">加为联系人</string>
+    <string name="chatting_getimg_fail_tip">图片拉取失败</string>
+    <string name="chatting_rcd_time_limit">录音时间还剩%d秒</string>
+    <string name="chatting_rcd_err">录音错误，已中断</string>
+    <string name="chatting_play_err">播放失败</string>
+    <string name="chatting_use_handset">使用听筒播放语音</string>
+    <string name="chatting_music_volumn">媒体音量</string>
+    <string name="chatting_music_volumn_change">您可以调节手机侧面的音量按钮来控制声音大小</string>
+    <string name="chatting_from_verify_lbs">附近的人向您打招呼</string>
+    <string name="chatting_from_verify_shake">摇一摇好友向您打招呼</string>
+    <string name="chatting_from_verify_bottle">漂流瓶好友向您打招呼</string>
+    <string name="chatting_from_verify_lbs_tip">对方向您打了声招呼</string>
+    <string name="chatting_from_verify_contact">好友验证请求</string>
+    <string name="chatting_from_verify_contact_tip">对方请求添加您为好友</string>
+    <string name="chatting_from_QQ_friends">QQ好友</string>
+    <string name="chatting_from_mobile_friends">通讯录好友</string>
+    <string name="chatting_from_possible_friends">可能认识的人</string>
+    <string name="chatting_from_QQ_frineds_tip">QQ好友:</string>
+    <string name="chatting_from_mobile_friends_tip">手机联系人:</string>
+    <string name="chatting_from_possible_friends_tip">可能认识的人:</string>
+    <string name="chatting_from_card">好友推荐</string>
+    <string name="chatting_need_qqpwd_title">请填写QQ密码</string>
+    <string name="chatting_need_qqpwd_hint">QQ密码</string>
+    <string name="chatting_err_qqpwd_tip">QQ密码输入错误，请再次输入</string>
+    <string name="chatfooter_presstorcd">按住 说话</string>
+    <string name="chatfooter_releasetofinish">松开 结束</string>
+    <string name="chatfooter_SpeakerON">切换到听筒模式</string>
+    <string name="chatfooter_SpeakerOff">切换到扬声器模式</string>
+    <string name="chatfooter_SpeakerOff_now">当前为听筒播放模式</string>
+    <string name="chatfooter_too_short">录音时间太短</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_account_info">我的帐号</string>
+    <string name="settings_personal_info">个人信息</string>
+    <string name="settings_weibo_address">设置微博</string>
+    <string name="settings_invalid_weibo">输入的微博必须是腾讯微博地址，以t.qq.com开头.</string>
+    <string name="settings_signature">个性签名</string>
+    <string name="settings_feedbackui_title">意见反馈</string>
+    <string name="settings_feedbackui_succ">"
+已收录，感谢您的反馈。"</string>
+    <string name="settings_feedbackui_err">"
+反馈提交失败。"</string>
+    <string name="settings_signature_empty">未填写</string>
+    <string name="settings_skin">界面主题</string>
+    <string name="settings_bind_mobile_title">手机通讯录匹配</string>
+    <string name="settings_about_domainmail">工作邮箱</string>
+    <string name="settings_invite_mobile_friends">邀请手机好友</string>
+    <string name="settings_plugins">系统插件</string>
+    <string name="settings_plugins_uninstalled">未安装</string>
+    <string name="settings_plugins_installed">已安装</string>
+    <string name="settings_plugins_enable">已启用</string>
+    <string name="settings_plugins_disable">未启用</string>
+    <string name="settings_plugins_title">插件设置</string>
+    <string name="settings_plugins_installed_plugins">已安装插件</string>
+    <string name="settings_plugins_uninstalled_plugins">未安装插件</string>
+    <string name="settings_plugins_management">插件管理</string>
+    <string name="settings_plugins_install">安装该插件</string>
+    <string name="settings_plugins_uninstall">卸载</string>
+    <string name="settings_plugins_purge">清空并卸载</string>
+    <string name="settings_plugins_installing">正在安裝...</string>
+    <string name="settings_plugins_uninstalling">正在卸载...</string>
+    <string name="settings_plugins_uninstall_hint">卸载插件同时将清空插件的历史数据</string>
+    <string name="settings_plugins_install_fail">安装插件失败</string>
+    <string name="settings_plugins_uninstall_fail">卸载插件失败</string>
+    <string name="settings_about_blacklist">黑名单</string>
+    <string name="settings_about_privacy">隐私设置</string>
+    <string name="settings_need_verify">加我为好友时需要验证</string>
+    <string name="settings_recommend_to_QQfriends">将我推荐给QQ好友</string>
+    <string name="settings_find_me_by_QQ">可通过QQ号找到我</string>
+    <string name="settings_auto_add_reply_friends">回复陌生人自动添加为好友</string>
+    <string name="settings_auto_add_reply_friends_tip">关闭后，回复陌生人不会自动添加为好友。</string>
+    <string name="settings_find_me_by_mobile">可通过手机号搜索到我</string>
+    <string name="settings_share_weibo">微博地址对所有人可见</string>
+    <string name="settings_share_weibo_tip">关闭后陌生人将不能看见您的微博地址</string>
+    <string name="settings_about_system">系统设置</string>
+    <string name="settings_system_notice">系统通知</string>
+    <string name="settings_about_micromsg">关于</string>
+    <string name="settings_push_software">腾讯软件精品推荐</string>
+    <string name="settings_recommend_by_mb">邀请微博好友</string>
+    <string name="settings_recommend_by_mail">邀请邮箱联系人</string>
+    <string name="settings_recommend_no_mail_contact">没有邮箱联系人</string>
+    <string name="settings_recommend_no_qq_contact">没有QQ好友</string>
+    <string name="settings_recommend_no_mb_contact">没有微博好友</string>
+    <string name="settings_invite_qq_friends">邀请QQ好友</string>
+    <string name="settings_invite_friends_open_already">已邀请</string>
+    <string name="settings_add_domainmail">添加工作邮箱</string>
+    <string name="settings_domainmail_reach_limit">工作邮箱数量已达到上限</string>
+    <string name="settings_domainemail_addr_verified">已验证（共%s名成员）</string>
+    <string name="settings_menu_rename">工作邮箱</string>
+    <string name="settings_change_avatar">设置头像</string>
+    <string name="settings_change_bottle_avatar">设置我的漂流瓶头像</string>
+    <string name="bottle_settings_change_avatar_tip_str">为您的漂流瓶设置专用的头像</string>
+    <string name="bottle_settings_show_at_main">会话列表显示收到的瓶子</string>
+    <string name="bottle_settings_change_avatar_tip_str_2">设置我的漂流瓶头像</string>
+    <string name="bottle_settings_change_info_tip">"此部分信息修改后，会同步到
+个人信息中"</string>
+    <string name="bottle_settings_change_info_err_sex">请填写性别</string>
+    <string name="bottle_settings_change_info_err_district">请填写地区</string>
+    <string name="settings_username">号</string>
+    <string name="settings_name">名字</string>
+    <string name="settings_uin">QQ号</string>
+    <string name="settings_sex">性别</string>
+    <string name="settings_district">地区</string>
+    <string name="settings_tweibo">微博</string>
+    <string name="settings_tweibo_tip">你可以在这里设置你的腾讯微博</string>
+    <string name="settings_bind_qq_unbind">未绑定</string>
+    <string name="settings_mobile">手机号</string>
+    <string name="settings_account">帐号名</string>
+    <string name="settings_email_addr">邮件地址</string>
+    <string name="settings_email_addr_not_verified">未验证</string>
+    <string name="settings_email_addr_verified">已验证</string>
+    <string name="settings_logout">退出登录</string>
+    <string name="settings_logout_warning_tip">退出后不会删除任何历史数据，下次登录依然可以使用本账号</string>
+    <string name="settings_reset">清空聊天记录</string>
+    <string name="settings_reset_warning">清空您手机上所有单人和群聊的聊天记录</string>
+    <string name="country_code">1:加拿大:JIANADA,1:阿拉斯加:ALASIJIA,1:巴哈马:BAHAMA,973:巴林:BALIN,880:孟加拉:MENGJIALA,376:安道尔:ANDAOER,54:阿根廷:AGENTING,55:巴西:BAXI,502:瓜地马拉:GUADIMALA,504:宏都拉斯:HONGDOULASI,230:摩里西斯:MOLIXISI,52:墨西哥:MOXIGE,595:巴拉圭:BALAGUI,51:秘鲁:MILU,505:尼加拉瓜:NIJIALAGUA,507:巴拿马:BANAMA,675:巴布亚纽几内亚:BABUYANIUJINEIYA,56:智利:ZHILI,57:哥伦比亚:GELUNBIYA,506:哥斯大黎加:GESIDALIJIA,53:古巴:GUBA,357:赛普勒斯:SAIPULESI,1:多明尼加:DUOMINGNIJIA,593:厄瓜多:EGUADUO,358:芬兰:FENLAN,33:法国:FAGUO,49:德国:DEGUO,350:直布罗陀:ZHIBULUOTUO,1:格瑞那达:GERUINEIDA,43:奥地利:AODILI,420:捷克:JIEKE,45:丹麦:DANMAI,509:海地:HAIDI,32:比利时:BILISHI,501:贝里斯:BEILISI,975:不丹:BUDAN,591:玻利维亚:BOLIWEIYA,30:希腊:XILA,36:匈牙利:XIONGYALI,354:冰岛:BINGDAO,47:挪威:NUOWEI,98:伊朗:YILANG,964:伊拉克:YILAKE,7:俄罗斯:ELUOSI,965:科威特:KEWEITE,961:黎巴嫩:LIBANEN,266:赖索托:LAISUOTUO,231:赖比瑞亚:LAIBIRUIYA,218:利比亚:LIBIYA,377:摩纳哥:MONAGE,31:荷兰:HELAN,48:波兰:BOLAN,351:葡萄牙:PUTAOYA,1:波多黎各:BODUOLIGE,974:卡达:KADA,40:罗马尼亚:LUOMANIYA,34:西班牙:XIBANYA,94:斯里兰卡:SILILANKA,249:苏丹:SUDAN,268:史瓦济兰:SHIWAJILAN,46:瑞典:RUIDIAN,41:瑞士:RUISHI,359:保加利亚:BAOJIALIYA,353:爱尔兰:AIERLAN,972:以色列:YISELIE,?39:义大利:YIDALI,225:象牙海岸:XIANGYAHAIAN,?1:牙买加:YAMAIJIA,44:英国:YINGGUO,380:乌克兰:WUKELAN,598:乌拉圭:WULAGUI,39:梵谛冈:FANDIGANG,58:委内瑞拉:WEINEIRUILA,381:南斯拉夫:NANSILAFU,671:关岛:GUANDAO,61:澳大利亚:AODALIYA,352:卢森堡:LUSENBAO,960:马尔地夫:MAERDIFU,356:马尔他:MAERTA,687:新喀里多尼亚:XINKALIDUONIYA,64:纽西兰:NIUXILAN,680:帛琉:BOLIU,670:塞班岛:SAIBANDAO,677:所罗门群岛:SUOLUOMENQUNDAO,679:斐济:FEIJI,886:台湾:TAIWAN,852:香港:XIANGGANG,673:汶莱:WENLAI,855:柬埔寨:JIANPUZHAI,237:喀麦隆:KAMAILONG,91:印度:YINDU,62:印尼:YINNI,81:日本:RIBEN,65:新加坡:XINJIAPO,850:北韩:BEIHAN,82:南韩:NANHAN,856:寮国:LIAOGUO,853:澳门:AOMEN,261:马达加斯加:MADAJIASIJIA,265:马拉威:MALAWEI,60:马来西亚:MALAIXIYA,976:外蒙古:WAIMENGGU,95:缅甸:MIANDIAN,977:尼泊尔:NIBOER,968:阿曼:AMAN,92:巴基斯坦:BAJISITAN,63:菲律宾:FEILVBIN,421:斯洛伐克:SILUOFAKE,221:赛内加尔:SAINEIJIAER,963:叙利亚:XULIYA,255:坦尚尼亚:TANSHANGNIYA,66:泰国:TAIGUO,1:千里达及托巴哥:QIANLIDAJITUOBAGE,216:突尼西亚:TUNIXIYA,90:土耳其:TUERQI,84:越南:YUENAN,967:叶门共和国:YEMENGONGHEGUO,</string>
+    <string name="country_normal_code">+86</string>
+    <string name="country_normal_name">中国</string>
+    <string name="settings_notification">新消息提醒</string>
+    <string name="settings_new_msg_notification">接收新消息通知</string>
+    <string name="settings_sound">声音</string>
+    <string name="settings_shake">震动</string>
+    <string name="settings_active_time">后台接收消息时段</string>
+    <string name="settings_plugings_notify">插件消息免打扰</string>
+    <string name="settings_plugings_notify_tip">设置系统插件消息提示声音和震动时间</string>
+    <string name="settings_plugings_disturb_title">插件消息免打扰</string>
+    <string name="settings_plugings_disturb_on">开启</string>
+    <string name="settings_plugings_disturb_on_night">只在夜间开启</string>
+    <string name="settings_plugings_disturb_off">关闭</string>
+    <string name="settings_plugings_disturb_time_tip">夜间免打扰时间段 22:00 - 08:00</string>
+    <string name="settings_active_time_full">全天收取</string>
+    <string name="settings_active_begin_time">开始时间</string>
+    <string name="settings_active_end_time">结束时间</string>
+    <string name="settings_language">语言设置</string>
+    <string name="settings_landscape_mode">开启横屏模式</string>
+    <string name="settings_voicerecorder_mode">使用高速录音模式</string>
+    <string name="settings_voice_play_mode">使用听筒播放语音</string>
+    <string name="settings_voicerecorder_mode_change_to_amr">关闭后会提高您的流量，建议仅在录音质量较差或无法录音时修改，确定修改?</string>
+    <string name="settings_traffic_all_statistic">自%s起：</string>
+    <string name="settings_traffic_all_statistic_info">"使用会一直连接手机网络，但只消耗很少的流量，请不必担心。如果您不希望一直联网，您可以从设置页面的系统菜单中选择退出，但为了您能收信及时，建议不要轻易退出。
+
+在同类软件中最省流量，30M流量可以发送几千条语音消息。"</string>
+    <string name="settings_traffic_statistic_tip">清空流量统计信息</string>
+    <string name="settings_traffic_statistic">流量统计</string>
+    <string name="settings_traffic_statistic_clear">清空</string>
+    <string name="settings_traffic_statistic_reset">所有流量统计数据将被清空，且无法找回。确定要清空吗？</string>
+    <string name="settings_total_traffic_statistic_all">%s</string>
+    <string name="settings_total_traffic_statistic" formatted="false">上传:%s 下载:%s</string>
+    <string name="settings_about_version">版本</string>
+    <string name="settings_update">检查新版本</string>
+    <string name="settings_market_ratings">去给打个分，评价一把</string>
+    <string name="settings_feedback">意见反馈</string>
+    <string name="settings_modify_name">更改名字</string>
+    <string name="settings_modify_name_tip">好名字可以让您的好友更容易记住您。</string>
+    <string name="settings_modify_name_invalid">无效的昵称，请重新填写</string>
+    <string name="settings_modify_email_addr">修改邮件地址</string>
+    <string name="settings_modify_email_addr_warning">如果您更改了邮件地址，您需要对邮件地址重新进行验证。</string>
+    <string name="settings_uploading_hd_avatar">正在上传头像</string>
+    <string name="settings_upload_hd_avatar_success">上传头像成功</string>
+    <string name="settings_upload_hd_avatar_fail">上传头像失败</string>
+    <string name="settings_system_notice_url" formatted="false">http://weixin.qq.com/cgi-bin/readtemplate?check=false&amp;t=weixin_notices&amp;func=notices&amp;action=list&amp;platform=android&amp;uin=%d&amp;new=%d</string>
+    <string name="contact_info_title">详细资料</string>
+    <string name="contact_info_add">添加到通讯录</string>
+    <string name="contact_info_movein_blacklist">加入黑名单</string>
+    <string name="contact_info_movein_blacklist_confirm">确认将其加入黑名单？</string>
+    <string name="contact_info_movein_blacklist_tip">已添加至黑名单，您将不再收到对方的消息</string>
+    <string name="contact_info_moveout_blacklist">移出黑名单</string>
+    <string name="contact_info_send">发信息</string>
+    <string name="contact_info_send_card">发送名片</string>
+    <string name="contact_info_say_hi">打招呼</string>
+    <string name="contact_info_remarkname">备注名：</string>
+    <string name="contact_info_mod_remarkname">备注名</string>
+    <string name="contact_info_del_contact">删除</string>
+    <string name="contact_info_view_message">查看消息</string>
+    <string name="contact_info_open">启用</string>
+    <string name="contact_info_close">停用</string>
+    <string name="del_contact_warning">将联系人%s删除,将同时删除与该联系人的聊天记录</string>
+    <string name="del_groupcard_warning">将联系人%s删除</string>
+    <string name="contact_info_expose">举报</string>
+    <string name="contact_info_expose_confirm">确定举报该用户？</string>
+    <string name="contact_info_expose_tip">感谢您的举报！为了维护一个良好的交友环境，我们会认真处理。如果该用户确实违反了规定，我们将会暂停他使用此功能。</string>
+    <string name="contact_info_friendtype_qq">QQ</string>
+    <string name="contact_info_friendtype_mobile">手机</string>
+    <string name="contact_info_qqmailhelper_tip">我能及时通知您有新邮件到达，还可以直接查阅及回复邮件。</string>
+    <string name="contact_info_qqmailhelper_view">查看邮件</string>
+    <string name="contact_info_qqmailhelper_set_files_view">设置提醒文件夹</string>
+    <string name="contact_info_qqmailhelper_enable">启用邮件提醒</string>
+    <string name="contact_info_qqmailhelper_disable">停用邮件提醒</string>
+    <string name="contact_info_qqmailhelper_disable_tip">关闭后，邮箱信使将不提醒您QQ邮箱的来信，但并不删除之前的记录</string>
+    <string name="contact_info_qqmailhelper_secondpass">请填写独立密码</string>
+    <string name="contact_info_qqmailhelper_recv_remind">接收邮件提醒</string>
+    <string name="contact_info_plug_hide">在通讯录中显示</string>
+    <string name="contact_info_clear_location_tip">如果你觉得别人向你打招呼打扰到您的生活了，请清除地理位置信息，清除后，别人将不能在“查看附近的人”中找到你,如果您下一次再次进入“查看附近的人”功能,别人还是会查看到你。</string>
+    <string name="mod_remark_name_hint">新的备注名称</string>
+    <string name="contact_info_domainmail">工作邮箱</string>
+    <string name="contact_info_set_avatar">设置头像</string>
+    <string name="contact_info_mod_avatar">修改头像</string>
+    <string name="contact_info_adding_tip">正在添加...</string>
+    <string name="contact_info_verify_accept">通过验证</string>
+    <string name="contact_info_district">地区</string>
+    <string name="contact_info_weibo">微博</string>
+    <string name="contact_info_signature">个性签名</string>
+    <string name="contact_info_verify_user_title">认证</string>
+    <string name="contact_info_verify_user_title_what">什么是认证？</string>
+    <string name="contact_info_dealing_verify">正在处理...</string>
+    <string name="contact_info_source_title">来源</string>
+    <string name="contact_info_source_lbs">查看附近的人</string>
+    <string name="contact_info_source_shake">摇一摇</string>
+    <string name="contact_info_fmessage_switch_tip">我会给您推荐开通了的QQ好友、手机通讯录好友，以及提醒您好友发来的验证请求。</string>
+    <string name="contact_info_recommend_qqfriends_to_me">向我推荐QQ好友</string>
+    <string name="contact_info_recommend_mobilefriends_to_me">向我推荐通讯录好友</string>
+    <string name="contact_info_bind_mobile_entry_tip">匹配后可推荐开通了的通讯录好友。</string>
+    <string name="contact_info_bind_qq_entry_tip">开启后可推荐您的QQ好友。</string>
+    <string name="contact_info_qmessage_tip">我可以帮您接收QQ离线消息，还可以支持回复哦！</string>
+    <string name="contact_info_qmessage_recv_offline_msg">接收离线消息</string>
+    <string name="contact_info_qmessage_display_weixin_online">在QQ上显示在线</string>
+    <string name="contact_info_microblog_tip">我可以帮您在里收发腾讯微博私信。</string>
+    <string name="contact_info_microblog_friends">微博好友</string>
+    <string name="contact_info_send_privatemsg">发私信</string>
+    <string name="contact_info_tmessage_recv_private_letter">接收私信</string>
+    <string name="contact_info_qqsync_switch_tip">我能帮您安全备份手机通讯录到云端，您可以随时恢复手机联系人到手机中。</string>
+    <string name="contact_info_go_to_sync">进入安全助手</string>
+    <string name="contact_info_remind_me_syncing">定时提醒备份</string>
+    <string name="contact_info_remind_me_syncing_tip">每14天提醒您备份通讯录</string>
+    <string name="contact_info_qqsync_intro">使用说明</string>
+    <string name="contact_info_qqsync_agreement">服务协议</string>
+    <string name="contact_info_qcontact_sex">性别</string>
+    <string name="contact_info_qcontact_age">年龄</string>
+    <string name="contact_info_qcontact_birthday">出生日期</string>
+    <string name="contact_info_qcontact_address">地址</string>
+    <string name="contact_info_user_has_no_hd_avatar">该用户还没有上传高清头像</string>
+    <string name="contact_info_get_headimg_fail">读取头像失败</string>
+    <string name="contact_info_no_user">用户不存在</string>
+    <string name="contact_info_floatbottle_tip">不知道跟谁说话？把心事放进漂流瓶，随波浮沉。你还可以打捞一下别人的心事哦。</string>
+    <string name="contact_into_goto_floatbottle_str">进入漂流瓶</string>
+    <string name="contact_info_lbs_tip">显示1千米范围内同样也进入此功能的人。</string>
+    <string name="contact_info_lbs_go_lbs">开始查看附近的人</string>
+    <string name="contact_info_lbs_clear_info">清除我的位置信息</string>
+    <string name="contact_info_shake_tip">摇一摇手机可以互加好友，帮您找出同一时间一起摇的人，还能随机与远方的TA直接聊天。</string>
+    <string name="contact_info_shake_go_shake">开始摇一摇</string>
+    <string name="contact_info_medianote_tip">我可以帮助您进行语音速记，还支持视频、图片和文字记事哦。</string>
+    <string name="contact_info_medianote_view">查看记事</string>
+    <string name="contact_info_medianote_sync_to_qqmail">同步到QQ邮箱记事本</string>
+    <string name="contact_info_medianote_sync_to_qqmail_alert_tip">需要绑定QQ或QQ邮箱才能使用此功能，是否现在绑定？</string>
+    <string name="contact_search_title">添加好友</string>
+    <string name="contact_search_account_hint">好友的号/手机号</string>
+    <string name="contact_search_account_add_fail_tip">不能添加自己到通讯录</string>
+    <string name="settings_confirm_email_tip">正在发送验证邮件...</string>
+    <string name="settings_confirm_email_success_tip">验证邮件发送成功，请尽快登录邮箱验证</string>
+    <string name="settings_confirm_email_fail_tip">验证邮件发送失败，该邮箱可能已被其他帐号绑定</string>
+    <string name="settings_confirm_email_verified_tip">验证邮件发送失败，该邮箱已被其他帐号绑定</string>
+    <string name="settings_add_domainmail_title">添加工作邮箱</string>
+    <string name="settings_add_domainmail_tip">添加您的工作邮箱地址，邮箱验证成功后，您就能查看使用相同域名邮箱的同事。您可以将他们添加到通讯录。</string>
+    <string name="settings_add_domainmail_fail_tip">验证邮件发送失败</string>
+    <string name="settings_add_domainmail_hint">邮箱地址</string>
+    <string name="settings_add_domainmail_mailbeyondmax">工作邮箱个数已达上限</string>
+    <string name="settings_add_domainmail_maildisable">"工作邮箱不支持设置为
+@qq.com
+@gmail.com
+@163com
+等开放注册的邮箱，请更换"</string>
+    <string name="settings_add_domainmail_mailbadformat">邮箱格式不正确，请重新输入</string>
+    <string name="settings_add_domainmail_mailverified">此域名邮箱已验证</string>
+    <string name="settings_modify_domainmail_tip">邮箱验证成功后，验证过相同域名邮箱的同事就会出现在您的通讯录</string>
+    <string name="settings_modify_domainmail_deletetip">确认删除工作邮箱？</string>
+    <string name="settings_send_confirmed_domainmail_again">再次发送验证邮件</string>
+    <string name="settings_delete">删除</string>
+    <string name="settings_netstat_mobile">移动网络消耗的流量</string>
+    <string name="settings_netstat_wifi">WiFi网络消耗的流量</string>
+    <string name="settings_netstat_source_total">系统</string>
+    <string name="settings_netstat_source_self"></string>
+    <string name="settings_netstat_statistic_period">最近%d天统计</string>
+    <string name="mobile_friend_title">查看手机通讯录</string>
+    <string name="mobile_friend_loading">正在获取好友信息</string>
+    <string name="mobile_friend_err">获取好友信息失败</string>
+    <string name="mobile_friend_mobile_not_bind">绑定您的手机号，可以找到您手机通讯录中用的好友</string>
+    <string name="qq_group_title">查看QQ好友</string>
+    <string name="qq_group_loading">正在获取分组信息...</string>
+    <string name="qq_group_load_err">获取分组信息失败</string>
+    <string name="qq_group_weixin_num" formatted="false">共%s人，%s人开通</string>
+    <string name="qq_group_no_qq_friend">暂无QQ好友</string>
+    <string name="qq_group_qq_not_bind">绑定您的QQ号，可以找到您QQ联系人中用的好友</string>
+    <string name="qq_friend_loading">载入好友信息...</string>
+    <string name="qq_friend_load_err">载入好友信息失败</string>
+    <string name="friend_not_added">未添加</string>
+    <string name="friend_info_qq">QQ：%s</string>
+    <string name="friend_info_mobile">手机号：%s</string>
+    <string name="invite_friend_title">详细资料</string>
+    <string name="invite_friend_not_reg">%s还未开通</string>
+    <string name="invite_friend_invite">发送邀请</string>
+    <string name="inviteqqfriends_invite">邀请</string>
+    <string name="inviteqqfriends_title">邀请QQ好友</string>
+    <string name="inviteqqfriends_invite_tips">邀请您%d个好友加入</string>
+    <string name="inviteqqfriends_invite_success">邀请成功</string>
+    <string name="inviteqqfriends_inviting">正在发送邀请</string>
+    <string name="inviteqqfriends_loading_friends_info">正在载入好友信息</string>
+    <string name="cropimage_save">保存</string>
+    <string name="cropimage_use">使用</string>
+    <string name="cropimage_cancel">取消</string>
+    <string name="cropimage_saved">图片已保存至%s</string>
+    <string name="cropimage_comfirm">确定</string>
+    <string name="launchchatting_creating_chatroom">正在发起群聊...</string>
+    <string name="launchchatting_create_chatroom_fail">发起群聊失败</string>
+    <string name="launchchatting_talk_with_self">您不能与自己对话</string>
+    <string name="send_card_info">推荐给好友</string>
+    <string name="adding_room_mem">正在添加联系人...</string>
+    <string name="add_room_mem_err">添加参与人失败</string>
+    <string name="add_room_mem_ok">添加参与人成功</string>
+    <string name="del_room_mem_comfirm">删除并退出后，将不再接收此群聊信息</string>
+    <string name="add_room_mem_memberExits">该参与人已存在</string>
+    <string name="room_setting">会话操作</string>
+    <string name="room_name_modify">修改群聊主题</string>
+    <string name="room_save_to_contact">保存到通讯录</string>
+    <string name="room_head_name">群</string>
+    <string name="room_save_to_group_card_prog">正在创建群名片</string>
+    <string name="room_save_to_group_card_fail" formatted="false">创建群名片失败(%d,%d)</string>
+    <string name="room_save_to_group_card_tip">群名片已经存在</string>
+    <string name="room_chartting_room_max_len_tip">群聊名称不允许超过8个汉字</string>
+    <string name="room_save_to_group_card_max_len_tip">群名片不能超过8个汉字</string>
+    <string name="room_mute">静音</string>
+    <string name="room_mute_cancel">取消静音</string>
+    <string name="room_mute_already">已静音</string>
+    <string name="room_mute_already_cancel">已取消静音</string>
+    <string name="room_del_quit">删除并退出</string>
+    <string name="room_msg_setting">消息设置</string>
+    <string name="room_rev_msg">新消息通知</string>
+    <string name="room_member_info">参与人</string>
+    <string name="room_delete_msg">删除群聊消息</string>
+    <string name="room_delete_exit">删除并退出</string>
+    <string name="room_add_member">添加参与人</string>
+    <string name="room_member_toomuch">群聊人数已达上限</string>
+    <string name="room_member_toomuch_tip">添加失败</string>
+    <string name="room_member_only_support_weixin">群聊只支持联系人</string>
+    <string name="room_member_count">目前已有%d名参与人</string>
+    <string name="room_add_member_hint">点击添加可发起群聊</string>
+    <string name="room_member_not_added">（未添加至通讯录）</string>
+    <string name="room_add_member_info_tip">您可以添加参与人，发起新的群聊</string>
+    <string name="room_share_friend">分享好友名片</string>
+    <string name="send_card_tip">推荐给以下好友：</string>
+    <string name="link_no_such_group">该分组不存在</string>
+    <string name="find_more_friends_title">找朋友</string>
+    <string name="find_friends_by_micromsg">添加好友</string>
+    <string name="find_friends_by_qq">查看QQ好友</string>
+    <string name="find_friends_by_mobile">查看手机通讯录</string>
+    <string name="send_card_to_microblog">分享和邀请</string>
+    <string name="send_card_to_this">分享到腾讯微博，QQ签名等</string>
+    <string name="send_card_to_sina">分享到新浪微博</string>
+    <string name="share_micromsg_card_name">我的卡片</string>
+    <string name="share_micromsg_card_title">分享号</string>
+    <string name="send_to_micro_blog_intro">将下面的卡片发布到腾讯微博，朋友，QQ空间等，呼朋唤友一起玩！</string>
+    <string name="send_to_micro_blog_intro_sina">将下面的卡片发布到新浪微博，呼朋唤友一起玩！</string>
+    <string name="send_to_micro_blog_intro_no_micro_blog">你可以将卡片保存到相册，然后发给好友</string>
+    <string name="send_to_micro_blog_save_ok">保存成功</string>
+    <string name="send_to_micro_blog_save_card_image">保存卡片到相册</string>
+    <string name="bind_mcontact_title_setting">手机通讯录匹配</string>
+    <string name="bind_mcontact_title_verify">填写验证码</string>
+    <string name="bind_mcontact_title_bind">验证手机号</string>
+    <string name="bind_mcontact_mobile_erro">请正确输入手机号</string>
+    <string name="bind_mcontact_verifynull">请正确输入验证码</string>
+    <string name="bind_mcontact_verifing">正在验证</string>
+    <string name="bind_mcontact_verifing_progress">根据不同的通信网络情况，验证可能需要花费一些时间，请耐心等待...</string>
+    <string name="bind_mcontact_verify_err" formatted="false">验证失败(%d,%d)</string>
+    <string name="bind_mcontact_unbinding">正在解除绑定</string>
+    <string name="bind_mcontact_unbind_ok">您已停用了手机通讯录匹配</string>
+    <string name="bind_mcontact_unbind_err" formatted="false">停用手机通讯录匹配失败(%d,%d)</string>
+    <string name="bind_mcontact_hint">通过上传通讯录，并验证你的手机号，系统会自动帮你找到你的手机通讯录中的好友。您的通讯录将以加密形式保存在服务器，不做其他任何用途。</string>
+    <string name="bind_mcontact_input_mobile_hint">验证您的手机号码，会向您发送一条验证短信，并且会自动完成验证，整个过程您只需要耐心等待。不会公开您的手机号给其他用户。</string>
+    <string name="bind_mcontact_input_verify_hint">"您的手机号：%s
+我们给您发送了一条短信，请将短信中的数字作为验证码填写在下面。"</string>
+    <string name="bind_mcontact_bind_btn_text">启用</string>
+    <string name="bind_mcontact_verify_btn_text">马上验证</string>
+    <string name="bind_mcontact_friend_btn_text">查看手机通讯录</string>
+    <string name="bind_mcontact_next_btn_text">下一步</string>
+    <string name="bind_mcontact_unbind_btn_text">停用</string>
+    <string name="bind_mcontact_del_btn_text">删除</string>
+    <string name="bind_mcontact_unverify_mobile">"你的手机号：%s
+还未通过验证。"</string>
+    <string name="bind_mcontact_verify_mobile">绑定的手机号：%s</string>
+    <string name="bind_mcontact_bind_alert_title">启用手机通讯录匹配</string>
+    <string name="bind_mcontact_bind_alert_content">是否同意上传手机通讯录？（将采用加密的方式上传和保存）</string>
+    <string name="bind_mcontact_unbind_alert_title">停用手机通讯录匹配</string>
+    <string name="bind_mcontact_unbind_info">您的手机号将与您的帐号解除绑定。为了确保您能正确登录，我们需要您填写帐号和密码进行验证</string>
+    <string name="bind_mcontact_unbind_user_hit">帐号</string>
+    <string name="bind_mcontact_unbind_alert_account_title">帐号密码不正确</string>
+    <string name="bind_mcontact_unbind_alert_account_info">请确认您已填写正确的帐号和对应密码</string>
+    <string name="bind_mcontact_unbind_alert_content">停用后，将不能为您找到手机通讯录里的好友，服务器上属于您的通讯录数据也将被删除。</string>
+    <string name="bind_mcontact_err_freq_limit">操作太频繁，请稍后再试</string>
+    <string name="bind_mcontact_err_binded">您已绑定该手机号</string>
+    <string name="bind_mcontact_err_not_suport_country">暂不支持该国际和地区的号码</string>
+    <string name="bind_mcontact_err_unbinded_notbinded">解绑失败，该手机号未绑定</string>
+    <string name="bind_mcontact_err_format">手机格式错误</string>
+    <string name="bind_mcontact_err_binded_by_other">该手机号已被其他用户绑定</string>
+    <string name="bind_mcontact_your_mobile">您本人的手机号</string>
+    <string name="bind_mcontact_verify_tip">验证提示</string>
+    <string name="bind_mcontact_verify_err_unmatch_content">"验证码不正确
+请检查您填写的验证码是否与您收到的短信中的数字相符合。"</string>
+    <string name="bind_mcontact_verify_err_time_out_content">"验证码超时
+请返回上一步重新获取验证码。"</string>
+    <string name="bind_mcontact_status_ok_btn_text">完成</string>
+    <string name="bind_mcontact_status_bind_ok">"已启用手机通讯录匹配。如果您的通讯录有好友注册了，系统会通知您。
+您的手机号：%s"</string>
+    <string name="bind_mcontact_exit_tip">确定退出绑定</string>
+    <string name="bind_mcontact_exit_content">退出后你可以在设置中再次进入绑定。</string>
+    <string name="bind_mcontact_del_content">手机号%s未验证，确定删除吗？</string>
+    <string name="bind_mcontact_err_mobile_num">请正确输入您绑定的手机号。</string>
+    <string name="bind_qq_start_title">绑定QQ号</string>
+    <string name="bind_qq_start_hint">绑定QQ号可以为您找到使用的QQ好友，同时可以使用有关QQ的插件。</string>
+    <string name="bind_qq_start_btn">开始绑定</string>
+    <string name="bind_qq_start_alert_title">绑定后不能解除</string>
+    <string name="bind_qq_start_alert_content">QQ号绑定成功后，将无法解除绑定。是否要继续？</string>
+    <string name="bind_qq_verify_title">验证QQ号</string>
+    <string name="bind_qq_verify_textview_qq">QQ号</string>
+    <string name="bind_qq_verify_textview_pwd">QQ密码</string>
+    <string name="bind_qq_verify_alert_title">提示</string>
+    <string name="bind_qq_verify_alert_wrong">帐号或密码错误，请重新填写。</string>
+    <string name="bind_qq_verify_alert_qq">请正确填写QQ号</string>
+    <string name="bind_qq_verify_alert_pwd">请填写密码</string>
+    <string name="bind_qq_verify_alert_binding">正在绑定...</string>
+    <string name="bind_qq_verify_alert_failed_title">绑定失败</string>
+    <string name="bind_qq_verify_alert_failed_content">该QQ号已与其他号绑定，您不能再使用该QQ号。</string>
+    <string name="bind_qq_verify_alert_succ">绑定成功。</string>
+    <string name="bind_qq_finish_title">QQ号</string>
+    <string name="bind_qq_finish_hint">您已经成功绑定QQ号，现在您可以使用与QQ相关的插件功能了，并且可以找到更多的QQ好友。</string>
+    <string name="bind_qq_finish_textview_hint">绑定QQ：</string>
+    <string name="share_btn">分享</string>
+    <string name="share_to_tencent_microblog">分享到腾讯微博</string>
+    <string name="share_to_qq_sign">分享到QQ签名</string>
+    <string name="share_to_qq_zone">分享到QQ空间</string>
+    <string name="share_at_least_one_item">请勾选要分享的选项</string>
+    <string name="share_content">我正在手机上用 ##，可以语音对讲，挺好玩的。我的号是%s，加我，就点链接 http://weixin.qq.com</string>
+    <string name="share_err">分享失败</string>
+    <string name="share_ok">分享成功</string>
+    <string name="settings_domainmail_viewmember">查看同事列表</string>
+    <string name="settings_domainmail_delete">删除邮箱</string>
+    <string name="chatroom_sys_msg_invite">你邀请%s加入了群聊</string>
+    <string name="sendrequest_title">验证申请</string>
+    <string name="sendrequest_tip">您需要发送验证请求，并在对方通过后才能成为好友，并开始对话。</string>
+    <string name="sendrequest_sending">正在发送...</string>
+    <string name="sendrequest_send_success">发送成功</string>
+    <string name="sendrequest_send_fail">发送失败</string>
+    <string name="addcontact_fail">添加联系人失败</string>
+    <string name="addcontact_fail_blacklist">添加联系人失败，对方把您加入了黑名单</string>
+    <string name="video_saved">视频已保存至%s</string>
+    <string name="video_save_failed">视频保存失败</string>
+    <string name="video_play_faile">视频播放失败</string>
+    <string name="video_play_title">视频播放</string>
+    <string name="video_compressing">压缩中（%s%%）</string>
+    <string name="video_compress_ok">压缩至%s</string>
+    <string name="video_recorder_restart">重拍将丢弃之前已拍摄的视频</string>
+    <string name="video_recorder_cancel">取消将丢弃之前已拍摄的视频</string>
+    <string name="video_recorder_start_hint">按下录像按钮开始拍摄</string>
+    <string name="video_compress_fail">压缩失败</string>
+    <string name="video_recorder_time_limit">还可以拍摄%s秒</string>
+    <string name="video_recorder_file_error">发送失败，视频文件损坏，请返回重新录制</string>
+    <string name="net_warn_show_page">查看详情</string>
+    <string name="net_warn_connecting">连接中...</string>
+    <string name="net_warn_no_network">网络连接不可用</string>
+    <string name="net_warn_server_failed">无法连接到服务器</string>
+    <string name="qq_sync_uploading">正在备份...%s%%</string>
+    <string name="qq_sync_downloading">正在恢复...%s%%</string>
+    <string name="qq_sync_bindqq_tip">您需要绑定QQ号才能使用安全助手。是否现在绑定QQ号？</string>
+    <string name="qq_sync_fail">同步通讯录失败</string>
+    <string name="qq_sync_upload">备份</string>
+    <string name="qq_sync_upload_hint">上传手机通讯录到云端</string>
+    <string name="qq_sync_download">恢复</string>
+    <string name="qq_sync_download_hint">下载云端通讯录到手机</string>
+    <string name="qq_sync_pwd_hint">为保障您的数据安全，请填写您的QQ密码：</string>
+    <string name="qq_sync_pwd_safe">安全验证</string>
+    <string name="qq_sync_pwd_safe_tip">了解隐私安全</string>
+    <string name="qq_sync_intro">使用说明</string>
+    <string name="qq_sync_pwd_login_failed">验证失败</string>
+    <string name="qq_sync_pwd_freq_limit">您的操作频率太快，请稍候再试</string>
+    <string name="qq_sync_qq_pwd_failed">密码错误，请重新输入</string>
+    <string name="qq_sync_server_not_available">服务器暂时不可用，请稍后再试</string>
+    <string name="qq_sync_last_upload_detail">最近一次备份：%s。</string>
+    <string name="qq_sync_last_download_detail">最近一次恢复：%s。</string>
+    <string name="qq_sync_last_upload_result">已成功备份通讯录到云端</string>
+    <string name="qq_sync_last_download_result">已成功从云端恢复通讯录</string>
+    <string name="qq_sync_result_add">新增%d人</string>
+    <string name="qq_sync_result_mod">修改%s人</string>
+    <string name="qq_sync_result_del">新增%d人</string>
+    <string name="qq_sync_result_flow">消耗流量%s</string>
+    <string name="qq_sync_result_none">无数据变化</string>
+    <string name="qq_sync_result_split">，</string>
+    <string name="qq_sync_result_term">。</string>
+    <string name="qq_sync_bind_uin">绑定QQ号：%s</string>
+    <string name="qq_sync_local_phone_count">手机联系人：%s</string>
+    <string name="qq_sync_remote_phone_count">云端联系人：%s</string>
+    <string name="qq_sync_bottom">通讯录安全助手与QQ同步助手使用相同云端存储</string>
+    <string name="qq_sync_first_time_title">欢迎使用通讯录安全助手</string>
+    <string name="qq_sync_first_time_content">"1、换新手机，快速、安全导入旧手机通讯录联系人。
+2、手机不慎丢失，通讯录联系人快速、安全找回。
+3、支持通讯录备份到腾讯加密服务器。
+4、数据采用加密传输与存储，安全，省心。"</string>
+    <string name="qq_sync_agree">　同意　</string>
+    <string name="qq_sync_refuse">不，谢谢</string>
+    <string name="qq_sync_pim_pwd">请填写您的通讯录密码：</string>
+    <string name="qq_sync_pim_pwd_failed">通讯录密码错误，请重新输入</string>
+    <string name="scroll_bar_search">搜</string>
+    <string name="nearby_friend_title">查看附近的人</string>
+    <string name="nearby_friend_intro_open">您可以在此看到附近的人，同时您也会被他们看到。您在此留下的位置信息可以随时手动清除。</string>
+    <string name="nearby_friend_intro_start">开始查看</string>
+    <string name="nearby_friend_intro_comfirm">查看附近的人功能将获取您的位置信息，您的位置信息会被保留一段时间。通过列表右上角的清除功能可随时手动清除位置信息。</string>
+    <string name="nearby_friend_city_select">选择地区</string>
+    <string name="nearby_friend_locating">正在确定你的位置</string>
+    <string name="nearby_friend_finding">正在查找附近的人</string>
+    <string name="nearby_personal_info">补充个人信息</string>
+    <string name="nearby_personal_info_tip">补充您的个人信息，您填写的信息会显示给其他用户</string>
+    <string name="nearby_personal_info_fail">请填写完整个人信息。</string>
+    <string name="nearby_friend_is_contact">(好友)</string>
+    <string name="nearby_friend_locate_fail">无法获取的你位置信息。请尝试返回后重新进入本功能。</string>
+    <string name="nearby_friend_get_friend_fail">暂时没有找到附近也使用该功能的人，请稍后再尝试查看。</string>
+    <string name="nearby_friend_expose">由于您多次被人举报，将暂时无法使用此功能。</string>
+    <string name="nearby_friend_say_hi_hint">向TA说句话打个招呼吧</string>
+    <string name="nearby_friend_say_hi">打招呼</string>
+    <string name="nearby_friend_say_hi_ok">消息发送成功，如果对方回复您，你们会成为好友</string>
+    <string name="nearby_friend_say_hi_black_list">对方拒绝了你的请求</string>
+    <string name="nearby_friend_say_hi_spam">您发送的内容包含敏感信息或发送频率过快</string>
+    <string name="nearby_friend_say_hi_failed">打招呼失败</string>
+    <string name="nearby_friend_clear_location_exit">清除位置信息并退出</string>
+    <string name="nearby_friend_clear_location_exit_hint">清除位置信息后，别人将不能查看到你。</string>
+    <string name="nearby_friend_clear_location_ok">清除地理位置成功。</string>
+    <string name="nearby_friend_clear_location_failed">清除地理位置失败。</string>
+    <string name="nearby_friend_clearing_location">正在清除...</string>
+    <string name="skin_getting_list">正在获取皮肤列表...</string>
+    <string name="skin_getmore">更多皮肤</string>
+    <string name="bottle_beach_title">漂流瓶</string>
+    <string name="bottle_opt_throw">扔一个</string>
+    <string name="bottle_opt_pick">捡一个</string>
+    <string name="bottle_opt_list">我的瓶子</string>
+    <string name="bottle_throw_text_too_short">请至少输入五个字</string>
+    <string name="bottle_throw_text_btn_text">扔出去</string>
+    <string name="bottle_throw_voice_btn_text">按住说话</string>
+    <string name="bottle_throw_voice_btn_pressed_text">松开扔出去</string>
+    <string name="bottle_throw_rcd_too_short">语音太短</string>
+    <string name="bottle_open_throw_back">扔回海里</string>
+    <string name="bottle_open_throw_back_toast">瓶子已扔回海里</string>
+    <string name="bottle_open_reply">回应</string>
+    <string name="bottle_chatting_from_city">来自%s的瓶子</string>
+    <string name="bottle_empty_msg_tip">您还没有收到任何一个瓶子。何不扔一个?</string>
+    <string name="bottle_get_count_err">海上刮大风，请稍等一会</string>
+    <string name="bottle_wizard_step1_tip">漂流瓶是一款匿名的交流工具，您扔的每个瓶子，最多可以被三个人捡到。</string>
+    <string name="bottle_open_hint">打开瓶子</string>
+    <string name="bottle_open_contact_from">来自%s</string>
+    <string name="bottle_switch_mode_alert_title">操作会丢弃已经输入的内容，确定继续？</string>
+    <string name="bottle_switch_mode_continue_text">继续</string>
+    <string name="bottle_cannot_throw">今天的瓶子已经用完啦。</string>
+    <string name="bottle_cannot_pick">今天捡瓶子的机会已经用完啦。</string>
+    <string name="bottle_delete_confirm_title">瓶子删除后将不会收到后续的回应。</string>
+    <string name="bottle_delete_text">删除瓶子</string>
+    <string name="bottle_chatting_video_not_support">漂流瓶暂不支持视频</string>
+    <string name="bottle_conversation_delete">删除该瓶子</string>
+    <string name="bottle_conversation_clear">清空瓶子消息</string>
+    <string name="bottle_unknowed_city">未知城市</string>
+    <string name="bottle_banby_expose">你被多次举报，禁止使用漂流瓶</string>
+    <string name="cities">北京:东城|西城|朝阳|丰台|石景山|海淀|门头沟|房山|通州|顺义|昌平|大兴|平谷|怀柔|密云|延庆, 天津:和平|河东|河西|南开|河北|红桥|滨海新区|东丽|西青|津南|北辰|宁河|武清|静海|宝坻|蓟县, 河北:石家庄|唐山|秦皇岛|邯郸|邢台|保定|张家口|承德|沧州|廊坊|衡水, 山西:太原|大同|阳泉|长治|晋城|朔州|晋中|运城|忻州|临汾|吕梁, 内蒙古:呼和浩特|包头|乌海|赤峰|通辽|鄂尔多斯|呼伦贝尔|巴彦淖尔|乌兰察布|兴安|锡林郭勒|阿拉善, 辽宁:沈阳|大连|鞍山|抚顺|本溪|丹东|锦州|营口|阜新|辽阳|盘锦|铁岭|朝阳|葫芦岛, 吉林:长春|吉林|四平|辽源|通化|白山|松原|白城|延边, 黑龙江:哈尔滨|齐齐哈尔|鸡西|鹤岗|双鸭山|大庆|伊春|佳木斯|七台河|牡丹江|黑河|绥化|大兴安岭, 上海:黄浦|卢湾|徐汇|长宁|静安|普陀|闸北|虹口|杨浦|闵行|宝山|嘉定|浦东新区|金山|松江|奉贤|青浦|崇明, 江苏:南京|无锡|徐州|常州|苏州|南通|连云港|淮安|盐城|扬州|镇江|泰州|宿迁, 浙江:杭州|宁波|温州|嘉兴|湖州|绍兴|金华|衢州|舟山|台州|丽水, 安徽:合肥|芜湖|蚌埠|淮南|马鞍山|淮北|铜陵|安庆|黄山|滁州|阜阳|宿州|巢湖|六安|亳州|池州|宣城, 福建:福州|厦门|莆田|三明|泉州|漳州|南平|龙岩|宁德, 江西:南昌|景德镇|萍乡|九江|新余|鹰潭|赣州|吉安|宜春|抚州|上饶, 山东:济南|青岛|淄博|枣庄|东营|烟台|潍坊|济宁|泰安|威海|日照|莱芜|临沂|德州|聊城|滨州|菏泽, 河南:郑州|开封|洛阳|平顶山|安阳|鹤壁|新乡|焦作|濮阳|许昌|漯河|三门峡|南阳|商丘|信阳|周口|驻马店|济源, 湖北:武汉|黄石|十堰|宜昌|襄阳|鄂州|荆门|孝感|荆州|黄冈|咸宁|随州|恩施|仙桃|潜江|天门|神农架, 湖南:长沙|株洲|湘潭|衡阳|邵阳|岳阳|常德|张家界|益阳|郴州|永州|怀化|娄底|湘西, 广东:广州|韶关|深圳|珠海|汕头|佛山|江门|湛江|茂名|肇庆|惠州|梅州|汕尾|河源|阳江|清远|东莞|中山|潮州|揭阳|云浮, 广西:南宁|柳州|桂林|梧州|北海|防城港|钦州|贵港|玉林|百色|贺州|河池|来宾|崇左, 海南:海口|三亚|五指山|琼海|儋州|文昌|万宁|东方|定安|屯昌|澄迈|临高|白沙|昌江|乐东|陵水|保亭|琼中|西沙|南沙|中沙, 重庆:万州|涪陵|渝中|大渡口|江北|沙坪坝|九龙坡|南岸|北碚|两江新区|万盛|双桥|渝北|巴南|长寿|綦江|潼南|铜梁|大足|荣昌|璧山|梁平|城口|丰都|垫江|武隆|忠县|开县|云阳|奉节|巫山|巫溪|黔江|石柱|秀山|酉阳|彭水|江津|合川|永川|南川, 四川:成都|自贡|攀枝花|泸州|德阳|绵阳|广元|遂宁|内江|乐山|南充|眉山|宜宾|广安|达州|雅安|巴中|资阳|阿坝|甘孜|凉山, 贵州:贵阳|六盘水|遵义|安顺|铜仁|黔西南|毕节|黔东南|黔南, 云南:昆明|曲靖|玉溪|保山|昭通|丽江|普洱|临沧|楚雄|红河|文山|西双版纳|大理|德宏|怒江|迪庆, 西藏:拉萨|昌都|山南|日喀则|那曲|阿里|林芝, 陕西:西安|铜川|宝鸡|咸阳|渭南|延安|汉中|榆林|安康|商洛, 甘肃:兰州市|嘉峪关|金昌|白银|天水|武威|张掖|平凉|酒泉|庆阳|定西|陇南|临夏|甘南, 青海:西宁|海东|海北|黄南|海南|果洛|玉树|海西, 宁夏:银川|石嘴山|吴忠|固原|中卫, 新疆:乌鲁木齐|克拉玛依|吐鲁番|哈密|昌吉|博尔塔拉|巴音郭楞|阿克苏|克孜勒苏|喀什|和田|伊犁|塔城|阿勒泰|石河子|阿拉尔|图木舒克|五家渠, 台湾:台北市|高雄市|基隆市|台中市|台南市|新竹市|嘉义市|台北县|宜兰县|桃园县|新竹县|苗栗县|台中县|彰化县|南投县|云林县|嘉义县|台南县|高雄县|屏东县|台东县|花莲县|澎湖县, 香港:中西区|东区|九龙城区|观塘区|南区|深水埗区|黄大仙区|湾仔区|油尖旺区|离岛区|葵青区|北区|西贡区|沙田区|屯门区|大埔区|荃湾区|元朗区, 澳门:花地玛堂区|圣安多尼堂区|大堂区|望德堂区|风顺堂区|氹仔|路环, 其他:阿富汗|奥兰群岛|阿尔巴尼亚|阿尔及利亚|美属萨摩亚|安道尔|安哥拉|安圭拉|南极洲|安提瓜和巴布达|阿根廷|亚美尼亚|阿鲁巴|阿森松岛|澳大利亚|奥地利|阿塞拜疆|巴哈马|巴林|孟加拉国|巴巴多斯|比利时|伯利兹|贝宁|百慕大|不丹|玻利维亚|波斯尼亚和黑塞哥维那|博茨瓦纳|布维岛|巴西|英属印度洋领地|文莱|保加利亚|布基纳法索|布隆迪|柬埔寨|喀麦隆|加拿大|佛得角|开曼群岛|中非共和国|乍得|智利|中国|圣诞岛|科科斯（基林）群岛|哥伦比亚|科摩罗|刚果|刚果（金）|库克群岛|哥斯达黎加|科特迪瓦|克罗地亚|古巴|塞浦路斯|捷克共和国|丹麦|吉布提|多米尼克|多米尼加共和国|厄瓜多尔|埃及|萨尔瓦多|厄立特里亚|爱沙尼亚|埃塞俄比亚|福克兰群岛|法罗群岛|斐济群岛|芬兰|法国|弗莱彻属波利尼西亚|法属圭亚那|法属南半球和南极领地|加蓬|冈比亚|格鲁吉亚|德国|加纳|直布罗陀|希腊|格陵兰|格林纳达|瓜德罗普岛|关岛|危地马拉|根西岛|几内亚|几内亚比绍|圭亚那|海地|赫德岛和麦当劳群岛|洪都拉斯|匈牙利|冰岛|印度|印尼|伊朗|伊拉克|爱尔兰|马恩岛|以色列|意大利|牙买加|日本|新泽西州|约旦|哈萨克斯坦|肯尼亚|基里巴斯|韩国|科威特|吉尔吉斯斯坦|老挝|拉脱维亚|黎巴嫩|莱索托|利比里亚|利比亚|列支敦士登|立陶宛|卢森堡|马其顿，前南斯拉夫共和国|马达加斯加|马拉维|马来西亚|马尔代夫|马里|马耳他|马绍尔群岛|马提尼克岛|毛里塔尼亚|毛里求斯|马约特岛|墨西哥|密克罗尼西亚|摩尔多瓦|摩纳哥|蒙古|蒙特塞拉特|摩洛哥|莫桑比克|缅甸|纳米比亚|瑙鲁|尼泊尔|荷兰|荷属安的列斯|新喀里多尼亚|新西兰|尼加拉瓜|尼日尔|尼日利亚|纽埃|诺福克岛|朝鲜|北马里亚纳群岛|挪威|阿曼|巴基斯坦|帕劳|巴勒斯坦民族权力机构|巴拿马|巴布亚新几内亚|巴拉圭|秘鲁|菲律宾|皮特凯恩群岛|波兰|葡萄牙|波多黎各|卡塔尔|团圆|罗马尼亚|俄罗斯|卢旺达|萨摩亚|圣马力诺|圣多美和普林西比|沙特阿拉伯|塞内加尔|塞尔维亚，黑山|塞舌尔|塞拉利昂|新加坡|斯洛伐克|斯洛文尼亚|所罗门群岛|索马里|南非|南乔治亚岛和南桑威奇群岛|西班牙|斯里兰卡|圣赫勒拿岛|圣基茨和尼维斯|圣卢西亚|圣皮埃尔和密克隆群岛|圣文森特和格林纳丁斯|苏丹|苏里南|斯瓦尔巴岛和扬马延岛|斯威士兰|瑞典|瑞士|叙利亚|塔吉克斯坦|坦桑尼亚|泰国|东帝汶|多哥|托克劳|汤加|特里尼达和多巴哥|特里斯坦达库尼亚|突尼斯|土耳其|土库曼斯坦|特克斯和凯科斯群岛|图瓦卢|乌干达|乌克兰|阿拉伯联合酋长国|英国|美国|美国本土外小岛屿|乌拉圭|乌兹别克斯坦|瓦努阿图|梵蒂冈城|委内瑞拉|越南|维尔京群岛|英属维尔京群岛，|瓦利斯群岛和富图纳群岛|白俄罗斯|也门|赞比亚|津巴布韦</string>
+    <string name="shake_report_title">摇一摇</string>
+    <string name="shake_a_friend" />
+    <string name="shake_finding">正在搜寻同一时刻摇晃手机的人</string>
+    <string name="shake_getfial">无结果，请重新再试一次</string>
+    <string name="shake_not_support">对不起，您的手机不支持摇一摇功能</string>
+    <string name="shake_click_to_change_bg">触碰这里，更换背景图片</string>
+    <string name="shake_item_clear_shake_friends">清空历史列表</string>
+    <string name="shake_item_change_bgimg">换张背景图片</string>
+    <string name="shake_item_default_bgimg">使用默认的背景图片</string>
+    <string name="shake_item_close_sound">关闭音效</string>
+    <string name="shake_item_open_sound">开启音效</string>
+    <string name="shake_has_closed_sound">已静音</string>
+    <string name="shake_match_isfriend">(好友)</string>
+    <string name="shake_friends_clear_all">全部清空</string>
+    <string name="shake_friends_clear_title">清空上一次聚会摇的人群</string>
+    <string name="shake_friends_no_shake_friends">暂时没有人和你一起摇手机</string>
+    <string name="shake_friends_see_olders">显示早前摇到的人</string>
+    <string name="shake_info_short_title">碰一碰互加好友</string>
+    <string name="shake_info_short_text">两台手机碰一碰，就可以快速、简单地互相把对方添加到通讯录里了。</string>
+    <string name="shake_info_party_title">聚会一起摇</string>
+    <string name="shake_info_party_text">在一个聚会上，一帮朋友一起摇起手机，快速帮您列出一起摇的朋友。</string>
+    <string name="shake_info_long_title">千里摇一摇</string>
+    <string name="shake_info_long_text">可以为您随机匹配一个1千米以外同样也在摇手机的朋友。并且可以立即进行聊天对话</string>
+    <string name="shake_info_known">我知道了</string>
+    <string name="whats_news_item1">语音记事本同步至QQ邮箱记事本</string>
+    <string name="whats_news_item2">支持简体中文，繁体中文与英文显示</string>
+    <string name="whats_news_item3">"
+1.摇一摇和漂流瓶体验优化 
+
+2.支持查看好友来源
+"</string>
+    <string name="whats_news_item_add_tip">新增小特性</string>
+    <string name="whats_news_item_tip">马上开始之旅吧!</string>
+    <string name="title_activity_showzooming">Showzooming</string>
+    <string name="pstn_name">Phone Call</string>
+<string name="sip_name">Sipdroid Call, when available</string>
+
+<string name="about"></string>
+
+<string name="reg">Registering...</string>
+<string name="regpref">已连接</string>
+<string name="regclick">Click to select</string>
+<string name="regfailed">Registration failed</string>
+
+<string name="voicemail">Message(s) Waiting</string>
+
+<string name="auto_enabled">Auto-Answer/Speakerphone</string>
+<string name="auto_disabled">Auto-Answer off</string>
+<string name="hint">Called Party Address</string>
+<string name="hint2">Phone Number</string>
+<string name="empty">Please enter called party address as name@domain.com</string>
+<string name="notfast">No suitable data network available</string>
+<string name="settings_line">Line</string>
+<string name="settings_password">Password</string>
+<string name="settings_server">Server or Proxy</string>
+<string name="settings_domain">Domain</string>
+<string name="settings_domain2">Leave empty if same as server</string>
+<string name="settings_username1">Username or Caller ID</string>
+<string name="settings_callerid2">Leave empty if same as authorization username</string>
+<string name="settings_port">Port</string>
+	<string-array name="port_display_values">
+		<item>53</item>
+		<item>69</item>
+		<item>80</item>
+		<item>135</item>
+		<item>161</item>
+		<item>443</item>
+		<item>500</item>
+		<item>1433</item>
+		<item>1701</item>
+		<item>1812</item>
+		<item>3389</item>
+		<item>4500</item>
+		<item>5060 (standard)</item>
+		<item>5061</item>
+		<item>5900</item>
+		<item>16999</item>
+		<item>26999</item>
+		<item>36999</item>
+		<item>custom</item>
+	</string-array>
+	<string-array name="port_values">
+		<item>53</item>
+		<item>69</item>
+		<item>80</item>
+		<item>135</item>
+		<item>161</item>
+		<item>443</item>
+		<item>500</item>
+		<item>1433</item>
+		<item>1701</item>
+		<item>1812</item>
+		<item>3389</item>
+		<item>4500</item>
+		<item>5060</item>
+		<item>5061</item>
+		<item>5900</item>
+		<item>16999</item>
+		<item>26999</item>
+		<item>36999</item>
+		<item>0</item>
+	</string-array>
+
+<string name="settings_protocol">Protocol</string>
+    <string-array name="protocol_display_values">
+        <item>UDP (less standby on 3G)</item>
+        <item>TCP (longer standby on 3G)</item>
+    </string-array>
+    <string-array name="protocol_values">
+        <item>udp</item>
+        <item>tcp</item>
+    </string-array>
+<string name="settings_vquality">Video Quality</string>
+    <string-array name="vquality_display_values">
+        <item>High (352x288 @ 360kbit)</item>
+        <item>Low (176x144 @ 192kbit)</item>
+    </string-array>
+    <string-array name="vquality_values">
+        <item>high</item>
+        <item>low</item>
+    </string-array>
+<string name="settings_stun">Use STUN Server</string>
+<string name="settings_stun_server">STUN Server name</string>
+<string name="settings_stun_server_port">STUN Server port</string>
+
+<string name="settings_mmtel">Use MMTel flavor</string>
+<string name="settings_mmtel_qvalue">Q value</string>
+ 
+<string name="settings_options">Call Options</string>
+<string name="settings_wlan">Use WLAN</string>
+<string name="settings_3g">Use 3G</string>
+<string name="settings_edge">Use EDGE</string>
+<string name="settings_vpn">Use VPN</string>
+<string name="settings_check">Check with your mobile operator if he allows VoIP</string>
+<string name="settings_vpn2">PBXes offers free VPN service, see PBXes >> HELP</string>
+
+<string name="dialog_default">Sipdroid is not currently set as default phone. Would you like to make it as default phone?
+\n
+\nIf you answer \'No\' here, you can still dial over Sipdroid from the system by adding \'+\' behind a number in Dialer, or by selecting \'text to\' in Contacts.</string>
+<string name="dialog_message">Would you like to see a message from Pascal introducing Sipdroid 1.5?</string>
+<string name="dialog_port">Would you like to change SIP port from 5060 to 5061 for improved reliability?</string>
+<string name="yes">Yes</string>
+<string name="no">No</string>
+<string name="dontask">Don\'t ask me again</string>
+
+<string name="settings_pref">Preferred Call Type</string>
+<string name="settings_pref2">Override by adding \'+\' behind a number in Dialer, or by selecting \'text to\' in Contacts</string>
+    <string-array name="pref_display_values">
+        <item>Sipdroid only</item>
+        <item>Sipdroid, when available</item>
+        <item>Phone</item>
+        <item>Always ask</item>
+    </string-array>
+    <string-array name="pref_values">
+        <item>SIPONLY</item>
+        <item>SIP</item>
+        <item>PSTN</item>
+        <item>ASK</item>
+    </string-array>
+<string name="settings_compression">Voice Compression</string>
+    <string-array name="compression_display_values">
+        <item>Only over WLAN</item>
+        <item>Only over WLAN and 3G</item>
+        <item>Always try</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="compression_values">
+        <item>wlan</item>
+        <item>wlanor3g</item>
+        <item>always</item>
+        <item>never</item>
+    </string-array>
+<string name="settings_auto_on">Auto-Answer in use</string>
+<string name="settings_auto_on2">Short vibrating alert when screen is on</string>
+<string name="settings_auto_ondemand">Auto-Answer on demand</string>
+<string name="settings_auto_ondemand2">Show toggle switch in status bar</string>
+<string name="settings_auto_headset">Auto-Answer headset</string>
+<string name="settings_auto_headset2">When wired headset is connected</string>
+<string name="settings_callrecord">Record calls</string>
+<string name="settings_callrecord2">Record all voice calls to SD card</string>
+
+<string name="settings_notifications">Notifications</string>
+<string name="settings_MWI">Voicemail</string>
+<string name="settings_MWI2">Subscribe to SIP message waiting</string>
+<string name="settings_reg">Registration</string>
+<string name="settings_reg2">Allows selection of preferred SIP account</string>
+<string name="settings_notify">Missed Call</string>
+<string name="settings_notify2">Notify with blue LED</string>
+<string name="settings_nodata">No Data</string>
+<string name="settings_nodata2">Indicate missing voice packets by audible tones</string>
+
+<string name="settings_advanced_options">Advanced Options</string>
+<string name="settings_av_options">Audio/Video</string>
+<string name="settings_policy_never">Changed system sleep policy to keep Wi-Fi on.</string>
+<string name="settings_policy_default">Reset Wi-Fi sleep policy to default.</string>
+<string name="settings_search">Search &amp; Replace</string>
+<string name="settings_excludepat">Exclude Pattern</string>
+<string name="settings_sipringtone">SIP Ringtone</string>
+<string name="settings_sipringtone2">Set ringtone for incoming SIP call</string>
+<string name="settings_sipringtone_dialog">Ringtones</string>
+<string name="settings_eargain">Earpiece Gain</string>
+<string name="settings_micgain">Microphone Gain</string>
+<string name="settings_heargain">Headset Gain</string>
+<string name="settings_hmicgain">Headset Mic</string>
+    <string-array name="eargain_display_values">
+        <item>Low (no echo)</item>
+        <item>Medium</item>
+        <item>High (may cause echo to remote party)</item>
+        <item>Highest</item>
+    </string-array>
+    <string-array name="eargain_values">
+        <item>0.1</item>
+        <item>0.25</item>
+        <item>0.5</item>
+        <item>1.0</item>
+    </string-array>
+
+<string name="settings_pbxes_options">PBXes Features</string>
+<string name="settings_par">Simultaneous Outbound</string>
+<string name="settings_par2">Dials all of one person\'s phone numbers in parallel</string>
+<string name="settings_improve">Improve Audio</string>
+<string name="settings_improve2">requires paid account</string>
+<string name="settings_hdvoice">PBXes supports HD Voice</string>
+<string name="settings_posurl">URL for Location/Callback</string>
+<string name="settings_pos">Update Location</string>
+<string name="settings_pos2">Can be announced to PBXes contacts (requires premium account)</string>
+<string name="settings_pos3">Updating location</string>
+<string name="settings_callback">Trigger Callback</string>
+<string name="settings_callback2">If no suitable data network available</string>
+<string name="settings_callthru">Trigger Callthru</string>
+<string name="settings_callthru2">Prefix for Callthru</string>
+<string name="settings_profile_title">Sipdroid Settings</string>
+<string name="settings_profile_menu_import">Import</string>
+<string name="settings_profile_menu_export">Export</string>
+<string name="settings_profile_menu_delete">Delete</string>
+<string name="settings_profile_dialog_profiles_title">Profiles</string>
+<string name="settings_profile_dialog_delete_title">Delete profile</string>
+
+<string name="settings_profile_dialog_delete_text">Do you really want to delete</string>
+<string name="settings_profile_export_error">Can not export settings!</string>
+<string name="settings_profile_import_error">Can not import settings!</string>
+<string name="settings_profile_delete_error">Can not delete this profile!</string>
+<string name="settings_profile_delete_confirmation">Profile has been deleted.</string>
+
+<string name="settings_wireless_options">Wireless</string>
+<string name="settings_bluetooth">Requires Android 2.2 or higher</string>
+<string name="settings_keepon">Screen on</string>
+<string name="settings_keepon2">Required by some devices for trouble-free Wi-Fi</string>
+<string name="settings_selectwifi">Select Wi-Fi AP</string>
+<string name="settings_selectwifi2">By signal level</string>
+<string name="settings_ownwifi">Control Wi-Fi Power</string>
+<string name="settings_ownwifi2">Saves battery</string>
+<string name="menu_exit">Exit</string>
+<string name="menu_about">About</string>
+<string name="menu_dtmf">Send DTMF</string>
+<string name="menu_video">Send Video</string>
+<string name="menu_call">Dial</string>
+<string name="menu_mute">Mute</string>
+<string name="menu_hold">Hold</string>
+<string name="menu_transfer">Transfer</string>
+<string name="menu_speaker">Speaker</string>
+<string name="menu_endCall">End call</string>
+<string name="menu_answer">Answer</string>
+<string name="menu_bluetooth">Bluetooth (experimental)</string>
+
+<string name="transfer_title">Transfer Call to</string>
+
+<string name="card_title_dialing">Dialing</string>
+<string name="card_title_in_progress">Call in progress</string>
+<string name="card_title_incoming_call">Incoming call</string>
+<string name="card_title_call_ended">Call ended</string>
+<string name="card_title_ended_no_codec">ERROR: Codecs Incompatible</string>
+<string name="card_title_on_hold">On hold</string>
+
+<string name="unknown">Unknown</string>
+
+<string name="slide_hint_down_to_end_call">Slide down to end call.</string>
+<string name="slide_hint_up_to_answer">Slide up to answer.</string>
+
+<string name="ongoing">Current Call</string>
+<string name="onHold">On hold</string>
+<string name="codecs">Audio Codecs</string>
+<string name="codecs_summary">Select Audio Codecs to be available for voice calls</string>
+<string name="codecs_move">Move this codec</string>
+<string name="codecs_move_up">Move up one place</string>
+<string name="codecs_move_down">Move down one place</string>
+<string name="menu_create">New PBX linked to my Google Voice</string>
+<string name="menu_changaccount">更换账号</string>
+	<!-- contact info begin -->
+	<string name="contact_group">Group</string>
+	<string name="contact_label_name">Name</string>
+	<string name="contact_label_phone">Phone</string>
+	<string name="contact_label_email">Email</string>
+	<string name="contact_label_address">Address</string>
+	<string name="contact_label_org">Organization</string>
+	<string name="contact_label_url">Url</string>
+	<string name="contact_label_note">Note</string>
+	<string name="type_home">Home</string>
+	<string name="type_work">Work</string>
+	<string name="type_other">Other</string>
+	<string name="type_pager">Pager</string>
+	<string name="type_mobile">Mobile</string>
+	<string name="type_fax_home">Fax Home</string>
+	<string name="type_fax_work">Fax Work</string>
+	<string name="save_contact">Save</string>
+	<string name="discard">Discard</string>
+	<string name="contact_default_note">Created by Sharp OCR</string>
+	<string name="contact_saved">Contact saved</string>
+	<string name="discard_contact_confirm">Contact not saved, discard it?</string>
+	<string name="saving_contact_progress">Saving contact...</string>
+	<string name="contact_not_saved_warning">Contact not saved yet, save it now?</string>
+	<string name="stopping_rec">Stopping recognizing</string>
+	<string name="stopping_decode">Stopping decoding image</string>
+	<!--  contact info end -->
+	    <!-- dial activity -->
+    <string name="dialer_and_call_logs_title">通话记录</string>
+    <string name="dial_title">拨号</string>
+    <string name="dial_no_record">通话记录为空</string>
+    <string name="dial_clear_all_records">确认提示</string>
+    <string name="dial_clear_all_msg">确定要删除所有的通话记录吗?</string>
+    <string name="dial_clear_selected_record">确定要删除选中的记录吗?</string>
+    <string name="dial_no_search">未找到匹配项</string>
+    <string name="dial_call">呼叫</string>
+    <string name="dial_del">删除</string>
+    <string name="dial_linking_server">正在连接服务器</string>
+    <string name="dial_connected_server">服务器已接通</string>
+    <string name="dial_answer_phone_number">您的本人接听号码是 : </string>
+    <string name="dial_auto_answer_back_call">系统会为您自动接听回拨电话</string>
+    <string name="dial_waiting_back_call_connect">请等待回拨电话接通</string>
+    <string name="dial_charge_now">立即充值</string>
+    <string name="select_call_number">选择号码</string>
+    <string name="confirm_title">提示</string>
+    <string name="ensure">确定</string>
+    <string name="cancel">取消</string>
+    <string name="content_description_icon">icon</string>
+    <string name="refresh">刷新</string>
+    <string name="processing">加载中</string>
+    <string name="download">下载</string>
+    <string name="download_fail">下载安装包失败</string>
+    <string name="cancel_install_msp">你已取消安装移动快捷支付服务</string>
+    <string name="cancel_install_alipay">你已取消安装支付宝钱包</string>
+    <string name="redo">重试</string>
+    <string name="install_msp">你尚未安装支付宝移动快捷支付服务，请立即安装</string>
+    <string name="install_alipay">你尚未安装支付宝钱包，请立即安装</string>
+    <string name="help_speakerphone">Press and hold volume buttons to force talk</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg" >
+  <include layout="@layout/title"/>
+    <ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/nav_title"
+        android:scrollbars="none" >
+        
+       	<LinearLayout
+			android:layout_height="fill_parent"
+		   	android:layout_width="fill_parent"
+		   	android:orientation="vertical" >
+        
+		    <!-- get info -->
+
+		    <TextView
+		        style="@style/login_texts_style"
+		        android:layout_marginLeft="15dip"
+		        android:layout_marginRight="15dip"
+		        android:layout_marginTop="20dip"
+		        android:text="输入群组名称创建群组" />
+
+			<!-- input number -->
+
+		    <EditText
+		        android:id="@+id/group_addgroup_input_name"
+		        style="@style/common_num_input_style"
+		        android:layout_marginLeft="40dip"
+		        android:layout_marginRight="40dip"
+		        android:layout_marginTop="25dip"
+		        android:hint="群组名称"
+		        android:inputType="text"
+		        android:maxLength="12" />
+
+		    <EditText
+		        android:id="@+id/group_addgroup_input_dex"
+		        style="@style/common_num_input_style"
+		        android:layout_marginLeft="40dip"
+		        android:layout_marginRight="40dip"
+		        android:layout_marginTop="25dip"
+		        android:hint="群组介绍信息"
+		        android:inputType="text"
+		        android:maxLength="20" />
+
+			<!-- button -->
+		    <Button
+		        android:id="@+id/group_ok_btn"
+		        style="@style/common_ok_btn_style"
+		        android:layout_marginTop="25dip"
+		        android:layout_marginLeft="88dip"
+		        android:layout_marginRight="88dip"
+		        android:text="确定"
+		        android:textColor="@android:color/background_light" />
+
+			<!-- tip -->
+		    <LinearLayout
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dip"
+		        android:layout_marginLeft="5dip"
+		        android:layout_marginBottom="40dip"
+		        android:orientation="horizontal" >
+		
+		        <ImageView
+		            android:layout_width="15dip"
+		            android:layout_height="15dip"
+		            android:layout_marginLeft="35dip"
+		            android:layout_marginTop="3dip"
+		            android:background="@drawable/tip_icon" />
+		
+		        <TextView
+		            android:layout_width="fill_parent"
+		            android:layout_height="wrap_content"
+		            android:layout_marginBottom="20dip"
+		            android:layout_marginLeft="3dip"
+		            android:layout_marginRight="37dip"
+		            android:autoLink="all"
+		            android:text="创建群组后，你可以邀请好友加入群聊!"
+		            android:textColor="@color/gray"
+		            android:textSize="15dip" />
+
+    		</LinearLayout>
+    		
+		</LinearLayout>
+		
+	</ScrollView>
+	
+</RelativeLayout>

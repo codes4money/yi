@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/layout_size_50">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.studio.b56.im.app.control.MyGallery android:id="@id/galleryImg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:soundEffectsEnabled="false" />
+            <com.studio.b56.im.app.control.CusGridView android:id="@id/shopGrid" android:paddingTop="@dimen/layout_size_7" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/layout_size_5" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:horizontalSpacing="@dimen/layout_size_5" android:verticalSpacing="@dimen/layout_size_5" android:numColumns="2" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

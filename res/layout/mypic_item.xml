@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/txt_size_max_30" android:textColor="@color/black" android:id="@id/months" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="14-月" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/metop_input" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/context" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginBottom="@dimen/layout_size_10" android:text="产品都是耐得住考验的!" />
+        <ImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/shop2" />
+    </LinearLayout>
+</LinearLayout>

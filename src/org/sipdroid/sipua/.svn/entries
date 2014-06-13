@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="626"
+   name=""
+   committed-date="2012-07-09T16:02:29.762610Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/sipdroid/sipua"
+   last-author="mongi3"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="624"
+   name="SipdroidEngine.java"
+   text-time="2012-08-06T10:41:47.202661Z"
+   committed-date="2012-05-21T11:49:51.954770Z"
+   checksum="0222819d56d4a99a7c00e030f15a5999"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.659857Z"/>
+<entry
+   committed-rev="615"
+   name="RegisterAgent.java"
+   text-time="2012-08-06T10:41:47.202661Z"
+   committed-date="2011-06-24T09:52:52.370002Z"
+   checksum="46e5530ab5f29d5f7b99adda75e7ed31"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.675457Z"/>
+<entry
+   name="phone"
+   kind="dir"/>
+<entry
+   committed-rev="583"
+   name="RegisterAgentListener.java"
+   text-time="2012-08-06T10:41:47.218261Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="573716aad14394f4c71ce1b2537f488c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.580259Z"/>
+<entry
+   committed-rev="50"
+   name="Constants.java"
+   text-time="2012-08-06T10:41:47.233861Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f87f3ed66e817b0c73e6b08424fa5674"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.595859Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+<entry
+   committed-rev="583"
+   name="UserAgent.java"
+   text-time="2012-08-06T10:41:47.249461Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="df3f9a186a517bfab753c47a42fc46b8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.611459Z"/>
+<entry
+   committed-rev="603"
+   name="UserAgentProfile.java"
+   text-time="2012-08-06T10:41:47.265062Z"
+   committed-date="2011-02-15T21:38:44.304142Z"
+   checksum="edbddb1e723472c3d78a144f3ffdc3c0"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.187061Z"/>
+</wc-entries>

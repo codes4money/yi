@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="619"
+   name=""
+   committed-date="2012-03-19T10:39:35.901849Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/sipdroid/codecs"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="553"
+   name="G711.java"
+   text-time="2012-08-06T10:41:44.441457Z"
+   committed-date="2010-07-07T09:20:53.215354Z"
+   checksum="d14cb7454d732454c78c082e08908602"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.301056Z"/>
+<entry
+   committed-rev="619"
+   name="Codecs.java"
+   text-time="2012-08-06T10:41:44.457057Z"
+   committed-date="2012-03-19T10:39:35.901849Z"
+   checksum="0a03bbbae9eb3617f41aabd98bda9114"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.316656Z"/>
+<entry
+   committed-rev="517"
+   name="G722.java"
+   text-time="2012-08-06T10:41:44.472657Z"
+   committed-date="2010-04-05T20:18:56.316854Z"
+   checksum="1dad3e40d6ad9f0ecc8fe36234175973"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.332256Z"/>
+<entry
+   committed-rev="553"
+   name="alaw.java"
+   text-time="2012-08-06T10:41:44.488257Z"
+   committed-date="2010-07-07T09:20:53.215354Z"
+   checksum="90a9cc4b0735f4f2cdbbbe2e3ca8dd64"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.332256Z"/>
+<entry
+   committed-rev="508"
+   name="Speex.java"
+   text-time="2012-08-06T10:41:44.503857Z"
+   committed-date="2010-03-29T17:13:34.205812Z"
+   checksum="a4076a088002f9220babe1e3a5b23f0e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.347856Z"/>
+<entry
+   committed-rev="514"
+   name="GSM.java"
+   text-time="2012-08-06T10:41:44.519457Z"
+   committed-date="2010-03-31T19:25:47.262541Z"
+   checksum="c8dabd2e19d4fabdc280b96e1788307c"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.347856Z"/>
+<entry
+   committed-rev="553"
+   name="ulaw.java"
+   text-time="2012-08-06T10:41:44.519457Z"
+   committed-date="2010-07-07T09:20:53.215354Z"
+   checksum="1f65f07f80f807824a64063796cec40a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.363456Z"/>
+<entry
+   committed-rev="619"
+   name="CodecBase.java"
+   text-time="2012-08-06T10:41:44.535057Z"
+   committed-date="2012-03-19T10:39:35.901849Z"
+   checksum="fba19bec96304250660939f35e8ee5cd"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.363456Z"/>
+<entry
+   committed-rev="510"
+   name="SILK24.java"
+   text-time="2012-08-06T10:41:44.550657Z"
+   committed-date="2010-03-30T00:26:45.518954Z"
+   checksum="b74d1facb8f67bbd61b74f3c05fdc739"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.379056Z"/>
+<entry
+   committed-rev="510"
+   name="SILK16.java"
+   text-time="2012-08-06T10:41:44.566257Z"
+   committed-date="2010-03-30T00:26:45.518954Z"
+   checksum="75ba2605fd6f35efead2e792f751573f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.394656Z"/>
+<entry
+   committed-rev="510"
+   name="SILK8.java"
+   text-time="2012-08-06T10:41:44.581857Z"
+   committed-date="2010-03-30T00:26:45.518954Z"
+   checksum="13164fa5d8a55e898e7ae477c28ae330"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.394656Z"/>
+<entry
+   committed-rev="603"
+   name="Codec.java"
+   text-time="2012-08-06T10:41:44.597457Z"
+   committed-date="2011-02-15T21:38:44.304142Z"
+   checksum="045ef7cb7b38782517e23f7333dffe66"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.410256Z"/>
+<entry
+   committed-rev="510"
+   name="BV16.java"
+   text-time="2012-08-06T10:41:44.613057Z"
+   committed-date="2010-03-30T00:26:45.518954Z"
+   checksum="77dd5b4ce5b250e364a9b40a7022c16c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:44.425857Z"/>
+</wc-entries>

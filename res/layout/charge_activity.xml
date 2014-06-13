@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_bg" >
+    <FrameLayout 
+	    android:id="@+id/forget_title_layout"
+	    style="@style/common_title_style" >
+	
+	     <include layout="@layout/title_bar" />
+	     
+	     
+    </FrameLayout>
+    <ScrollView
+    	android:id="@+id/charge_scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+        	android:id="@+id/charge_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="true"
+            android:orientation="vertical" >            <TextView
+                style="@style/common_blue_medium_text_style"
+                android:layout_marginTop="4dip"
+                android:layout_weight="1"
+                android:text="请选择充值方式" />
+             
+            <View style="@style/common_title_line_style" />
+              <!-- 省钱通充值卡 -->
+            <LinearLayout
+                android:id="@+id/charge_sqt_layout"
+                style="@style/setting_group_bg_style"
+                android:layout_weight="1" >
+				
+				<ImageView
+			        android:id="@+id/charge_sqt_image"
+			        style="@style/common_image_style"
+			        android:background="@drawable/charge_sqt_card" />
+			        
+                <TextView
+                    android:id="@+id/charge_sqt_item"
+                    style="@style/common_black_medium_text_style"
+                    android:text="充值卡充值" />
+
+            </LinearLayout>
+			
+			<View style="@style/common_horizontal_line_style" />
+			
+			<!-- 支付宝 -->
+            <LinearLayout
+                android:id="@+id/charge_alipay_layout"
+                style="@style/setting_group_bg_style"
+                android:layout_weight="1" >
+	
+				<ImageView
+			        android:id="@+id/charge_alipay_image"
+			        style="@style/common_image_style"
+			        android:background="@drawable/charge_alipy" />
+
+				<TextView
+				    android:id="@+id/charge_alipay_item"
+				    style="@style/common_black_medium_text_style"
+				    android:text="支付宝充值" />
+
+            </LinearLayout>
+            
+            			<View style="@style/common_horizontal_line_style" />
+		
+            
+            <View style="@style/common_horizontal_line_style" />
+			
+			<!-- 更多充值方式 -->
+            <LinearLayout
+                android:id="@+id/charge_more_layout"
+                style="@style/setting_group_bg_style"
+                android:layout_weight="1" >
+				
+				<ImageView
+			        android:id="@+id/charge_more_image"
+			       	style="@style/common_image_style"
+			        android:background="@drawable/charge_more" />
+        
+                <TextView
+                    android:id="@+id/charge_more_item"
+                    style="@style/common_black_medium_text_style"
+                    android:text="更多充值方式>>" />
+
+            </LinearLayout>
+                
+			<View style="@style/common_title_line_style" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

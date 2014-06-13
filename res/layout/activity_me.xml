@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+<include layout="@layout/title_bar" />
+<ScrollView  
+    xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+   android:scrollbars="vertical"  
+    android:fadingEdge="vertical">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+
+            <RelativeLayout android:background="@drawable/metop_input" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginRight="@dimen/layout_size_10">
+                
+                <ImageView android:layout_marginTop="10dp" android:id="@+id/meHeader" android:layout_width="70dp" android:layout_height="70dp" android:src="@drawable/headright" />
+                <TextView android:layout_marginTop="5dp" android:layout_marginLeft="2dp"  android:textSize="@dimen/txt_size_max_20" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/meSex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="先生" android:singleLine="true" android:layout_toRightOf="@+id/meHeader" android:layout_alignTop="@+id/meHeader" />
+
+                <TextView
+                    android:id="@+id/weixinNum"
+                    android:layout_marginLeft="2dp" 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/meHeader"
+                    android:layout_toRightOf="@+id/meHeader"
+                    android:text="约架号:"
+                    android:textColor="@color/black" />
+
+                <ImageView android:id="@+id/meTo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/layout_size_10" android:src="@drawable/arrow" android:layout_alignBottom="@+id/meHeader" android:layout_alignParentRight="true" />
+                <ImageView android:id="@+id/meLine" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_size_20" android:src="@drawable/splite" android:layout_below="@+id/meHeader" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_size_20" android:layout_below="@+id/meLine">
+                    <TextView android:id="@+id/meCoupons" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="优惠卷: \n0" android:layout_weight="1.0" />
+                    <TextView android:id="@+id/meRed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="红包: \n0" android:layout_weight="1.0" />
+                    <TextView android:id="@+id/meIngral" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="积分: \n0" android:layout_weight="1.0" />
+                    <TextView android:id="@+id/meBalance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="余额: \n0" android:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+             <com.studio.b56.im.app.control.CusListView
+                android:id="@+id/meOrder"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_size_10"
+                android:background="#00000000"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:dividerHeight="1dp"
+                android:scrollbars="none" />
+
+            <com.studio.b56.im.app.control.CusListView
+                android:id="@+id/meSet"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/layout_size_10"
+                android:background="#00000000"
+                android:cacheColorHint="#00000000"
+                android:divider="#00000000"
+                android:dividerHeight="1dp"
+                android:scrollbars="none" />
+
+</LinearLayout>
+       </ScrollView> 
+       </LinearLayout>

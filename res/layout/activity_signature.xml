@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <EditText android:textSize="@dimen/txt_size_max_20" android:gravity="top" android:id="@+id/signContent" android:background="@drawable/person_sign" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:hint="输入签名" />
+    <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:layout_gravity="right" android:id="@+id/pushlish" android:background="@drawable/publish_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_20" android:text="发表" />
+</LinearLayout>

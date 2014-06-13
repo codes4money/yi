@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:gravity="center_vertical" android:background="@drawable/bar_bg" android:paddingLeft="@dimen/layout_size_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="订单提交成功!" />
+            <RelativeLayout android:background="@drawable/infof" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10">
+                <TextView android:id="@id/des" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" 您的订单已成功生成,选择你想用的支付方式进行支付" />
+                <TextView android:textSize="@dimen/txt_size_max_20" android:id="@id/orderNum" android:paddingTop="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单号" android:layout_below="@id/des" />
+                <TextView android:id="@id/orderNumValue" android:paddingLeft="@dimen/layout_size_10" android:paddingTop="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2014012118332011" android:layout_toRightOf="@id/orderNum" android:layout_below="@id/des" />
+                <TextView android:textSize="@dimen/txt_size_max_20" android:id="@id/orderPrice" android:paddingTop="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单总价" android:layout_below="@id/orderNum" />
+                <TextView android:textStyle="bold" android:textColor="@color/red" android:id="@id/orderPriceValue" android:paddingLeft="@dimen/layout_size_10" android:paddingTop="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="$900.00" android:layout_toRightOf="@id/orderPrice" android:layout_below="@id/orderNum" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:gravity="center_vertical" android:background="@drawable/bar_bg" android:paddingLeft="@dimen/layout_size_20" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="选择支付方式并付款" />
+            <LinearLayout android:orientation="vertical" android:background="@drawable/infof" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10">
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/paypal" android:paddingLeft="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" />
+                    <ImageView android:id="@id/paypalImg" android:paddingLeft="@dimen/layout_size_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/paypal" />
+                </LinearLayout>
+                <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/splite" />
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <ImageView android:id="@id/depositP" android:paddingLeft="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_unhook" />
+                    <ImageView android:id="@id/depositPImg" android:paddingLeft="@dimen/layout_size_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/deposit_payment" />
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:id="@id/payPalBtn" android:background="@drawable/login_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_20" android:text="支付" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

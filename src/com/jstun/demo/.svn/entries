@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="615"
+   name=""
+   committed-date="2011-06-24T09:52:52.370002Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/com/jstun/demo"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="453"
+   name="DiscoveryInfo.java"
+   text-time="2012-08-06T10:41:47.639462Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="8543b19a7471b33d7ffd94fe151cc58e"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.608262Z"/>
+<entry
+   committed-rev="615"
+   name="DiscoveryTest.java"
+   text-time="2012-08-06T10:41:47.655062Z"
+   committed-date="2011-06-24T09:52:52.370002Z"
+   checksum="826fa5dfbcc29b31a49593a07bc916b7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.623862Z"/>
+<entry
+   committed-rev="453"
+   name="DiscoveryTestDemo.java"
+   text-time="2012-08-06T10:41:47.670662Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="b9fe928d011a1b03f9938c94e6793654"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:47.623862Z"/>
+</wc-entries>

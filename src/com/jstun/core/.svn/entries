@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="453"
+   name=""
+   committed-date="2010-02-12T15:20:57.190806Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/com/jstun/core"
+   last-author="carlos.talbot@gmail.com"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   name="attribute"
+   kind="dir"/>
+<entry
+   name="header"
+   kind="dir"/>
+<entry
+   name="util"
+   kind="dir"/>
+</wc-entries>

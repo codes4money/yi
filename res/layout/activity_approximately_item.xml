@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/list_bg" android:paddingLeft="@dimen/layout_size_10" android:paddingRight="@dimen/layout_size_30" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/aItemImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:id="@+id/aItemTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:text="我的圈子" android:layout_toRightOf="@+id/aItemImg" android:layout_centerVertical="true" />
+    <ImageView android:id="@+id/aItemArrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

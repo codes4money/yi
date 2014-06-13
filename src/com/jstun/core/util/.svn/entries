@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="453"
+   name=""
+   committed-date="2010-02-12T15:20:57.190806Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/com/jstun/core/util"
+   last-author="carlos.talbot@gmail.com"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="453"
+   name="UtilityException.java"
+   text-time="2012-08-06T10:41:48.388263Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="260efd8f08989511f58b9029b95744bc"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:48.357063Z"/>
+<entry
+   committed-rev="453"
+   name="Utility.java"
+   text-time="2012-08-06T10:41:48.403864Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="af27b44dd3247ac57204981687977030"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:48.372663Z"/>
+<entry
+   committed-rev="453"
+   name="Address.java"
+   text-time="2012-08-06T10:41:48.419464Z"
+   committed-date="2010-02-12T15:20:57.190806Z"
+   checksum="3fa53d16edd964e2913af33839a9fd0b"
+   last-author="carlos.talbot@gmail.com"
+   kind="file"
+   prop-time="2012-08-06T10:41:48.388263Z"/>
+</wc-entries>

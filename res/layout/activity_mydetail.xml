@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10">
+                <ImageView android:id="@+id/mdHead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10" android:src="@drawable/mycircle_head" />
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="疯子" android:layout_toRightOf="@+id/mdHead" android:layout_alignTop="@+id/mdHead" />
+                <TextView android:textSize="@dimen/txt_size_max_15" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="微信号: jiangshide" android:layout_toRightOf="@+id/mdHead" android:layout_alignBottom="@+id/mdHead" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginRight="@dimen/layout_size_10">
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="地区" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/txt_size_max_16" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="上海" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/signature" android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个性签名" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/txt_size_max_16" android:textColor="@color/black" android:id="@+id/signaturet" android:paddingLeft="@dimen/layout_size_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="欲望是向上的力量" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/aboutMeager" android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="约微博" android:layout_centerVertical="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/persionPic" android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="个人相册" android:layout_centerVertical="true" />
+                <Gallery android:id="@+id/mdGallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:id="@+id/sendMsg" android:background="@drawable/login_btn" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@dimen/layout_size_40" android:text="发消息" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

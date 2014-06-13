@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_bg" >
+
+    <FrameLayout 
+	    android:id="@+id/forget_title_layout"
+	    style="@style/common_title_style" >
+	
+	     <include layout="@layout/title_bar" />
+	     
+	     
+    </FrameLayout>
+    
+	<ScrollView
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/forget_title_layout"
+        android:scrollbars="none" >
+        
+	<!-- showNumber info -->
+	<LinearLayout
+	   android:layout_height="fill_parent"
+	   android:layout_width="fill_parent"
+	   android:orientation="vertical" >
+	   
+		    <RelativeLayout
+		        android:id="@+id/show_number_info"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_below="@+id/show_number_title"
+		        android:layout_marginTop="25dip"
+		        android:layout_marginLeft="20dip"
+		        android:layout_marginRight="20dip"
+		        android:orientation="vertical" >
+
+		        <TextView
+		            android:id="@+id/show_number_open_info"
+		            style="@style/login_texts_style"
+		            android:text="开启此功能可以将您的手机号码显示到对方手机,避免因陌生号码导致对方拒接或被防火墙拦截." />
+
+				<RadioGroup 
+				    android:id="@+id/menu"
+				    android:layout_width="fill_parent"
+				    android:layout_height="wrap_content"
+				    android:layout_marginTop="20dip"
+				    android:layout_marginLeft="10dip"
+				    android:layout_below="@+id/show_number_open_info"
+				    android:checkedButton="@+id/lunch"
+				    android:orientation="vertical" >
+
+				    <RadioButton
+				        android:id="@+id/show_number_open"
+				        style="@style/login_texts_style"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="15dip"
+				        android:checked="false"
+				        android:paddingLeft="45dip"
+				        android:text="显示真实号码" />
+				
+				    <RadioButton
+				        android:id="@+id/show_number_close"
+				        style="@style/login_texts_style"
+				        android:layout_width="fill_parent"
+				        android:layout_height="wrap_content"
+				        android:layout_marginLeft="15dip"
+				        android:checked="true"
+				        android:paddingLeft="45dip"
+				        android:text="关闭此功能(对方将无法识别你的来电)" />
+
+				</RadioGroup>
+
+				<!-- showNumber  button -->
+				<LinearLayout
+					android:id="@+id/show_number_btn"
+					android:layout_width="fill_parent"
+					android:layout_height="wrap_content"
+					android:layout_below="@+id/menu" >
+			      
+			        <Button
+			            android:id="@+id/show_number_btn_open"
+			            style="@style/common_ok_btn_style"
+			            android:layout_marginLeft="68dip"
+			            android:layout_marginRight="68dip"
+			            android:layout_marginTop="10dip"
+			            android:text="确定修改"
+			            android:textColor="@android:color/background_light" />
+			        
+			    </LinearLayout>
+        
+				<!-- showNumber tip -->
+				<LinearLayout
+			        android:id="@+id/show_number_tip_layout"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:layout_marginBottom="25dip"
+			        android:layout_below="@+id/show_number_btn"
+			        android:layout_marginTop="15dip"
+			        android:orientation="horizontal" >    
+			        
+			        <ImageView 
+				        android:layout_height="15dip"
+				        android:layout_width="15dip"
+				        android:layout_marginLeft="15dip"
+				        android:layout_marginTop="3dip"
+			        	android:id="@+id/show_number_tip_image"
+						android:background="@drawable/tip_icon" />  
+				        
+				</LinearLayout>  
+				
+		 	</RelativeLayout>
+	 
+		</LinearLayout>
+	
+	</ScrollView>
+	
+</RelativeLayout>

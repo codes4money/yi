@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingLeft="@dimen/layout_size_5" android:paddingTop="@dimen/layout_size_10" android:paddingRight="@dimen/layout_size_10" android:paddingBottom="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@+id/afImg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" />
+    <TextView android:textSize="@dimen/txt_size_max_20" android:textStyle="bold" android:textColor="@color/black" android:id="@+id/afTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="山人" android:layout_toRightOf="@+id/afImg" />
+    <TextView android:id="@+id/afTime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="晚上21:18" android:layout_alignParentRight="true" />
+    <TextView android:ellipsize="marquee" android:id="@+id/afContent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="搜搜查,再小的企业都可以创业成功的!" android:singleLine="true" android:layout_toRightOf="@+id/afImg" android:layout_alignBottom="@+id/afImg" />
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <LinearLayout android:orientation="vertical" android:id="@+id/sweepD" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/sweep" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sweepf" />
+        <TextView android:layout_gravity="center" android:padding="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="将二维码放入框内,即可自动扫描" />
+    </LinearLayout>
+</RelativeLayout>

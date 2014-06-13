@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/title_bar" />
+    <EditText android:textSize="@dimen/txt_size_max_20" android:background="@drawable/fullinput" android:paddingLeft="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:hint="请填写手机号" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/reg_hook" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_5" android:text="已阅读并同意" />
+        <TextView android:textColor="@color/green" android:id="@id/protocol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_5" android:text="注册约架使用协议" />
+    </LinearLayout>
+    <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:id="@id/next" android:background="@drawable/login_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_40" android:text="下一步" />
+</LinearLayout>

@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="566"
+   name=""
+   committed-date="2010-07-25T19:15:35.020009Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/zoolu/sip/header"
+   last-author="mandrajg"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="50"
+   name="NameAddressHeader.java"
+   text-time="2012-08-06T10:41:41.945452Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="65c84e01029bef68520184cee5cd8120"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.477451Z"/>
+<entry
+   committed-rev="50"
+   name="RequestLine.java"
+   text-time="2012-08-06T10:41:41.961052Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="19abf5c14417a2723a7a97d3dce16f12"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.493051Z"/>
+<entry
+   committed-rev="50"
+   name="ParametricHeader.java"
+   text-time="2012-08-06T10:41:41.976652Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="b19639cf8b2b1b5141b64192bd8589de"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.508651Z"/>
+<entry
+   committed-rev="50"
+   name="CallIdHeader.java"
+   text-time="2012-08-06T10:41:41.992252Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="046e8862fca368d5b57f63a98fc734c4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.508651Z"/>
+<entry
+   committed-rev="50"
+   name="UnsupportedHeader.java"
+   text-time="2012-08-06T10:41:42.007852Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="9b64c734b2419d922359de3b1c6ec9a2"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.524251Z"/>
+<entry
+   committed-rev="50"
+   name="ReferredByHeader.java"
+   text-time="2012-08-06T10:41:42.007852Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f01a057912e47b1c7874664c9d0a7382"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.539851Z"/>
+<entry
+   committed-rev="50"
+   name="SipDateHeader.java"
+   text-time="2012-08-06T10:41:42.023452Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="4da1afd3d02a3894f3cd8454c9bb5c9b"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.539851Z"/>
+<entry
+   committed-rev="566"
+   name="ContactHeader.java"
+   text-time="2012-08-06T10:41:42.039052Z"
+   committed-date="2010-07-25T19:15:35.020009Z"
+   checksum="f84fe65ab6a50a1cba5cfcca28d11de6"
+   last-author="mandrajg"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.555451Z"/>
+<entry
+   committed-rev="50"
+   name="MultipleHeader.java"
+   text-time="2012-08-06T10:41:42.054652Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="0bbacb58076e4718ac44a8bd4dee7908"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.571052Z"/>
+<entry
+   committed-rev="50"
+   name="UserAgentHeader.java"
+   text-time="2012-08-06T10:41:42.070252Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="233c5b807289d80d7d95e0df03eba2ff"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.571052Z"/>
+<entry
+   committed-rev="50"
+   name="RecordRouteHeader.java"
+   text-time="2012-08-06T10:41:42.070252Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="2e87d5a707f36a0b78f56c1ae670750f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.586652Z"/>
+<entry
+   committed-rev="50"
+   name="RouteHeader.java"
+   text-time="2012-08-06T10:41:42.085852Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="90c92d11324a2bd940e45dd8275b540c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.586652Z"/>
+<entry
+   committed-rev="50"
+   name="SubjectHeader.java"
+   text-time="2012-08-06T10:41:42.101452Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="2c1f2e4930aa00330e004dc1a4f846c6"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.602252Z"/>
+<entry
+   committed-rev="50"
+   name="AcceptHeader.java"
+   text-time="2012-08-06T10:41:42.117052Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="501a238ef434f6825710965adf77b85d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.617852Z"/>
+<entry
+   committed-rev="50"
+   name="AuthorizationHeader.java"
+   text-time="2012-08-06T10:41:42.132652Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e50cc6ed921c53b39fc8a695b87fbc88"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.617852Z"/>
+<entry
+   committed-rev="50"
+   name="AllowEventsHeader.java"
+   text-time="2012-08-06T10:41:42.148253Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="72dce50718e6299e4dcdef0b4f8393ff"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.633452Z"/>
+<entry
+   committed-rev="50"
+   name="ServerHeader.java"
+   text-time="2012-08-06T10:41:42.163853Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="c3199e7f392699bb149a0d5d4789376a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.649052Z"/>
+<entry
+   committed-rev="50"
+   name="ReferToHeader.java"
+   text-time="2012-08-06T10:41:42.163853Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="d3a448dca6033df2ff152268ed4834e1"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.649052Z"/>
+<entry
+   committed-rev="50"
+   name="OptionHeader.java"
+   text-time="2012-08-06T10:41:42.179453Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="b592449ab95a1db19fc0a1f6171e8fd6"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.664652Z"/>
+<entry
+   committed-rev="555"
+   name="AcceptContactHeader.java"
+   text-time="2012-08-06T10:41:42.195053Z"
+   committed-date="2010-07-08T18:58:54.366480Z"
+   checksum="af774bcaf842fb669cb32b0be541c0f3"
+   last-author="mandrajg"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.680252Z"/>
+<entry
+   committed-rev="50"
+   name="ProxyRequireHeader.java"
+   text-time="2012-08-06T10:41:42.210653Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="52fff9910090a5da13b2c3cf2917b467"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.680252Z"/>
+<entry
+   committed-rev="50"
+   name="ExpiresHeader.java"
+   text-time="2012-08-06T10:41:42.226253Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="8f35c8d49f71b68d5f4775a970d222f4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.695852Z"/>
+<entry
+   committed-rev="50"
+   name="ToHeader.java"
+   text-time="2012-08-06T10:41:42.241853Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="4bae9d6637382350669a84779b3b934c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.695852Z"/>
+<entry
+   committed-rev="50"
+   name="AlertInfoHeader.java"
+   text-time="2012-08-06T10:41:42.257453Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a42b633cfced935f5d9ab398a9d8306c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.711452Z"/>
+<entry
+   committed-rev="50"
+   name="WwwAuthenticateHeader.java"
+   text-time="2012-08-06T10:41:42.241853Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="fcdebf6c9021f1f4b6b3c35645601766"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.711452Z"/>
+<entry
+   committed-rev="50"
+   name="SubscriptionStateHeader.java"
+   text-time="2012-08-06T10:41:42.273053Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f014bdeaad26086eab72f51448c0a001"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.727052Z"/>
+<entry
+   committed-rev="50"
+   name="AuthenticationInfoHeader.java"
+   text-time="2012-08-06T10:41:42.304253Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ce260a091884372cb2854aa13a60c658"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.742652Z"/>
+<entry
+   committed-rev="50"
+   name="CSeqHeader.java"
+   text-time="2012-08-06T10:41:42.288653Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="5ea16967dd5619c85954dfaaa01f034c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.742652Z"/>
+<entry
+   committed-rev="50"
+   name="MaxForwardsHeader.java"
+   text-time="2012-08-06T10:41:42.319853Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="b0cac80fafebed9ed9f605d88c2b0949"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.758252Z"/>
+<entry
+   committed-rev="50"
+   name="ProxyAuthorizationHeader.java"
+   text-time="2012-08-06T10:41:42.335453Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="e54669ef7ab0eb9e2f3adc9a14ccc492"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.789452Z"/>
+<entry
+   committed-rev="50"
+   name="FromHeader.java"
+   text-time="2012-08-06T10:41:42.335453Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="66dd8410e378b08cfb4480ef5eeb9625"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.789452Z"/>
+<entry
+   committed-rev="50"
+   name="BaseSipHeaders.java"
+   text-time="2012-08-06T10:41:42.351053Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f33a907ae0a2e6e4647a741b7126e3b7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.805052Z"/>
+<entry
+   committed-rev="50"
+   name="ListHeader.java"
+   text-time="2012-08-06T10:41:42.366653Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="2a5ee67eccc1aae8586fa6fa031f38a4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.805052Z"/>
+<entry
+   committed-rev="50"
+   name="RequireHeader.java"
+   text-time="2012-08-06T10:41:42.382253Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f5c0137cb85558e20acfe49dee0e5b0f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.820652Z"/>
+<entry
+   committed-rev="50"
+   name="ContentLengthHeader.java"
+   text-time="2012-08-06T10:41:42.382253Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="a0af351be3ec93005705adf327bce2f7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.820652Z"/>
+<entry
+   committed-rev="50"
+   name="ContentTypeHeader.java"
+   text-time="2012-08-06T10:41:42.397853Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="95e232a30895833ea3d813454577bcf4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.836252Z"/>
+<entry
+   committed-rev="50"
+   name="DateHeader.java"
+   text-time="2012-08-06T10:41:42.413453Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="3b4779f6f7dea511e2f9ca0b2d861ccc"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.851852Z"/>
+<entry
+   committed-rev="50"
+   name="AllowHeader.java"
+   text-time="2012-08-06T10:41:42.429053Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f5db9275bfeb1b572cd711d7e86aaec8"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.851852Z"/>
+<entry
+   committed-rev="555"
+   name="SipHeaders.java"
+   text-time="2012-08-06T10:41:42.429053Z"
+   committed-date="2010-07-08T18:58:54.366480Z"
+   checksum="9cadf5d02ddf2eba7fd44f1a1c0c501e"
+   last-author="mandrajg"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.867452Z"/>
+<entry
+   committed-rev="50"
+   name="Header.java"
+   text-time="2012-08-06T10:41:42.444653Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="db37ec1fbb7fdfad386a62b3c74c6b12"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.867452Z"/>
+<entry
+   committed-rev="387"
+   name="ViaHeader.java"
+   text-time="2012-08-06T10:41:42.460253Z"
+   committed-date="2009-12-14T20:48:39.902685Z"
+   checksum="202ef429ac55856e19c3ddf825c0962e"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.883052Z"/>
+<entry
+   committed-rev="50"
+   name="AuthenticationHeader.java"
+   text-time="2012-08-06T10:41:42.475853Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="c92d8bfb2ff5ec1361757a81af5ea411"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.883052Z"/>
+<entry
+   committed-rev="50"
+   name="ProxyAuthenticateHeader.java"
+   text-time="2012-08-06T10:41:42.491453Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="f830beb1be0ed1f016d87d3f1df12529"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.898652Z"/>
+<entry
+   committed-rev="50"
+   name="EndPointHeader.java"
+   text-time="2012-08-06T10:41:42.507053Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="ee7a866d5e2a41bed981ebe3bbfd784f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.914252Z"/>
+<entry
+   committed-rev="50"
+   name="EventHeader.java"
+   text-time="2012-08-06T10:41:42.522653Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="3439561a6895300850940b35de2b9845"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.914252Z"/>
+<entry
+   committed-rev="50"
+   name="StatusLine.java"
+   text-time="2012-08-06T10:41:42.538253Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="184e27ba07e3f6207b6fd2d8f14c0ac7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.929852Z"/>
+<entry
+   committed-rev="50"
+   name="SupportedHeader.java"
+   text-time="2012-08-06T10:41:42.600653Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="1d5146feab5ae62be5229fe3260d43ec"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:41.929852Z"/>
+</wc-entries>

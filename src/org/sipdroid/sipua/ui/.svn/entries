@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="626"
+   name=""
+   committed-date="2012-07-09T16:02:29.762610Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/src/org/sipdroid/sipua/ui"
+   last-author="mongi3"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="624"
+   name="Settings.java"
+   text-time="2012-08-06T10:41:46.734661Z"
+   committed-date="2012-05-21T11:49:51.954770Z"
+   checksum="93b2b2104768290481df2b412711c64f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.783059Z"/>
+<entry
+   committed-rev="476"
+   name="SipRingtonePreference.java"
+   text-time="2012-08-06T10:41:46.719061Z"
+   committed-date="2010-02-22T19:16:10.819108Z"
+   checksum="579d77baa4cf2d47caa94fccc33893db"
+   last-author="jiri.tyr"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.642659Z"/>
+<entry
+   committed-rev="624"
+   name="InCallScreen.java"
+   text-time="2012-08-06T10:41:46.812661Z"
+   committed-date="2012-05-21T11:49:51.954770Z"
+   checksum="e73d1e0aa9fef8c721ecb3ff9917478f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.939059Z"/>
+<entry
+   committed-rev="619"
+   name="Caller.java"
+   text-time="2012-08-06T10:41:46.797061Z"
+   committed-date="2012-03-19T10:39:35.901849Z"
+   checksum="169bf0357eae1cb4581991964502130f"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.829859Z"/>
+<entry
+   committed-rev="583"
+   name="InstantAutoCompleteTextView.java"
+   text-time="2012-08-06T10:41:46.797061Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="30f6e12678c959209ab029e687560481"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.814259Z"/>
+<entry
+   committed-rev="300"
+   name="LoopLocation.java"
+   text-time="2012-08-06T10:41:46.765861Z"
+   committed-date="2009-09-21T10:11:57.339699Z"
+   checksum="fe15874a05638e0902eb0b316875ba18"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.798659Z"/>
+<entry
+   committed-rev="583"
+   name="ChangeAccount.java"
+   text-time="2012-08-06T10:41:46.750261Z"
+   committed-date="2010-10-14T08:36:05.183309Z"
+   checksum="7e62c36eb0a43fcf0293623a031647e0"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:45.783059Z"/>
+<entry
+   committed-rev="615"
+   name="Checkin.java"
+   text-time="2012-08-06T10:41:46.843861Z"
+   committed-date="2011-06-24T09:52:52.370002Z"
+   checksum="af014c96a6caf1cf89345ec68dfef845"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.157460Z"/>
+<entry
+   committed-rev="624"
+   name="Receiver.java"
+   text-time="2012-08-06T10:41:46.828261Z"
+   committed-date="2012-05-21T11:49:51.954770Z"
+   checksum="c9004708ec28f25062b1fd6d85afff43"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.141860Z"/>
+<entry
+   committed-rev="574"
+   name="RegisterService.java"
+   text-time="2012-08-06T10:41:46.859461Z"
+   committed-date="2010-09-01T11:48:07.857346Z"
+   checksum="636071e7916e54e9013c59b4f7991ca4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.173060Z"/>
+<entry
+   committed-rev="105"
+   name="VideoPreview.java"
+   text-time="2012-08-06T10:41:46.890661Z"
+   committed-date="2009-05-25T16:35:54.042755Z"
+   checksum="2554076c827e08c2d8702c732d9e830d"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.204260Z"/>
+<entry
+   committed-rev="300"
+   name="OneShotLocation.java"
+   text-time="2012-08-06T10:41:46.875061Z"
+   committed-date="2009-09-21T10:11:57.339699Z"
+   checksum="c22f7f5820a9bff8dea92ad58e8f9a2a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.188660Z"/>
+<entry
+   committed-rev="606"
+   name="SIPUri.java"
+   text-time="2012-08-06T10:41:46.937461Z"
+   committed-date="2011-03-25T23:21:32.297257Z"
+   checksum="d0b681895e1c98c3299d67dd576fca58"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.313460Z"/>
+<entry
+   committed-rev="621"
+   name="CallScreen.java"
+   text-time="2012-08-06T10:41:46.921861Z"
+   committed-date="2012-04-24T19:01:54.783498Z"
+   checksum="9d94f8800bb99bae2f6acea19d3c401c"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.282260Z"/>
+<entry
+   committed-rev="596"
+   name="VideoCameraNew2.java"
+   text-time="2012-08-06T10:41:46.906261Z"
+   committed-date="2010-11-18T12:18:41.026624Z"
+   checksum="544c0d3e488eefae984d2e5cf4d113e2"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.219860Z"/>
+<entry
+   committed-rev="619"
+   name="Sipdroid.java"
+   text-time="2012-08-06T10:41:46.953061Z"
+   committed-date="2012-03-19T10:39:35.901849Z"
+   checksum="6056431ed256898e39ab0b1fc5da7f92"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.391460Z"/>
+<entry
+   committed-rev="487"
+   name="OneShotAlarm2.java"
+   text-time="2012-08-06T10:41:46.968661Z"
+   committed-date="2010-03-08T10:59:58.334717Z"
+   checksum="e0cf95700467ea22e3a5bdcae577bc79"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.407060Z"/>
+<entry
+   committed-rev="83"
+   name="Activity2.java"
+   text-time="2012-08-06T10:41:46.984261Z"
+   committed-date="2009-05-10T19:40:31.766433Z"
+   checksum="fd70d0c1824328e45c1226b4925e70ee"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.469460Z"/>
+<entry
+   committed-rev="621"
+   name="VideoCamera.java"
+   text-time="2012-08-06T10:41:46.999861Z"
+   committed-date="2012-04-24T19:01:54.783498Z"
+   checksum="3eacdefec8ab3be385f50494fc953cd9"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.547460Z"/>
+<entry
+   committed-rev="615"
+   name="CreateAccount.java"
+   text-time="2012-08-06T10:41:47.015461Z"
+   committed-date="2011-06-24T09:52:52.370002Z"
+   checksum="fbf9644df427a0240e393d1095da24e5"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.609860Z"/>
+<entry
+   committed-rev="538"
+   name="OwnWifi.java"
+   text-time="2012-08-06T10:41:47.031061Z"
+   committed-date="2010-06-07T13:17:41.994597Z"
+   checksum="dbbf05d3c5376c92d8281024a0018091"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.609860Z"/>
+<entry
+   committed-rev="50"
+   name="SipdroidListener.java"
+   text-time="2012-08-06T10:41:47.046661Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="14de3b5eaac26e53ec383ab30f80c99a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.625460Z"/>
+<entry
+   committed-rev="553"
+   name="PSTN.java"
+   text-time="2012-08-06T10:41:47.062261Z"
+   committed-date="2010-07-07T09:20:53.215354Z"
+   checksum="9d3e58fb786fed497c7b50e0ae508837"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.625460Z"/>
+<entry
+   committed-rev="187"
+   name="LoopAlarm.java"
+   text-time="2012-08-06T10:41:47.077861Z"
+   committed-date="2009-07-17T21:53:01.231036Z"
+   checksum="3f4b19614c607e0fe4b17ac14b9dc8df"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.641060Z"/>
+<entry
+   committed-rev="626"
+   name="PhoneStart.java"
+   text-time="2012-08-06T10:41:47.077861Z"
+   committed-date="2012-07-09T16:02:29.762610Z"
+   checksum="10490bb6303bf65dfcacf8544df17121"
+   last-author="mongi3"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.656660Z"/>
+<entry
+   committed-rev="476"
+   name="AutoAnswer.java"
+   text-time="2012-08-06T10:41:47.093461Z"
+   committed-date="2010-02-22T19:16:10.819108Z"
+   checksum="c715989fc600bf132d034ca11a602458"
+   last-author="jiri.tyr"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.672260Z"/>
+<entry
+   committed-rev="553"
+   name="VideoCameraNew.java"
+   text-time="2012-08-06T10:41:47.109061Z"
+   committed-date="2010-07-07T09:20:53.215354Z"
+   checksum="8442137f29263f1faa1fd673287cef8b"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.687861Z"/>
+<entry
+   committed-rev="611"
+   name="SIP.java"
+   text-time="2012-08-06T10:41:47.124661Z"
+   committed-date="2011-05-19T16:25:40.085650Z"
+   checksum="f75e2f6d410e8994b08c9c8b17c5187a"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.703461Z"/>
+<entry
+   committed-rev="244"
+   name="OneShotAlarm.java"
+   text-time="2012-08-06T10:41:47.140261Z"
+   committed-date="2009-07-25T20:35:46.092498Z"
+   checksum="7f8b44e9af014b2b164afef895e602b4"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:46.703461Z"/>
+</wc-entries>

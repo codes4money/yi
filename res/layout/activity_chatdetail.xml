@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <include layout="@layout/title_bar" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/heads" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mycircle_head" />
+                    <TextView android:id="@+id/chatdetail_nickname" android:textSize="@dimen/layout_size_20" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:text="疯子" android:layout_below="@+id/heads" android:layout_centerHorizontal="true" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/layout_size_10"
+                    android:src="@drawable/chat_add"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+            <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginRight="@dimen/layout_size_10">
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="置顶消息" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/topMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/off" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="新消息通知" android:layout_centerVertical="true" />
+                <ImageView android:id="@+id/newMsg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/open" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/findChat"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/layout_size_10"
+                android:layout_marginRight="@dimen/layout_size_10"
+                android:layout_marginTop="@dimen/layout_size_15"
+                android:background="@drawable/newmsgf"
+                android:padding="@dimen/layout_size_10"
+                android:visibility="gone" >
+
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查找聊天内容" android:layout_centerVertical="true" />
+                <ImageView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/open" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/clearChat" android:background="@drawable/newmsgf" android:padding="@dimen/layout_size_10" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_10" android:layout_marginTop="@dimen/layout_size_5" android:layout_marginRight="@dimen/layout_size_10">
+                <TextView android:textSize="@dimen/txt_size_max_20" android:textColor="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="清除聊天内容" android:layout_centerVertical="true" />
+                <ImageView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/open" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

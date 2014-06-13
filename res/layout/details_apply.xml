@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/details_apply"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+     >
+	
+    <Button 
+         android:id="@+id/details_btn_say_hello"
+         android:text="打招呼"
+        style="@style/PLButtonThree"
+        />
+</LinearLayout>

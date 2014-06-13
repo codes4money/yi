@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/call_screen_bg">
+    
+    <!-- 顶端，号码与状态栏 -->
+    <LinearLayout
+        android:id="@+id/call_screen_status_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+        
+        <!-- 联系人号码或名字 -->
+        <TextView
+            android:id="@+id/call_screen_contact_txt"
+            android:layout_width="fill_parent"
+        	android:layout_height="55dp"
+        	android:background="#5A000000"
+       	    android:textColor="#ffffff"
+        	android:textSize="32sp"
+        	android:gravity="bottom|center"
+        	android:text=""
+        	android:singleLine="true"
+        	/>
+        	
+        <!-- 显示当前通话状态-->
+        <TextView 
+            android:id="@+id/call_screen_current_state"
+            android:layout_width="fill_parent"
+        	android:layout_height="55dp"
+        	android:background="#78000000"
+        	android:gravity="center"
+        	android:textColor="#ffffff"
+        	android:text="正在提交请求 ..."
+        	/>
+	</LinearLayout>
+	
+	<!-- 中间，显示头像 -->
+	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_centerInParent="true"
+        android:gravity="center">
+        
+        <ImageView
+            android:id="@+id/call_screen_contact_image"
+            android:layout_gravity="center"
+            android:layout_width="150dp"
+    		android:layout_height="150dp"
+    		android:src="@drawable/copyright"
+            />
+	</LinearLayout>
+	
+	<!-- 底部，显示取消按钮 -->
+	<RelativeLayout
+	    android:id="@+id/call_screen_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <TextView 
+            android:id="@+id/call_screen_bottom_half_up"
+            android:layout_width="fill_parent"
+        	android:layout_height="55dp"
+        	android:background="#5A000000"
+        	/>
+
+        <TextView 
+            android:id="@+id/call_screen_bottom_half_down"
+            android:layout_below="@+id/call_screen_bottom_half_up"
+            android:layout_width="fill_parent"
+        	android:layout_height="55dp"
+        	android:background="#78000000"
+        	/>
+        	
+		<!-- 取消按钮 -->
+        <Button
+            android:id="@+id/call_screen_cancel_btn"
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginBottom="20dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:layout_centerInParent="true"
+	        android:layout_centerVertical="true"
+	        android:background="@drawable/call_screen_cancel_btn_bg"
+	        android:gravity="center"
+	        android:text="返  回"
+	       	android:textSize="26sp"
+	   	    android:textColor= "@color/white"
+	        />
+	</RelativeLayout>
+	
+</RelativeLayout>

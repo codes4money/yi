@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="50"
+   name=""
+   committed-date="2009-04-28T00:22:15.939425Z"
+   url="http://sipdroid.googlecode.com/svn/trunk/res/layout-finger"
+   last-author="pmerle71"
+   kind="dir"
+   uuid="8b64e154-0f13-11de-9106-f38757f67524"
+   repos="http://sipdroid.googlecode.com/svn"
+   revision="626"/>
+<entry
+   committed-rev="50"
+   name="dtmf_twelve_key_dialer.xml"
+   text-time="2012-08-06T10:41:51.024668Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="54551fda999183f80155e9d77c8443a6"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:50.993468Z"/>
+<entry
+   committed-rev="50"
+   name="dialpad.xml"
+   text-time="2012-08-06T10:41:51.055868Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="62453fba617bd5ec5609c9f6d329a9f5"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.009068Z"/>
+<entry
+   committed-rev="50"
+   name="dtmf_display.xml"
+   text-time="2012-08-06T10:41:51.071468Z"
+   committed-date="2009-04-28T00:22:15.939425Z"
+   checksum="fb8af0f18b9888f2380bdb92eef124f7"
+   last-author="pmerle71"
+   kind="file"
+   prop-time="2012-08-06T10:41:51.009068Z"/>
+</wc-entries>

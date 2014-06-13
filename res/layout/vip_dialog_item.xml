@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/support_card_bk_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+    
+	<EditText android:id="@+id/vip_dialog_Edit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:paddingLeft="7dip"
+        android:gravity="center_vertical"
+        android:background="@drawable/edit"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:focusable="true"
+	    />
+    <TextView
+        android:id="@+id/vip_dialog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:text="TextView"
+        android:textColor="@color/dark_black"
+        android:textSize="17sp" />
+
+</LinearLayout>

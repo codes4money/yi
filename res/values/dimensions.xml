@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_tab_corner_radius">8dp</dimen> 
+    <dimen name="main_tab_space_top">4dp</dimen>
+    <dimen name="main_tab_space">0dp</dimen>
+    <dimen name="main_tab_space_plus1">3dp</dimen>
+    <dimen name="main_tab_space_bottom_line">36sp</dimen>
+    <dimen name="main_tab_space_unselected_top">6sp</dimen> 
+    <dimen name="contact_item_height">55dip</dimen> 
+    <dimen name="contact_detail_item_height">50dip</dimen> 
+    <dimen name="call_log_item_height">55dip</dimen> 
+    <dimen name="call_log_child_divider">1dip</dimen> 
+</resources>  
