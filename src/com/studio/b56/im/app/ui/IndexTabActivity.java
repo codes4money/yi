@@ -179,6 +179,7 @@ public class IndexTabActivity extends TabActivity  implements TabHost.OnTabChang
 		getTab();
 		
 		checkIntent(getIntent());
+		
 		serviceTask = new StartServiceTask(IndexTabActivity.this);
 		timer = new Timer("启动服务.");
 		timer.scheduleAtFixedRate(serviceTask, 0, 5000);

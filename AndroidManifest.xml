@@ -4,8 +4,8 @@
     android:versionCode="1"
     android:versionName="2.0.1" >
     <uses-sdk
-        android:minSdkVersion="5"
-        android:targetSdkVersion="7" />
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
     <!-- 应用权限 -->
      <uses-feature
         android:name="android.hardware.bluetooth"
@@ -538,11 +538,11 @@
         <receiver android:name="org.sipdroid.sipua.ui.OwnWifi" />
         <receiver android:name="org.sipdroid.sipua.ui.OneShotLocation" />
         <receiver android:name="org.sipdroid.sipua.ui.LoopLocation" />
-        <receiver android:name="org.sipdroid.sipua.ui.Caller" >
+        <!-- <receiver android:name="org.sipdroid.sipua.ui.Caller" >
             <intent-filter android:priority="-1" >
                 <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
             </intent-filter>
-        </receiver>
+        </receiver> -->
         <receiver
             android:name="org.sipdroid.sipua.ui.Receiver"
             android:enabled="true" >

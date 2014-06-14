@@ -267,13 +267,13 @@ public class DialActivity extends Activity implements OnClickListener {
 	  protected void onResume()
 	  {
 	    super.onResume();
-	    if (isUpdateCallLog)
-	        initCallLogs();
-	        
-	      dial_pad_layout.setVisibility(View.VISIBLE);
-      	  pad_is_Show=1;
-      	  
-		  GetUserPhoneFee();
+//	    if (isUpdateCallLog)
+//	        initCallLogs();
+//	        
+//	      dial_pad_layout.setVisibility(View.VISIBLE);
+//      	  pad_is_Show=1;
+//      	  
+//		  GetUserPhoneFee();
 	  }
 	  
 	  void isDeleteGroupCallLog(final int paramInt)
@@ -348,181 +348,181 @@ public class DialActivity extends Activity implements OnClickListener {
 		
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.dial_activity);
-		application = (PeibanApplication)getApplication();
-		
-		String sharedPrefsFile = "com.studio.b56.im_preferences";
-		mSettings = getSharedPreferences(sharedPrefsFile, MODE_PRIVATE);
-		phone_fee=mSettings.getString("user_phone_num","");
-		username=mSettings.getString(Settings.PREF_USERNAME,"");
-		
-		
-		
-		listView = (ListView) findViewById(R.id.dialer_and_call_logs_contact_list);
-		listView2 = (ExpandableListView) findViewById(R.id.dialer_call_logs_listView);
-		
-
-		
-		
-		am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
-		mTitleAnimMark=(ImageView) findViewById(R.id.dialer_mark);
-		call_log_menu_type_layout=(LinearLayout) findViewById(R.id.call_log_menu_type_layout);
-		this.mCallLogsList=	(ExpandableListView)findViewById(R.id.dialer_call_logs_listView);
-		
-		
-		spool = new SoundPool(11, AudioManager.STREAM_SYSTEM, 5);
-		map.put(0, spool.load(this, R.raw.dtmf0, 0));
-		map.put(1, spool.load(this, R.raw.dtmf1, 0));
-		map.put(2, spool.load(this, R.raw.dtmf2, 0));
-		map.put(3, spool.load(this, R.raw.dtmf3, 0));
-		map.put(4, spool.load(this, R.raw.dtmf4, 0));
-		map.put(5, spool.load(this, R.raw.dtmf5, 0));
-		map.put(6, spool.load(this, R.raw.dtmf6, 0));
-		map.put(7, spool.load(this, R.raw.dtmf7, 0));
-		map.put(8, spool.load(this, R.raw.dtmf8, 0));
-		map.put(9, spool.load(this, R.raw.dtmf9, 0));
-		map.put(11, spool.load(this, R.raw.dtmf11, 0));
-		map.put(12, spool.load(this, R.raw.dtmf12, 0));
-		
-		View v0 = findViewById(R.id.num_0);
-		v0.setOnClickListener(this);
-		v0.setTag("0");
-		View v1 = findViewById(R.id.num_1);
-		v1.setOnClickListener(this);
-		v1.setTag("1");
-		View v2 = findViewById(R.id.num_2);
-		v2.setOnClickListener(this);
-		v2.setTag("2");
-		View v3 = findViewById(R.id.num_3);
-		v3.setOnClickListener(this);
-		v3.setTag("3");
-		View v4 = findViewById(R.id.num_4);
-		v4.setOnClickListener(this);
-		v4.setTag("4");
-		View v5 = findViewById(R.id.num_5);
-		v5.setOnClickListener(this);
-		v5.setTag("5");
-		View v6 = findViewById(R.id.num_6);
-		v6.setOnClickListener(this);
-		v6.setTag("6");
-		View v7 = findViewById(R.id.num_7);
-		v7.setOnClickListener(this);
-		v7.setTag("7");
-		View v8 = findViewById(R.id.num_8);
-		v8.setOnClickListener(this);
-		v8.setTag("8");
-		View v9 = findViewById(R.id.num_9);
-		v9.setOnClickListener(this);
-		v9.setTag("9");
-		View v10 = findViewById(R.id.num_star);
-		v10.setOnClickListener(this);
-		v10.setTag("*");
-		View v11 = findViewById(R.id.num_jing);
-		v11.setOnClickListener(this);
-		v11.setTag("#");
-		
-		delete = (ImageView) findViewById(R.id.num_delete);
-		delete.setOnClickListener(this);
-		
-
-		
-		mTitleAnimMark.setOnClickListener(this);
-		phone = (EditText)findViewById(R.id.dialer_and_call_logs_title);
-		phone.addTextChangedListener(new TextWatcher() {
-			public void onTextChanged(CharSequence s, int start, int before, int count) {
-				if(null == application.getContactInfo() || application.getContactInfo().size()<1){
-				}else{
-					if(null == adapter){
-						adapter = new T9Adapter(DialActivity.this);
-						adapter.assignment(application.getContactInfo());
-						listView.setAdapter(adapter);
-						listView.setTextFilterEnabled(true);
-					}else{
-						adapter.getFilter().filter(s);
-					}
-				}
-			}
-			public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-			}
-			public void afterTextChanged(Editable s) {
-			}
-		});
-		
-		//消息的单击事件
-		listView.setOnItemClickListener(new OnItemClickListener() {
-			@Override
-			public void onItemClick(AdapterView<?> parent, View view,
-					int position, long id) {
-				ContactInfo ci=(ContactInfo)view.getTag();
-				phone.setText(ci.getPhoneNum());
-			}
-		});
-		
-		
-		ImageView call = (ImageView) findViewById(R.id.num_call);
-		call.setOnClickListener(this);
-		
-		ImageView c2 = (ImageView) findViewById(R.id.num_contact);
-		c2.setOnClickListener(this);
-		
-		on(this,true);
-		
-	    dial_pad_layout=(LinearLayout)findViewById(R.id.main_dial_pad_layout);
-		
-		listView2.setOnTouchListener(new View.OnTouchListener()
-        {
-          public boolean onTouch(View paramView, MotionEvent paramMotionEvent)
-          {
-        	  if(pad_is_Show==1)
-        	  {
-        		 hideDialPad();
-        	     pad_is_Show=0;
-        	  }
-        	  return false;
-          }
-          
-        });
-		
-		delete.setOnLongClickListener(new View.OnLongClickListener()
-        {
-          public boolean onLongClick(View paramView)
-          {
-        	phone.setText(""); 
-        	phone.setVisibility(View.GONE);
-  			call_log_menu_type_layout.setVisibility(View.VISIBLE);
-  			listView.setVisibility(8);
-  			listView2.setVisibility(0);
-            return false;
-          }
-        });
-		
-		
-		TextView dial_charge_btn = (TextView) findViewById(R.id.dial_charge_btn);
-		//dial_charge_btn.setOnClickListener(this);
-		
-
-		dial_charge_btn.setOnClickListener(new OnClickListener() {
-			@Override
-		public void onClick(View v) {
-				Log.v("冲值按扭", "===冲值按扭安了");
-				Intent intent=new Intent(DialActivity.this,charge_activity.class);
-				startActivity(intent);
-			}
-		});
-		
-		dial_title_user_ID = (TextView) findViewById(R.id.dial_title_user_ID);
-		dial_title_user_ID.setText("账号:"+username);
-		
-		dial_title_base_account = (TextView) findViewById(R.id.dial_title_base_account);
-		dial_title_base_account.setText("话费:"+phone_fee);
-		bar=(ProgressBar)findViewById(R.id.dial_title_capital_progress);
-		
-		mMenuTypeTextView= (TextView) findViewById(R.id.call_log_menu_type_name);
-		
-		//initMenu();
-		
-		initAndListenDetail();
-		
-		handler.sendEmptyMessageDelayed(8,3000);
+//		application = (PeibanApplication)getApplication();
+//		
+//		String sharedPrefsFile = "com.studio.b56.im_preferences";
+//		mSettings = getSharedPreferences(sharedPrefsFile, MODE_PRIVATE);
+//		phone_fee=mSettings.getString("user_phone_num","");
+//		username=mSettings.getString(Settings.PREF_USERNAME,"");
+//		
+//		
+//		
+//		listView = (ListView) findViewById(R.id.dialer_and_call_logs_contact_list);
+//		listView2 = (ExpandableListView) findViewById(R.id.dialer_call_logs_listView);
+//		
+//
+//		
+//		
+//		am = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+//		mTitleAnimMark=(ImageView) findViewById(R.id.dialer_mark);
+//		call_log_menu_type_layout=(LinearLayout) findViewById(R.id.call_log_menu_type_layout);
+//		this.mCallLogsList=	(ExpandableListView)findViewById(R.id.dialer_call_logs_listView);
+//		
+//		
+//		spool = new SoundPool(11, AudioManager.STREAM_SYSTEM, 5);
+//		map.put(0, spool.load(this, R.raw.dtmf0, 0));
+//		map.put(1, spool.load(this, R.raw.dtmf1, 0));
+//		map.put(2, spool.load(this, R.raw.dtmf2, 0));
+//		map.put(3, spool.load(this, R.raw.dtmf3, 0));
+//		map.put(4, spool.load(this, R.raw.dtmf4, 0));
+//		map.put(5, spool.load(this, R.raw.dtmf5, 0));
+//		map.put(6, spool.load(this, R.raw.dtmf6, 0));
+//		map.put(7, spool.load(this, R.raw.dtmf7, 0));
+//		map.put(8, spool.load(this, R.raw.dtmf8, 0));
+//		map.put(9, spool.load(this, R.raw.dtmf9, 0));
+//		map.put(11, spool.load(this, R.raw.dtmf11, 0));
+//		map.put(12, spool.load(this, R.raw.dtmf12, 0));
+//		
+//		View v0 = findViewById(R.id.num_0);
+//		v0.setOnClickListener(this);
+//		v0.setTag("0");
+//		View v1 = findViewById(R.id.num_1);
+//		v1.setOnClickListener(this);
+//		v1.setTag("1");
+//		View v2 = findViewById(R.id.num_2);
+//		v2.setOnClickListener(this);
+//		v2.setTag("2");
+//		View v3 = findViewById(R.id.num_3);
+//		v3.setOnClickListener(this);
+//		v3.setTag("3");
+//		View v4 = findViewById(R.id.num_4);
+//		v4.setOnClickListener(this);
+//		v4.setTag("4");
+//		View v5 = findViewById(R.id.num_5);
+//		v5.setOnClickListener(this);
+//		v5.setTag("5");
+//		View v6 = findViewById(R.id.num_6);
+//		v6.setOnClickListener(this);
+//		v6.setTag("6");
+//		View v7 = findViewById(R.id.num_7);
+//		v7.setOnClickListener(this);
+//		v7.setTag("7");
+//		View v8 = findViewById(R.id.num_8);
+//		v8.setOnClickListener(this);
+//		v8.setTag("8");
+//		View v9 = findViewById(R.id.num_9);
+//		v9.setOnClickListener(this);
+//		v9.setTag("9");
+//		View v10 = findViewById(R.id.num_star);
+//		v10.setOnClickListener(this);
+//		v10.setTag("*");
+//		View v11 = findViewById(R.id.num_jing);
+//		v11.setOnClickListener(this);
+//		v11.setTag("#");
+//		
+//		delete = (ImageView) findViewById(R.id.num_delete);
+//		delete.setOnClickListener(this);
+//		
+//
+//		
+//		mTitleAnimMark.setOnClickListener(this);
+//		phone = (EditText)findViewById(R.id.dialer_and_call_logs_title);
+//		phone.addTextChangedListener(new TextWatcher() {
+//			public void onTextChanged(CharSequence s, int start, int before, int count) {
+//				if(null == application.getContactInfo() || application.getContactInfo().size()<1){
+//				}else{
+//					if(null == adapter){
+//						adapter = new T9Adapter(DialActivity.this);
+//						adapter.assignment(application.getContactInfo());
+//						listView.setAdapter(adapter);
+//						listView.setTextFilterEnabled(true);
+//					}else{
+//						adapter.getFilter().filter(s);
+//					}
+//				}
+//			}
+//			public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+//			}
+//			public void afterTextChanged(Editable s) {
+//			}
+//		});
+//		
+//		//消息的单击事件
+//		listView.setOnItemClickListener(new OnItemClickListener() {
+//			@Override
+//			public void onItemClick(AdapterView<?> parent, View view,
+//					int position, long id) {
+//				ContactInfo ci=(ContactInfo)view.getTag();
+//				phone.setText(ci.getPhoneNum());
+//			}
+//		});
+//		
+//		
+//		ImageView call = (ImageView) findViewById(R.id.num_call);
+//		call.setOnClickListener(this);
+//		
+//		ImageView c2 = (ImageView) findViewById(R.id.num_contact);
+//		c2.setOnClickListener(this);
+//		
+//		on(this,true);
+//		
+//	    dial_pad_layout=(LinearLayout)findViewById(R.id.main_dial_pad_layout);
+//		
+//		listView2.setOnTouchListener(new View.OnTouchListener()
+//        {
+//          public boolean onTouch(View paramView, MotionEvent paramMotionEvent)
+//          {
+//        	  if(pad_is_Show==1)
+//        	  {
+//        		 hideDialPad();
+//        	     pad_is_Show=0;
+//        	  }
+//        	  return false;
+//          }
+//          
+//        });
+//		
+//		delete.setOnLongClickListener(new View.OnLongClickListener()
+//        {
+//          public boolean onLongClick(View paramView)
+//          {
+//        	phone.setText(""); 
+//        	phone.setVisibility(View.GONE);
+//  			call_log_menu_type_layout.setVisibility(View.VISIBLE);
+//  			listView.setVisibility(8);
+//  			listView2.setVisibility(0);
+//            return false;
+//          }
+//        });
+//		
+//		
+//		TextView dial_charge_btn = (TextView) findViewById(R.id.dial_charge_btn);
+//		//dial_charge_btn.setOnClickListener(this);
+//		
+//
+//		dial_charge_btn.setOnClickListener(new OnClickListener() {
+//			@Override
+//		public void onClick(View v) {
+//				Log.v("冲值按扭", "===冲值按扭安了");
+//				Intent intent=new Intent(DialActivity.this,charge_activity.class);
+//				startActivity(intent);
+//			}
+//		});
+//		
+//		dial_title_user_ID = (TextView) findViewById(R.id.dial_title_user_ID);
+//		dial_title_user_ID.setText("账号:"+username);
+//		
+//		dial_title_base_account = (TextView) findViewById(R.id.dial_title_base_account);
+//		dial_title_base_account.setText("话费:"+phone_fee);
+//		bar=(ProgressBar)findViewById(R.id.dial_title_capital_progress);
+//		
+//		mMenuTypeTextView= (TextView) findViewById(R.id.call_log_menu_type_name);
+//		
+//		//initMenu();
+//		
+//		initAndListenDetail();
+//		
+//		handler.sendEmptyMessageDelayed(8,3000);
 	}
 	
 	public void onClick(View v) {

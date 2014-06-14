@@ -191,12 +191,12 @@ import com.studio.b56.im.app.ui.MainActivity;
 						}
 					}
 					moveTop();
-					if (wl == null) {
-						PowerManager pm = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
-						wl = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK |
-								PowerManager.ACQUIRE_CAUSES_WAKEUP, "Sipdroid.onState");
-					}
-					wl.acquire();
+//					if (wl == null) {
+//						PowerManager pm = (PowerManager) mContext.getSystemService(Context.POWER_SERVICE);
+//						wl = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK |
+//								PowerManager.ACQUIRE_CAUSES_WAKEUP, "Sipdroid.onState");
+//					}
+//					wl.acquire();
 		        	Checkin.checkin(true);
 					break;
 				case UserAgent.UA_STATE_OUTGOING_CALL:
@@ -259,83 +259,83 @@ import com.studio.b56.im.app.ui.MainActivity;
 		static int cache_res;
 		
 		public static void onText(int type,String text,int mInCallResId,long base) {
-			if (mSipdroidEngine != null && type == REGISTER_NOTIFICATION+mSipdroidEngine.pref) {
-				cache_text = text;
-				cache_res = mInCallResId;
-			}
-			if (type >= REGISTER_NOTIFICATION && mInCallResId == R.drawable.sym_presence_available &&
-					!PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_REGISTRATION, org.sipdroid.sipua.ui.Settings.DEFAULT_REGISTRATION))
-				text = null;
-	        NotificationManager mNotificationMgr = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
-	        if (text != null) {
-		        Notification notification = new Notification();
-		        notification.icon = mInCallResId;
-				if (type == MISSED_CALL_NOTIFICATION) {
-			        	notification.flags |= Notification.FLAG_AUTO_CANCEL;
-			        	notification.setLatestEventInfo(mContext, text, mContext.getString(R.string.app_name),
-			        			PendingIntent.getActivity(mContext, 0, createCallLogIntent(), 0));
-			        	if (PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_NOTIFY, org.sipdroid.sipua.ui.Settings.DEFAULT_NOTIFY)) {
-				        	notification.flags |= Notification.FLAG_SHOW_LIGHTS;
-				        	notification.ledARGB = 0xff0000ff; /* blue */
-				        	notification.ledOnMS = 125;
-				        	notification.ledOffMS = 2875;
-			        	}
-	        	} else {
-	        		switch (type) {
-		        	case MWI_NOTIFICATION:
-			        	notification.flags |= Notification.FLAG_AUTO_CANCEL;
-						notification.contentIntent = PendingIntent.getActivity(mContext, 0, 
-								createMWIIntent(), 0);	
-			        	notification.flags |= Notification.FLAG_SHOW_LIGHTS;
-			        	notification.ledARGB = 0xff00ff00; /* green */
-			        	notification.ledOnMS = 125;
-			        	notification.ledOffMS = 2875;
-						break;
-		        	case AUTO_ANSWER_NOTIFICATION:
-						notification.contentIntent = PendingIntent.getActivity(mContext, 0,
-				                createIntent(AutoAnswer.class), 0);
-						break;
-		        	default:
-		        		if (type >= REGISTER_NOTIFICATION && mSipdroidEngine != null && type != REGISTER_NOTIFICATION+mSipdroidEngine.pref &&
-		        				mInCallResId == R.drawable.sym_presence_available)
-							notification.contentIntent = PendingIntent.getActivity(mContext, 0,
-						            createIntent(ChangeAccount.class), 0);
-		        		else
-		        			notification.contentIntent = PendingIntent.getActivity(mContext, 0,
-		        					createIntent(MainActivity.class), 0);
-				        if (mInCallResId == R.drawable.sym_presence_away) {
-				        	notification.flags |= Notification.FLAG_SHOW_LIGHTS;
-				        	notification.ledARGB = 0xffff0000; /* red */
-				        	notification.ledOnMS = 125;
-				        	notification.ledOffMS = 2875;
-				        }
-		        		break;
-		        	}			
-		        	notification.flags |= Notification.FLAG_ONGOING_EVENT;
-			        RemoteViews contentView = new RemoteViews(mContext.getPackageName(),
-	                        R.layout.ongoing_call_notification);
-			        contentView.setImageViewResource(R.id.icon, notification.icon);
-					if (base != 0) {
-						contentView.setChronometer(R.id.text1, base, text+" (%s)", true);
-					} else if (type >= REGISTER_NOTIFICATION) {
-						if (PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_POS, org.sipdroid.sipua.ui.Settings.DEFAULT_POS))
-							contentView.setTextViewText(R.id.text2, text+"/"+mContext.getString(R.string.settings_pos3));
-						else
-							contentView.setTextViewText(R.id.text2, text);
-						if (mSipdroidEngine != null)
-							contentView.setTextViewText(R.id.text1,"讯聊:"+mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].username);
-	        		} else
-						contentView.setTextViewText(R.id.text1, text);
-					notification.contentView = contentView;
-		        }
-		        mNotificationMgr.notify(type,notification);
-	        } else {
-	        	mNotificationMgr.cancel(type);
-	        }
-	        if (type != AUTO_ANSWER_NOTIFICATION)
-	        	updateAutoAnswer();
-			if (mSipdroidEngine != null && type >= REGISTER_NOTIFICATION && type != REGISTER_NOTIFICATION+mSipdroidEngine.pref)
-				onText(REGISTER_NOTIFICATION+mSipdroidEngine.pref,cache_text,cache_res,0);
+//			if (mSipdroidEngine != null && type == REGISTER_NOTIFICATION+mSipdroidEngine.pref) {
+//				cache_text = text;
+//				cache_res = mInCallResId;
+//			}
+//			if (type >= REGISTER_NOTIFICATION && mInCallResId == R.drawable.sym_presence_available &&
+//					!PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_REGISTRATION, org.sipdroid.sipua.ui.Settings.DEFAULT_REGISTRATION))
+//				text = null;
+//	        NotificationManager mNotificationMgr = (NotificationManager) mContext.getSystemService(Context.NOTIFICATION_SERVICE);
+//	        if (text != null) {
+//		        Notification notification = new Notification();
+//		        notification.icon = mInCallResId;
+//				if (type == MISSED_CALL_NOTIFICATION) {
+//			        	notification.flags |= Notification.FLAG_AUTO_CANCEL;
+//			        	notification.setLatestEventInfo(mContext, text, mContext.getString(R.string.app_name),
+//			        			PendingIntent.getActivity(mContext, 0, createCallLogIntent(), 0));
+//			        	if (PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_NOTIFY, org.sipdroid.sipua.ui.Settings.DEFAULT_NOTIFY)) {
+//				        	notification.flags |= Notification.FLAG_SHOW_LIGHTS;
+//				        	notification.ledARGB = 0xff0000ff; /* blue */
+//				        	notification.ledOnMS = 125;
+//				        	notification.ledOffMS = 2875;
+//			        	}
+//	        	} else {
+//	        		switch (type) {
+//		        	case MWI_NOTIFICATION:
+//			        	notification.flags |= Notification.FLAG_AUTO_CANCEL;
+//						notification.contentIntent = PendingIntent.getActivity(mContext, 0, 
+//								createMWIIntent(), 0);	
+//			        	notification.flags |= Notification.FLAG_SHOW_LIGHTS;
+//			        	notification.ledARGB = 0xff00ff00; /* green */
+//			        	notification.ledOnMS = 125;
+//			        	notification.ledOffMS = 2875;
+//						break;
+//		        	case AUTO_ANSWER_NOTIFICATION:
+//						notification.contentIntent = PendingIntent.getActivity(mContext, 0,
+//				                createIntent(AutoAnswer.class), 0);
+//						break;
+//		        	default:
+//		        		if (type >= REGISTER_NOTIFICATION && mSipdroidEngine != null && type != REGISTER_NOTIFICATION+mSipdroidEngine.pref &&
+//		        				mInCallResId == R.drawable.sym_presence_available)
+//							notification.contentIntent = PendingIntent.getActivity(mContext, 0,
+//						            createIntent(ChangeAccount.class), 0);
+//		        		else
+//		        			notification.contentIntent = PendingIntent.getActivity(mContext, 0,
+//		        					createIntent(MainActivity.class), 0);
+//				        if (mInCallResId == R.drawable.sym_presence_away) {
+//				        	notification.flags |= Notification.FLAG_SHOW_LIGHTS;
+//				        	notification.ledARGB = 0xffff0000; /* red */
+//				        	notification.ledOnMS = 125;
+//				        	notification.ledOffMS = 2875;
+//				        }
+//		        		break;
+//		        	}			
+//		        	notification.flags |= Notification.FLAG_ONGOING_EVENT;
+//			        RemoteViews contentView = new RemoteViews(mContext.getPackageName(),
+//	                        R.layout.ongoing_call_notification);
+//			        contentView.setImageViewResource(R.id.icon, notification.icon);
+//					if (base != 0) {
+//						contentView.setChronometer(R.id.text1, base, text+" (%s)", true);
+//					} else if (type >= REGISTER_NOTIFICATION) {
+//						if (PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_POS, org.sipdroid.sipua.ui.Settings.DEFAULT_POS))
+//							contentView.setTextViewText(R.id.text2, text+"/"+mContext.getString(R.string.settings_pos3));
+//						else
+//							contentView.setTextViewText(R.id.text2, text);
+//						if (mSipdroidEngine != null)
+//							contentView.setTextViewText(R.id.text1,"讯聊12112:"+mSipdroidEngine.user_profiles[type-REGISTER_NOTIFICATION].username);
+//	        		} else
+//						contentView.setTextViewText(R.id.text1, text);
+//					notification.contentView = contentView;
+//		        }
+//		        mNotificationMgr.notify(type,notification);
+//	        } else {
+//	        	mNotificationMgr.cancel(type);
+//	        }
+//	        if (type != AUTO_ANSWER_NOTIFICATION)
+//	        	updateAutoAnswer();
+//			if (mSipdroidEngine != null && type >= REGISTER_NOTIFICATION && type != REGISTER_NOTIFICATION+mSipdroidEngine.pref)
+//				onText(REGISTER_NOTIFICATION+mSipdroidEngine.pref,cache_text,cache_res,0);
 		}
 		
 		static void updateAutoAnswer() {

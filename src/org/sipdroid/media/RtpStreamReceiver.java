@@ -392,10 +392,10 @@ public class RtpStreamReceiver extends Thread {
 			Editor edit = PreferenceManager.getDefaultSharedPreferences(Receiver.mContext).edit();
 			edit.putBoolean(org.sipdroid.sipua.ui.Settings.PREF_OLDVALID, false);
 			edit.commit();
-			PowerManager pm = (PowerManager) Receiver.mContext.getSystemService(Context.POWER_SERVICE);
-			PowerManager.WakeLock wl = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK |
-					PowerManager.ACQUIRE_CAUSES_WAKEUP, "Sipdroid.RtpStreamReceiver");
-			wl.acquire(1000);
+//			PowerManager pm = (PowerManager) Receiver.mContext.getSystemService(Context.POWER_SERVICE);
+//			PowerManager.WakeLock wl = pm.newWakeLock(PowerManager.SCREEN_BRIGHT_WAKE_LOCK |
+//					PowerManager.ACQUIRE_CAUSES_WAKEUP, "Sipdroid.RtpStreamReceiver");
+//			wl.acquire(1000);
 		}
 		restoreMode();
 	}

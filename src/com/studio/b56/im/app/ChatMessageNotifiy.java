@@ -60,7 +60,7 @@ public class ChatMessageNotifiy extends AbstractNotifiy{
 			
 			// Notification
 			Notification notification = new Notification();
-			notification.icon = R.drawable.logo; // 设置通知的图标
+			notification.icon = R.drawable.approximately_light; // 设置通知的图标
 			notification.defaults |= Notification.DEFAULT_SOUND;
 			notification.defaults |= Notification.DEFAULT_VIBRATE;
 			notification.defaults |= Notification.DEFAULT_LIGHTS;
