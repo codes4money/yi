@@ -760,26 +760,26 @@ import com.studio.b56.im.app.ui.MainActivity;
 	        } else
 	        if (intentAction.equals(Intent.ACTION_USER_PRESENT)) {
 	        	mHandler.sendEmptyMessageDelayed(MSG_ENABLE, 3000);
-	        } else
-	        if (intentAction.equals(Intent.ACTION_SCREEN_OFF)) {
-	        	WifiManager wm = (WifiManager) mContext.getSystemService(Context.WIFI_SERVICE);
-	        	WifiInfo wi = wm.getConnectionInfo();
-	        	if (wm.getWifiState() != WifiManager.WIFI_STATE_ENABLED || wi == null || wi.getSupplicantState() != SupplicantState.COMPLETED
-	        			|| wi.getIpAddress() == 0)
-	        		alarm(2*60,OwnWifi.class);
-	        	else
-	        		alarm(15*60,OwnWifi.class);
-	        	if (SipdroidEngine.pwl != null)
-	        		for (PowerManager.WakeLock pwl : SipdroidEngine.pwl)
-	        			if (pwl != null && pwl.isHeld()) {
-			        		pwl.release();
-			        		pwl.acquire();
-	        			}
-	        } else
-		    if (intentAction.equals(WifiManager.WIFI_STATE_CHANGED_ACTION)) {
+	        } 
+//	        else  if (intentAction.equals(Intent.ACTION_SCREEN_OFF)) {
+//	        	WifiManager wm = (WifiManager) mContext.getSystemService(Context.WIFI_SERVICE);
+//	        	WifiInfo wi = wm.getConnectionInfo();
+//	        	if (wm.getWifiState() != WifiManager.WIFI_STATE_ENABLED || wi == null || wi.getSupplicantState() != SupplicantState.COMPLETED
+//	        			|| wi.getIpAddress() == 0)
+//	        		alarm(2*60,OwnWifi.class);
+//	        	else
+//	        		alarm(15*60,OwnWifi.class);
+//	        	if (SipdroidEngine.pwl != null)
+//	        		for (PowerManager.WakeLock pwl : SipdroidEngine.pwl)
+////	        			if (pwl != null && pwl.isHeld()) {
+////			        		pwl.release();
+////			        		pwl.acquire();
+////	        			}
+//	        	} 
+	        else  if (intentAction.equals(WifiManager.WIFI_STATE_CHANGED_ACTION)) {
 		    	mHandler.sendEmptyMessageDelayed(MSG_SCAN, 3000);
-	        } else
-	        if (intentAction.equals(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION)) {
+	        } 
+	        else if (intentAction.equals(WifiManager.SCAN_RESULTS_AVAILABLE_ACTION)) {
 	        	if (PreferenceManager.getDefaultSharedPreferences(mContext).getBoolean(org.sipdroid.sipua.ui.Settings.PREF_SELECTWIFI, org.sipdroid.sipua.ui.Settings.DEFAULT_SELECTWIFI)) {
 		        	WifiManager wm = (WifiManager) mContext.getSystemService(Context.WIFI_SERVICE);
 		        	WifiInfo wi = wm.getConnectionInfo();

@@ -4,6 +4,7 @@ import net.tsz.afinal.FinalDb;
 import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.net.Uri;
 import android.util.Log;
 
 import com.studio.b56.im.R;
@@ -60,8 +61,9 @@ public class ChatMessageNotifiy extends AbstractNotifiy{
 			
 			// Notification
 			Notification notification = new Notification();
-			notification.icon = R.drawable.approximately_light; // 设置通知的图标
-			notification.defaults |= Notification.DEFAULT_SOUND;
+			notification.icon = R.drawable.notiicon; // 设置通知的图标
+//			notification.defaults |= Notification.DEFAULT_SOUND;
+			notification.sound = Uri.parse("android.resource://com.studio.b56.im/" +R.raw.phonering);
 			notification.defaults |= Notification.DEFAULT_VIBRATE;
 			notification.defaults |= Notification.DEFAULT_LIGHTS;
 			notification.flags |= Notification.FLAG_AUTO_CANCEL;

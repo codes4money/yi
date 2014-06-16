@@ -472,9 +472,9 @@ public class RtpStreamReceiver2 extends Thread {
 		}
 	}
 
-	PowerManager.WakeLock pwl,pwl2;
+//	PowerManager.WakeLock pwl,pwl2;
 	WifiManager.WifiLock wwl;
-	static final int PROXIMITY_SCREEN_OFF_WAKE_LOCK = 32;
+//	static final int PROXIMITY_SCREEN_OFF_WAKE_LOCK = 32;
 	boolean lockLast,lockFirst;
 	
 	void lock(boolean lock) {
@@ -485,34 +485,34 @@ public class RtpStreamReceiver2 extends Thread {
 					lockLast = lockNew;
 					lock(false);
 					lockFirst = false;
-					if (pwl == null) {
-						PowerManager pm = (PowerManager) Receiver.mContext.getSystemService(Context.POWER_SERVICE);
-						pwl = pm.newWakeLock(lockNew?(PowerManager.SCREEN_DIM_WAKE_LOCK | PowerManager.ACQUIRE_CAUSES_WAKEUP):PROXIMITY_SCREEN_OFF_WAKE_LOCK, "Sipdroid.Receiver");
-						pwl.acquire();
-					}
+//					if (pwl == null) {
+//						PowerManager pm = (PowerManager) Receiver.mContext.getSystemService(Context.POWER_SERVICE);
+//						pwl = pm.newWakeLock(lockNew?(PowerManager.SCREEN_DIM_WAKE_LOCK | PowerManager.ACQUIRE_CAUSES_WAKEUP):PROXIMITY_SCREEN_OFF_WAKE_LOCK, "Sipdroid.Receiver");
+//						pwl.acquire();
+//					}
 				}
 			} else {
 				lockFirst = true;
-				if (pwl != null) {
-					pwl.release();
-					pwl = null;
-				}
+//				if (pwl != null) {
+//					pwl.release();
+//					pwl = null;
+//				}
 			}
 		} catch (Exception e) {
 		}
 		if (lock) {
-			if (pwl2 == null) {
-				PowerManager pm = (PowerManager) Receiver.mContext.getSystemService(Context.POWER_SERVICE);
-				WifiManager wm = (WifiManager) Receiver.mContext.getSystemService(Context.WIFI_SERVICE);
-				pwl2 = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "Sipdroid.Receiver");
-				pwl2.acquire();
-				wwl = wm.createWifiLock(3,"Sipdroid.Receiver");
-				wwl.acquire();
-			}
-		} else if (pwl2 != null) {
-			pwl2.release();
-			pwl2 = null;
-			wwl.release();
+//			if (pwl2 == null) {
+//				PowerManager pm = (PowerManager) Receiver.mContext.getSystemService(Context.POWER_SERVICE);
+//				WifiManager wm = (WifiManager) Receiver.mContext.getSystemService(Context.WIFI_SERVICE);
+//				pwl2 = pm.newWakeLock(PowerManager.PARTIAL_WAKE_LOCK, "Sipdroid.Receiver");
+//				pwl2.acquire();
+//				wwl = wm.createWifiLock(3,"Sipdroid.Receiver");
+//				wwl.acquire();
+//			}
+//		} else if (pwl2 != null) {
+//			pwl2.release();
+//			pwl2 = null;
+//			wwl.release();
 		}
 	}
 
