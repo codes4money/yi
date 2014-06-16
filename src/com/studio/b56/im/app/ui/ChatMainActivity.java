@@ -23,6 +23,7 @@ import android.graphics.drawable.AnimationDrawable;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.TransitionDrawable;
+import android.media.AudioManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
@@ -166,11 +167,18 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 	
 	
 	private List<String> downVoiceList = new ArrayList<String>();
+	
+	private AudioManager audioManager = null;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.chat_main);
 		baseInit();
+		audioManager = (AudioManager) this  
+	            .getSystemService(Context.AUDIO_SERVICE);
+		audioManager.setMode(AudioManager.MODE_IN_CALL); 
+//		audioManager.setMode(AudioManager.MODE_NORMAL);  
 	}
 	
 	@Override
@@ -937,6 +945,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		unregisterReceiver();
 		playListener.stop();
 		notifySessionList();
+		audioManager.setMode(AudioManager.MODE_NORMAL);  
 //		ObserverUtils.deleteObserver(fCustomerVo.getUid(), this);
 	}
 	
