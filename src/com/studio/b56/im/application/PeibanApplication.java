@@ -7,6 +7,7 @@ import java.util.List;
 import org.jivesoftware.smack.XMPPConnection;
 import org.sipdroid.sipua.ui.ContactInfo;
 
+import tools.Logger;
 import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
@@ -18,6 +19,7 @@ import android.widget.Toast;
 import com.baidu.mapapi.BMapManager;
 import com.baidu.mapapi.MKGeneralListener;
 import com.baidu.mapapi.map.MKEvent;
+import com.studio.b56.im.BuildConfig;
 import com.studio.b56.im.app.FinalFactory;
 import com.studio.b56.im.app.cache.UserInfoCache;
 import com.studio.b56.im.app.control.FriendListAction;
@@ -81,6 +83,8 @@ public class PeibanApplication extends Application {
 		super.onCreate();
 		mInstance = this;
 		initEngineManager(this);
+		Logger.getLogger().setTag("YI");
+		Logger.setDebug(BuildConfig.DEBUG);
 	}
 
 	@Override

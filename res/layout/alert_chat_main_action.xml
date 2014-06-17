@@ -9,6 +9,13 @@
     android:layout_marginRight="10dp"
     >
     
+    <Button android:id="@+id/alert_chat_main_btn_copymsg"
+        style="@style/PLButton5"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="复制"
+        />
+    
     <Button android:id="@+id/alert_chat_main_btn_delmsg"
         style="@style/PLButton5"
         android:layout_width="250dp"

@@ -107,5 +107,5 @@ public class Constants {
 	}
 	
 	public final static String ListenMode =  "ListenMode";
-	
+	public final static String ListenModeValue =  "ListenModeValue";
 }

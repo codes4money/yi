@@ -6,12 +6,14 @@ import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
 
+import tools.Logger;
 import net.tsz.afinal.annotation.view.ViewInject;
 import net.tsz.afinal.core.FileNameGenerator;
 import net.tsz.afinal.http.AjaxCallBack;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.BroadcastReceiver;
+import android.content.ClipData;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -694,8 +696,10 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		super.titleBtnRight();
 		moreAction();
 	}
-
+	
+	Button btnModeAction = null ;
 	private void moreAction(){
+		
 		if(moreDialog == null){
 			AlertDialog.Builder builder = new AlertDialog.Builder(ChatMainActivity.this);
 			builder.setMessage("更多");
@@ -704,7 +708,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			
 			Button btnAddFriend = (Button) view.findViewById(R.id.alert_chat_main_more_addfriend);
 //			Button btnApplyAction = (Button) view.findViewById(R.id.alert_chat_main_more_apply);
-			Button btnModeAction = (Button) view.findViewById(R.id.alert_chat_main_more_mode);
+			btnModeAction = (Button) view.findViewById(R.id.alert_chat_main_more_mode);
 			SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
 			boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
 			if (mode) {
@@ -730,7 +734,16 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			
 			moreDialog = builder.create();
 		}
-		
+		if (btnModeAction != null) {
+			SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
+			boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
+			if (mode) {
+				btnModeAction.setText("扬声器模式");
+			}
+			else {
+				btnModeAction.setText("听筒模式");
+			}
+		}
 		moreDialog.show();
 	}
 	
@@ -753,10 +766,12 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		if (mode) {//true 变成扬声器
 			audioManager.setMode(AudioManager.MODE_NORMAL);
 			sharedPre.edit().putBoolean(Constants.ListenMode, false).commit();
+			Logger.i("a");
 		}
 		else {
 			audioManager.setMode(AudioManager.MODE_IN_CALL);
 			sharedPre.edit().putBoolean(Constants.ListenMode, true).commit();
+			Logger.i("b");
 		}
 		moreDialog.cancel();
 	}
@@ -786,6 +801,35 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				sendBroad2Update(messageInfo);
 				break;
 
+			default:
+				break;
+			}
+		}
+	};
+	
+	/* 复制信息 */
+	private void btnCopyMsgAction(View v){
+		messageDialog.cancel();
+		MessageInfo messageInfo = (MessageInfo) v.getTag();
+		if(messageInfo != null){
+			switch (messageInfo.getType()) {
+			case MessageType.TEXT:
+				//copy
+				try {
+					int currentapiVersion = android.os.Build.VERSION.SDK_INT;
+			        if (currentapiVersion >= android.os.Build.VERSION_CODES.HONEYCOMB) {
+			            android.content.ClipboardManager clipboard = (android.content.ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+			            ClipData clip = ClipData.newPlainText("label", messageInfo.getContent());
+			            clipboard.setPrimaryClip(clip);
+			        } else {
+			            android.text.ClipboardManager clipboard = (android.text.ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
+			            clipboard.setText(messageInfo.getContent());
+			        }
+				}
+				catch (Exception e) {
+				
+				}
+				break;
 			default:
 				break;
 			}
@@ -1174,7 +1218,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				builder.setView(msgDialogContent);
 				messageDialog = builder.create();
 			}
-			
+			Button btnCopyMsg = (Button) msgDialogContent.findViewById(R.id.alert_chat_main_btn_copymsg);
 			Button btnCancel = (Button) msgDialogContent.findViewById(R.id.alert_chat_main_btn_cancel);
 			Button btnDelMsg = (Button) msgDialogContent.findViewById(R.id.alert_chat_main_btn_delmsg);
 			Button btnResend = (Button) msgDialogContent.findViewById(R.id.alert_chat_main_btn_resend);
@@ -1183,6 +1227,13 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 					btnResend.setVisibility(View.VISIBLE);
 				}else{
 					btnResend.setVisibility(View.GONE);
+				}
+				Logger.i(messageInfo.getType()+"");
+				if (messageInfo.getType() == MessageType.TEXT) {
+					btnCopyMsg.setVisibility(View.VISIBLE);
+				}
+				else {
+					btnCopyMsg.setVisibility(View.GONE);
 				}
 			} catch (Exception e) {
 				btnResend.setVisibility(View.GONE);
@@ -1193,7 +1244,8 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			btnCancel.setOnClickListener(onClickListener);
 			btnDelMsg.setOnClickListener(onClickListener);
 			btnDelMsg.setTag(messageInfo);
-			
+			btnCopyMsg.setOnClickListener(onClickListener);
+			btnCopyMsg.setTag(messageInfo);
 			return messageDialog;
 		}
 	}
@@ -1272,6 +1324,9 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				break;
 			case R.id.alert_chat_main_more_mode:
 				btnListenModeAction();
+				break;
+			case R.id.alert_chat_main_btn_copymsg:
+				btnCopyMsgAction(v);
 				break;
 			default:
 				break;
