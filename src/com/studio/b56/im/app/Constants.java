@@ -106,4 +106,6 @@ public class Constants {
 		public static final String PHOTO_NORMAL="2";
 	}
 	
+	public final static String ListenMode =  "ListenMode";
+	
 }

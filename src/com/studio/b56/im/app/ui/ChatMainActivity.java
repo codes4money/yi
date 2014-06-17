@@ -16,6 +16,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Rect;
@@ -87,6 +88,8 @@ import com.studio.b56.im.vo.MessageInfo;
 import com.studio.b56.im.vo.MessageType;
 import com.studio.b56.im.vo.SessionList;
 import com.source.widget.DragImageView;
+
+
 /**
  * 
  * 功能： 个人会话 <br />
@@ -171,14 +174,29 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 	private AudioManager audioManager = null;
 	
 	@Override
+	protected void onStart() {
+		SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
+		boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
+		if (mode) {//true 变成扬声器
+			audioManager.setMode(AudioManager.MODE_IN_CALL); 
+		}
+		super.onStart();
+	}
+	
+	@Override
+	protected void onStop() {
+		audioManager.setMode(AudioManager.MODE_NORMAL);
+		super.onStop();
+	}
+	
+	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.chat_main);
 		baseInit();
 		audioManager = (AudioManager) this  
 	            .getSystemService(Context.AUDIO_SERVICE);
-		audioManager.setMode(AudioManager.MODE_IN_CALL); 
-//		audioManager.setMode(AudioManager.MODE_NORMAL);  
+
 	}
 	
 	@Override
@@ -686,6 +704,15 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			
 			Button btnAddFriend = (Button) view.findViewById(R.id.alert_chat_main_more_addfriend);
 //			Button btnApplyAction = (Button) view.findViewById(R.id.alert_chat_main_more_apply);
+			Button btnModeAction = (Button) view.findViewById(R.id.alert_chat_main_more_mode);
+			SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
+			boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
+			if (mode) {
+				btnModeAction.setText("扬声器模式");
+			}
+			else {
+				btnModeAction.setText("听筒模式");
+			}
 			Button btnClear = (Button) view.findViewById(R.id.alert_chat_main_more_btn_clear);
 			try {
 				List<CustomerVo> friends = getShangwupanlvApplication().getFriendListAction().getFriendList();
@@ -698,7 +725,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				}
 			} catch (Exception e) {
 			}
-			
+			btnModeAction.setOnClickListener(onClickListener);
 			btnClear.setOnClickListener(onClickListener);
 			
 			moreDialog = builder.create();
@@ -717,6 +744,21 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 	private void btnApplyAction(){
 		moreDialog.cancel();
 		
+	}
+	
+	/* 听筒模式 */
+	private void btnListenModeAction() {
+		SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
+		boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
+		if (mode) {//true 变成扬声器
+			audioManager.setMode(AudioManager.MODE_NORMAL);
+			sharedPre.edit().putBoolean(Constants.ListenMode, false).commit();
+		}
+		else {
+			audioManager.setMode(AudioManager.MODE_IN_CALL);
+			sharedPre.edit().putBoolean(Constants.ListenMode, true).commit();
+		}
+		moreDialog.cancel();
 	}
 	
 	/* 清除消息 */
@@ -945,7 +987,6 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		unregisterReceiver();
 		playListener.stop();
 		notifySessionList();
-		audioManager.setMode(AudioManager.MODE_NORMAL);  
 //		ObserverUtils.deleteObserver(fCustomerVo.getUid(), this);
 	}
 	
@@ -1229,7 +1270,9 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			case R.id.chat_box_expra_btn_experssion:
 				btnEmojiAction();
 				break;
-				
+			case R.id.alert_chat_main_more_mode:
+				btnListenModeAction();
+				break;
 			default:
 				break;
 			}

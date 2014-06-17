@@ -21,6 +21,13 @@
         android:text="申请查看"
         android:visibility="gone"
         />
+    <Button android:id="@+id/alert_chat_main_more_mode"
+        android:layout_marginTop="5dp"
+        style="@style/PLButton5"
+        android:layout_width="250dp"
+        android:layout_height="52dp"
+        android:text="听筒模式"
+        />
      <Button 
          android:layout_marginTop="5dp"
          android:id="@+id/alert_chat_main_more_btn_clear"
