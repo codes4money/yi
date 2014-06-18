@@ -1262,10 +1262,19 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				if(!checkSdcard()){
 					break;
 				}
+				audioManager.setMode(AudioManager.MODE_NORMAL); 
 				readerImpl.showDg();
 				break;
 			case MotionEvent.ACTION_UP:
 				readerImpl.cancelDg();
+				SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
+				boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
+				if (mode) {//true 变成扬声器
+					audioManager.setMode(AudioManager.MODE_IN_CALL); 
+				}
+				else {
+					audioManager.setMode(AudioManager.MODE_NORMAL); 
+				}
 				break;
 			}
 			return true;
