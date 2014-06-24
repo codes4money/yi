@@ -89,9 +89,9 @@ public class IndexTabActivity extends TabActivity  implements TabHost.OnTabChang
 	
 	private TabHost mTabHost;
 	private FriendListAction friendListAction;
-	private String[] tabTags = new String[]{ "chat", "friend","shop","notation","grzx"};
-	private String[] tabDescs = new String[]{"会话","通讯录","拨号","发现","我"};
-	private int[] tabImgIds = new int[]{R.drawable.bottom_home_bn_style, R.drawable.bottom_style_bn_style,R.drawable.arrow_down,R.drawable.bottom_cam_bn_style,R.drawable.bottom_shopping_bn_style};
+	private String[] tabTags = new String[]{ "chat", "friend", "notation","grzx"};
+	private String[] tabDescs = new String[]{"会话","通讯录","发现","我"};
+	private int[] tabImgIds = new int[]{R.drawable.bottom_home_bn_style, R.drawable.bottom_style_bn_style, R.drawable.bottom_cam_bn_style,R.drawable.bottom_shopping_bn_style};
 	
 	private String currTag = tabTags[0];
 	private static IndexTabActivity instance;
@@ -370,7 +370,7 @@ class WebRegAjaxCallBack extends ClientAjaxCallback{
 		Intent[] tabContents = new Intent[]{
 				new Intent(this,  SessionActivity.class),
 				new Intent(this,  main_tab_contact.class),
-				new Intent(this,  DialActivity.class),
+//				new Intent(this,  DialActivity.class),
 				new Intent(this,  ApproximatelyActivity.class),
 				new Intent(this,  IndividualCenterActivity.class)
 		};
@@ -383,7 +383,7 @@ class WebRegAjaxCallBack extends ClientAjaxCallback{
 				sessionPrompt = (TextView) view.findViewById(R.id.txt_subscript);
 			}
 			
-			if(4 == i){
+			if(3 == i){
 				notifyPrompt = (TextView) view.findViewById(R.id.txt_subscript);
 			}
 			
@@ -401,56 +401,56 @@ class WebRegAjaxCallBack extends ClientAjaxCallback{
 		mTabHost.setCurrentTabByTag(currTag);
 		mTabHost.setOnTabChangedListener(this);
 		
-		getTabWidget().getChildAt(2).setOnClickListener(new OnClickListener() { 
-            @Override 
-            public void onClick(View v) { 
-            	if(!currTag.equals("shop"))
-            	{
-        	      mTabHost.setCurrentTabByTag("shop");
-        	      currTag="shop";
-            	}
-		        else
-		        {
-		        
-		          phoneimg=((ImageView)mTabHost.getTabWidget().getChildAt(2).findViewById(R.id.tab_img));
-            	  DialActivity localDialActivity = (DialActivity)getCurrentActivity();
-          	      if (dialpadImg != 1)
-          	      {
-          	    	dialpadImg=1;
-          	       localDialActivity.showDialPad();
-          	       phoneimg.setBackgroundResource(R.drawable.arrow_down);
-          	       
-          	      }
-          	      else
-          	      {
-          	    	dialpadImg=2;
-          	        localDialActivity.hideDialPad();
-          	        phoneimg.setBackgroundResource(R.drawable.arrow_up); 
-          	      }
-          	      
-            	//  onTabChanged("shop");
-            	  
-          	      
-		        }
-            	
-            } 
-        }); 
+//		getTabWidget().getChildAt(2).setOnClickListener(new OnClickListener() { 
+//            @Override 
+//            public void onClick(View v) { 
+//            	if(!currTag.equals("shop"))
+//            	{
+//        	      mTabHost.setCurrentTabByTag("shop");
+//        	      currTag="shop";
+//            	}
+//		        else
+//		        {
+//		        
+//		          phoneimg=((ImageView)mTabHost.getTabWidget().getChildAt(2).findViewById(R.id.tab_img));
+//            	  DialActivity localDialActivity = (DialActivity)getCurrentActivity();
+//          	      if (dialpadImg != 1)
+//          	      {
+//          	    	dialpadImg=1;
+//          	       localDialActivity.showDialPad();
+//          	       phoneimg.setBackgroundResource(R.drawable.arrow_down);
+//          	       
+//          	      }
+//          	      else
+//          	      {
+//          	    	dialpadImg=2;
+//          	        localDialActivity.hideDialPad();
+//          	        phoneimg.setBackgroundResource(R.drawable.arrow_up); 
+//          	      }
+//          	      
+//            	//  onTabChanged("shop");
+//            	  
+//          	      
+//		        }
+//            	
+//            } 
+//        }); 
 
 	}
 	
-	public void changeDialIcon(int paramInt)
-	{
-	  dialpadImg=paramInt;
-	  phoneimg=((ImageView)this.mTabHost.getTabWidget().getChildAt(2).findViewById(R.id.tab_img));
-	  if(dialpadImg!=1)
-	  {
-		  phoneimg.setBackgroundResource(R.drawable.arrow_up);
-	  }
-	  else
-	  {
-		  phoneimg.setBackgroundResource(R.drawable.arrow_down); 
-	  }
-	}
+//	public void changeDialIcon(int paramInt)
+//	{
+//	  dialpadImg=paramInt;
+//	  phoneimg=((ImageView)this.mTabHost.getTabWidget().getChildAt(2).findViewById(R.id.tab_img));
+//	  if(dialpadImg!=1)
+//	  {
+//		  phoneimg.setBackgroundResource(R.drawable.arrow_up);
+//	  }
+//	  else
+//	  {
+//		  phoneimg.setBackgroundResource(R.drawable.arrow_down); 
+//	  }
+//	}
 	
 	/**
 	 * 
@@ -592,20 +592,20 @@ class WebRegAjaxCallBack extends ClientAjaxCallback{
 	public void onTabChanged(String arg0) {
 		
 		currTag=arg0;
-		if(arg0.equals("shop"))
-		{
-			
-		  phoneimg=((ImageView)this.mTabHost.getTabWidget().getChildAt(2).findViewById(R.id.tab_img));
-		  if(dialpadImg==1)
-		  {
-			  phoneimg.setBackgroundResource(R.drawable.arrow_down);
-		  }
-		  else
-		  {
-			  phoneimg.setBackgroundResource(R.drawable.arrow_up); 
-		  }
-		  
-		}
+//		if(arg0.equals("shop"))
+//		{
+//			
+//		  phoneimg=((ImageView)this.mTabHost.getTabWidget().getChildAt(2).findViewById(R.id.tab_img));
+//		  if(dialpadImg==1)
+//		  {
+//			  phoneimg.setBackgroundResource(R.drawable.arrow_down);
+//		  }
+//		  else
+//		  {
+//			  phoneimg.setBackgroundResource(R.drawable.arrow_up); 
+//		  }
+//		  
+//		}
 	}
 	 
 	public void checkUpdateFun()

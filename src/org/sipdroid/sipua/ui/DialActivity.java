@@ -1640,11 +1640,11 @@ public class DialActivity extends Activity implements OnClickListener {
      this.dial_pad_layout.setVisibility(0);
      if(calltype==1)
      {
-      ((IndexTabActivity)getParent()).changeDialIcon(1);
+//      ((IndexTabActivity)getParent()).changeDialIcon(1);
      }
      else
      {
-       ((IndexTabActivity)getParent()).changeDialIcon(1);
+//       ((IndexTabActivity)getParent()).changeDialIcon(1);
      }
   }
   void setCallType(int t)
@@ -1658,11 +1658,11 @@ public class DialActivity extends Activity implements OnClickListener {
     this.dial_pad_layout.setVisibility(8);
     if(calltype==1)
     {
-    ((IndexTabActivity)getParent()).changeDialIcon(2);
+//    ((IndexTabActivity)getParent()).changeDialIcon(2);
     }
     else
     {
-     ((IndexTabActivity)getParent()).changeDialIcon(2);
+//     ((IndexTabActivity)getParent()).changeDialIcon(2);
     }
   }
   
