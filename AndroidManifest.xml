@@ -94,7 +94,7 @@
     <application
         android:name=".application.PeibanApplication"
         android:allowTaskReparenting="true"
-        android:icon="@drawable/approximately_light"
+        android:icon="@drawable/ic_launch"
         android:label="@string/app_name"
         android:theme="@style/ShanWuPanlvBaseTheme" >
         <activity
