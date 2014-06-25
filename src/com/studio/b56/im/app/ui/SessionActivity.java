@@ -519,11 +519,11 @@ public class SessionActivity extends BaseActivity{
 		}
 
 		private void bindViewHolder(ViewHolder viewHolder, SessionVo sessionVo) {
-			if ("1".equals(sessionVo.getCustomerVo().getSex())) {
-				viewHolder.imgSex.setImageResource(R.drawable.sex_man);
-			} else {
-				viewHolder.imgSex.setImageResource(R.drawable.sex_woman);
-			}
+//			if ("1".equals(sessionVo.getCustomerVo().getSex())) {
+//				viewHolder.imgSex.setImageResource(R.drawable.sex_man);
+//			} else {
+//				viewHolder.imgSex.setImageResource(R.drawable.sex_woman);
+//			}
 
 			String userType = sessionVo.getCustomerVo().getCustomertype();
 			if (Constants.CustomerType.CHATTING.equals(userType)) {
@@ -563,7 +563,7 @@ public class SessionActivity extends BaseActivity{
 			// String sign = sessionVo.getCustomerVo().getInterest();
 
 			viewHolder.txtUsername.setText(userName);
-			viewHolder.txtLocation.setText(location);
+//			viewHolder.txtLocation.setText(location);
 			if (0 != noReadNum) {
 				viewHolder.txtNoreadNum.setVisibility(View.VISIBLE);
 				viewHolder.txtNoreadNum.setText(noReadNum + "");
@@ -583,16 +583,16 @@ public class SessionActivity extends BaseActivity{
 			}
 			
 			int ageint=TextdescTool.dateToAge(age);
-			if(ageint>0)
-			{
-			  viewHolder.txtAge.setText(ageint + "岁");
-			}
-			else
-			{
-			  viewHolder.txtAge.setText("");
-			}
-			viewHolder.txtLocation.setText(location);
-			viewHolder.txtLine.setText(line);
+//			if(ageint>0)
+//			{
+//			  viewHolder.txtAge.setText(ageint + "岁");
+//			}
+//			else
+//			{
+//			  viewHolder.txtAge.setText("");
+//			}
+//			viewHolder.txtLocation.setText(location);
+//			viewHolder.txtLine.setText(line);
 
 			FinalOnloadBitmap.finalDisplay(getBaseContext(),
 					sessionVo.getCustomerVo(), viewHolder.imgHead,
@@ -610,13 +610,13 @@ public class SessionActivity extends BaseActivity{
 	static class ViewHolder {
 		ImageView imgSubscript;
 		ImageView imgHead;
-		ImageView imgSex;
+//		ImageView imgSex;
 
 		TextView txtUsername;
 		TextView txtNoreadNum; // 未读条数
-		TextView txtAge;
-		TextView txtLocation;
-		TextView txtLine;
+//		TextView txtAge;
+//		TextView txtLocation;
+//		TextView txtLine;
 		TextView txtSign;
 
 		TextView txtTime;
@@ -629,18 +629,18 @@ public class SessionActivity extends BaseActivity{
 					.findViewById(R.id.list_item_img_subscript);
 			viewHolder.imgHead = (ImageView) view
 					.findViewById(R.id.list_item_img_head);
-			viewHolder.imgSex = (ImageView) view
-					.findViewById(R.id.list_img_sex);
+//			viewHolder.imgSex = (ImageView) view
+//					.findViewById(R.id.list_img_sex);
 
 			viewHolder.txtUsername = (TextView) view
 					.findViewById(R.id.list_txt_title);
 			viewHolder.txtNoreadNum = (TextView) view
 					.findViewById(R.id.list_txt_type);
-			viewHolder.txtAge = (TextView) view.findViewById(R.id.list_txt_age);
-			viewHolder.txtLocation = (TextView) view
-					.findViewById(R.id.list_txt_location);
-			viewHolder.txtLine = (TextView) view
-					.findViewById(R.id.list_txt_state);
+//			viewHolder.txtAge = (TextView) view.findViewById(R.id.list_txt_age);
+//			viewHolder.txtLocation = (TextView) view
+//					.findViewById(R.id.list_txt_location);
+//			viewHolder.txtLine = (TextView) view
+//					.findViewById(R.id.list_txt_state);
 			viewHolder.txtSign = (TextView) view
 					.findViewById(R.id.list_txt_message_info);
 			viewHolder.txtTime = (TextView) view

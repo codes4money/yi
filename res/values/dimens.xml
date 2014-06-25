@@ -18,8 +18,8 @@
     <dimen name="pl_base_text_tag_size">13sp</dimen>    
     <dimen name="pl_head_image_width_info">75dp</dimen>
     <dimen name="pl_head_image_height_info">75dp</dimen>    
-    <dimen name="pl_head_image_width_h">65dp</dimen>
-    <dimen name="pl_head_image_height_h">65dp</dimen>    
+    <dimen name="pl_head_image_width_h">50dp</dimen>
+    <dimen name="pl_head_image_height_h">50dp</dimen>    
     <dimen name="pl_head_image_width_chat_h">45dp</dimen>
     <dimen name="pl_head_image_height_chat_h">45dp</dimen>
     
