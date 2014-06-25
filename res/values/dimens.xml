@@ -176,4 +176,6 @@
     <dimen name="layout_size_600">600.0dip</dimen>
     <dimen name="layout_size_681">681.0dip</dimen>
     <dimen name="layout_size_700">700.0dip</dimen>
+    
+    <dimen name="profile_text_size">15dp</dimen>
 </resources>

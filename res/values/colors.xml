@@ -94,4 +94,6 @@
     <color name="lightsteelblue">#ffb0c4de</color>
     <color name="paleturquoise">#ffafeeee</color>
     <color name="greenyellow">#ffadff2f</color>
+    
+    <color name="profile_text_color">#8e8071</color>
 </resources>

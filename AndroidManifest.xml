@@ -317,6 +317,10 @@
             android:name=".app.ui.IndividualCenterActivity"
             android:screenOrientation="portrait" >
         </activity>
+         <activity
+            android:name=".app.ui.Profile"
+            android:screenOrientation="portrait" >
+        </activity>
         <activity
             android:name=".app.ui.ChatListActivity"
             android:screenOrientation="portrait" >

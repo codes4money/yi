@@ -372,7 +372,7 @@ class WebRegAjaxCallBack extends ClientAjaxCallback{
 				new Intent(this,  main_tab_contact.class),
 //				new Intent(this,  DialActivity.class),
 				new Intent(this,  ApproximatelyActivity.class),
-				new Intent(this,  IndividualCenterActivity.class)
+				new Intent(this,  Profile.class)
 		};
 		
 		for (int i = 0; i < tabTags.length; i++) {
