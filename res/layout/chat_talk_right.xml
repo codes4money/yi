@@ -56,7 +56,8 @@
         android:layout_toLeftOf="@+id/chat_talk_usernick"
         android:background="@drawable/chatleft_bg"
         android:gravity="center"
-        android:minHeight="50dp" >
+        android:layout_marginRight="10dp"
+        >
 
         <ImageView
             android:id="@+id/chat_talk_msg_info_msg_voice"
@@ -64,23 +65,19 @@
             android:src="@drawable/anim_btn_audio_play2"
             android:scaleType="fitEnd"
             android:paddingRight="15dp"
-            android:minWidth="45dp"
             />
 
         <ImageView
             android:id="@+id/chat_talk_msg_info_msg_photo"
             style="@style/chat_talk_style_txt_msg_info_msg_photo"
             android:layout_margin="3dp"
-            android:scaleType="fitXY"
+            android:scaleType="centerCrop"
             android:adjustViewBounds="true"
-            android:maxWidth="120dp"
-            android:maxHeight="120dp"
             />
 
         <TextView
             android:id="@+id/chat_talk_msg_info_text"
             style="@style/chat_talk_style_txt_msg_info_text"
-            android:minWidth="50dp"
             />
 
         <ProgressBar
@@ -107,7 +104,7 @@
         android:layout_height="25dp"
         android:src="@drawable/send_error"
         android:layout_marginRight="10dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginTop="30dp"
         android:visibility="gone"
         />
     
