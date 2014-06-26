@@ -14,7 +14,7 @@
         android:layout_alignParentLeft="true"
         android:src="@drawable/head_man"
         android:scaleType="centerCrop"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
          />
 
@@ -29,6 +29,7 @@
         android:layout_width="fill_parent"
         android:layout_height="70dp"
         android:layout_toRightOf="@+id/list_item_img_head"
+        android:layout_marginLeft="13dp"
           >
         <!-- 一列 -->
         <TextView
@@ -39,45 +40,31 @@
             android:singleLine="true"
              />
 
-        <TextView
-            android:id="@+id/list_txt_type"
-            style="@style/list_item_txt_tag"
-            android:layout_alignBaseline="@+id/list_txt_title"
-            android:layout_marginLeft="5dp"
-            android:layout_toRightOf="@+id/list_txt_title"
-            android:background="@drawable/not_read_bg"
-            android:paddingBottom="5dp"
-            android:visibility="gone"
-            android:textColor="@color/white" />
 
         <TextView
             android:id="@+id/list_txt_message_info"
             style="@style/list_item_txt_tag"
             android:layout_below="@+id/list_txt_title"
-            android:layout_toLeftOf="@+id/list_txt_time"
             android:layout_width="fill_parent"
             android:singleLine="true"
             android:layout_height="wrap_content"
              />
         <!-- 右列 -->
         <TextView
+            android:layout_marginTop="12dp"
             android:id="@+id/list_txt_time"
             style="@style/list_item_txt_tag"
             android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
             android:paddingLeft="20dp"
-            />
-         <Button
-            android:id="@+id/list_btn_del"
-            android:textSize = "14sp"
-	        style="@style/PLButtonFour"
-            android:background="@drawable/btn_logout_style"
-            android:layout_alignParentRight="true"
-            android:layout_centerVertical="true"
-            android:text="删除"
-            android:visibility="gone"
+            android:layout_marginRight="15dp"
             />
     </RelativeLayout>
 
-
+	<View 
+	    android:layout_below="@+id/list_item_img_head"
+	    android:layout_width="match_parent"
+	    android:layout_height="1dp"
+	    android:layout_marginTop="10dp"
+	    android:background="#e4e4e4"
+	    />
 </RelativeLayout>

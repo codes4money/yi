@@ -564,20 +564,16 @@ public class SessionActivity extends BaseActivity{
 
 			viewHolder.txtUsername.setText(userName);
 //			viewHolder.txtLocation.setText(location);
-			if (0 != noReadNum) {
-				viewHolder.txtNoreadNum.setVisibility(View.VISIBLE);
-				viewHolder.txtNoreadNum.setText(noReadNum + "");
-			} else {
-				viewHolder.txtNoreadNum.setVisibility(View.GONE);
-			}
+//			if (0 != noReadNum) {
+//				viewHolder.txtNoreadNum.setVisibility(View.VISIBLE);
+//				viewHolder.txtNoreadNum.setText(noReadNum + "");
+//			} else {
+//				viewHolder.txtNoreadNum.setVisibility(View.GONE);
+//			}
 
 			if (isEdit) {
 				viewHolder.txtTime.setVisibility(View.GONE);
-				viewHolder.btnDel.setVisibility(View.VISIBLE);
-				viewHolder.btnDel.setOnClickListener(onClickListener);
-				viewHolder.btnDel.setTag(sessionVo);
 			} else {
-				viewHolder.btnDel.setVisibility(View.GONE);
 				viewHolder.txtTime.setVisibility(View.VISIBLE);
 				viewHolder.txtTime.setText(TextdescTool.timeDifference(time));
 			}
@@ -610,18 +606,13 @@ public class SessionActivity extends BaseActivity{
 	static class ViewHolder {
 		ImageView imgSubscript;
 		ImageView imgHead;
-//		ImageView imgSex;
 
 		TextView txtUsername;
-		TextView txtNoreadNum; // 未读条数
-//		TextView txtAge;
-//		TextView txtLocation;
-//		TextView txtLine;
+//		TextView txtNoreadNum; // 未读条数
 		TextView txtSign;
 
 		TextView txtTime;
 
-		Button btnDel;
 
 		public static ViewHolder getViewHolder(View view) {
 			ViewHolder viewHolder = new ViewHolder();
@@ -629,24 +620,16 @@ public class SessionActivity extends BaseActivity{
 					.findViewById(R.id.list_item_img_subscript);
 			viewHolder.imgHead = (ImageView) view
 					.findViewById(R.id.list_item_img_head);
-//			viewHolder.imgSex = (ImageView) view
-//					.findViewById(R.id.list_img_sex);
 
 			viewHolder.txtUsername = (TextView) view
 					.findViewById(R.id.list_txt_title);
-			viewHolder.txtNoreadNum = (TextView) view
-					.findViewById(R.id.list_txt_type);
-//			viewHolder.txtAge = (TextView) view.findViewById(R.id.list_txt_age);
-//			viewHolder.txtLocation = (TextView) view
-//					.findViewById(R.id.list_txt_location);
-//			viewHolder.txtLine = (TextView) view
-//					.findViewById(R.id.list_txt_state);
+//			viewHolder.txtNoreadNum = (TextView) view
+//					.findViewById(R.id.list_txt_type);
 			viewHolder.txtSign = (TextView) view
 					.findViewById(R.id.list_txt_message_info);
 			viewHolder.txtTime = (TextView) view
 					.findViewById(R.id.list_txt_time);
 
-			viewHolder.btnDel = (Button) view.findViewById(R.id.list_btn_del);
 
 			return viewHolder;
 		}

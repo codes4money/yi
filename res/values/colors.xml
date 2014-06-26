@@ -50,9 +50,10 @@
  	 	<color name="light_gray">#828485</color>
  	 	<color name="line">#A9A9A9</color>
  	 	<color name="glod_yellow">#ffd200</color>
-   <color name="pl_base_tag_color">#696969</color>
+   <color name="pl_base_tag_color">#777777</color>
    <color name="pl_base_info_color">#000000</color>
-   <color name="pl_text_username_color">#000000</color>	<color name="text_dark_black">#000000</color>
+   <color name="pl_text_username_color">#555555</color>	
+   <color name="text_dark_black">#000000</color>
  	<color name="fullscreen">#D6D6D6</color>
  	<color name="AppBackgroundColor">#FFC0E7FA</color>
 	<color name="TextColorBlack">#FF000000</color>
