@@ -334,7 +334,8 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 	@Override
 	protected void initTitle() {
 		setBtnBack();
-		setTitleRight(R.string.title_more);
+		setTitleRight("");
+		getBtnTitleRight().setBackgroundResource(R.drawable.btn_chat_more);;
 	}
 	
 	/************  发送消息 ************/

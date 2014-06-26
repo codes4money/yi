@@ -15,9 +15,9 @@
         style="@style/PLTitleButtonBack"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="-16dp"
         android:background="@drawable/btn_back_style"
-        android:text="@string/title_btn_back" />
+        />
 
     <Button
         android:id="@+id/title_left"

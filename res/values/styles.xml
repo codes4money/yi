@@ -239,7 +239,7 @@
     </style>
     <!-- 标题返回按钮 -->
     <style name="PLTitleButtonBack" parent="@style/PLTitleButton">
-        <item name="android:layout_width">58dp</item>
+        <item name="android:layout_width">63dp</item>
     </style>
 
     <!-- 登录输入文本框 -->

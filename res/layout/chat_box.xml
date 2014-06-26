@@ -9,8 +9,8 @@
 
         <ToggleButton
             android:id="@+id/chat_box_btn_info"
-            android:layout_width="42dp"
-            android:layout_height="@dimen/chat_box_height"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
             android:layout_marginLeft="5dp"
@@ -21,10 +21,11 @@
 
         <Button
             android:id="@+id/chat_box_btn_add"
-            android:layout_width="42dp"
-            android:layout_height="42dp"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
             android:layout_alignBaseline="@+id/chat_box_btn_info"
             android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
             android:layout_toRightOf="@+id/chat_box_btn_info"
             android:background="@drawable/btn_chat_box_add" />
 
@@ -41,6 +42,7 @@
             android:visibility="gone"
             />
         <EditText
+            android:layout_marginLeft="5dp"
             android:id="@+id/chat_box_edit_keyword"
             android:layout_width="fill_parent"
             android:layout_centerVertical="true"
@@ -62,8 +64,8 @@
 
         <Button
             android:id="@+id/chat_box_btn_send"
-            android:layout_width="wrap_content"
-            android:layout_height="@dimen/chat_box_height"
+            android:layout_width="52dp"
+            android:layout_height="40dp"
             android:layout_alignBaseline="@+id/chat_box_btn_info"
             android:layout_alignParentRight="true"
             android:layout_centerVertical="true"
@@ -72,5 +74,6 @@
             android:layout_marginRight="5dp"
             android:background="@drawable/btn_chat_box_send"
             android:text="发送" 
+            android:textColor="@color/white"
             />
     </RelativeLayout>
