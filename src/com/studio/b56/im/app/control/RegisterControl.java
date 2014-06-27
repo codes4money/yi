@@ -1,5 +1,6 @@
 package com.studio.b56.im.app.control;
 
+import tools.StringUtils;
 import android.text.TextUtils;
 import android.widget.Toast;
 
@@ -27,7 +28,7 @@ public class RegisterControl{
 				.toString();
 
 		if (TextUtils.isEmpty(username)) {
-			Toast.makeText(registerActivity, "请填写帐号", Toast.LENGTH_SHORT)
+			Toast.makeText(registerActivity, "请填写手机号码", Toast.LENGTH_SHORT)
 					.show();
 			return;
 		} else if (TextUtils.isEmpty(nickname)) {
@@ -48,8 +49,8 @@ public class RegisterControl{
 //			Toast.makeText(registerActivity, "填写推荐人号码!", Toast.LENGTH_SHORT)
 //			.show();
 //		}
-		else if (!validatePhone(username) && !RegisterUtil.isEmail(username)) {
-			Toast.makeText(registerActivity, "请输入正确的手机号或邮箱", Toast.LENGTH_SHORT)
+		else if (!StringUtils.isMobileNO(username)) {
+			Toast.makeText(registerActivity, "请输入正确的手机号", Toast.LENGTH_SHORT)
 					.show();
 			return;
 		} else if (!validatePassword(password)) {

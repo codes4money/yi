@@ -1263,6 +1263,11 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				if(!checkSdcard()){
 					break;
 				}
+				try {
+					playListener.stop();
+				} catch (Exception e) {
+					
+				}
 				audioManager.setMode(AudioManager.MODE_NORMAL); 
 				readerImpl.showDg();
 				break;
