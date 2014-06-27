@@ -283,7 +283,7 @@ public class main_tab_contact  extends BaseActivity{
 		topMiddle = (TextView) this.findViewById(R.id.topMiddle);
 		
 		topLeft.setVisibility(View.GONE);
-		topMiddle.setText("通讯录");
+		topMiddle.setText(getResources().getString(R.string.address_book));
 		topRight.setBackgroundResource(R.drawable.add_btn);
 		topRight.setOnClickListener(new OnClickListener() {
 			@Override
@@ -359,12 +359,12 @@ class MyAdapter extends ObjectBaseAdapter<CustomerVo> implements SectionIndexer{
 					//viewHolder2 = ViewHolder.getInstance(convertView);
 					if(position==0)
 					{
-					  ((TextView) convertView.findViewById(R.id.grouplist_txt)).setText("新约朋友");
+					  ((TextView) convertView.findViewById(R.id.grouplist_txt)).setText(getResources().getString(R.string.new_friend));
 				      ((ImageView)convertView.findViewById(R.id.grouplist_img)).setImageResource(R.drawable.new_friend);
 					}
 					else
 					{
-						  ((TextView) convertView.findViewById(R.id.grouplist_txt)).setText("我的群组");
+						  ((TextView) convertView.findViewById(R.id.grouplist_txt)).setText(getResources().getString(R.string.my_crowd));
 					      ((ImageView)convertView.findViewById(R.id.grouplist_img)).setImageResource(R.drawable.old_friend);
 					}
 				}

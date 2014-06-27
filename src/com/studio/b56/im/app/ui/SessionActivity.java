@@ -122,7 +122,7 @@ public class SessionActivity extends BaseActivity{
 				getBaseContext());
 		listMsgView.setAdapter(adapter);
 		listMsgView.setOnItemClickListener(new ListItemOnClick());
-		// listMsgView.setOnItemLongClickListener(new ItemOnLongClick());
+		 listMsgView.setOnItemLongClickListener(new ItemOnLongClick());
 		receiver = new MyBroadcastReceiver();
 		this.registerReceiver();
 		initAdaperView();
@@ -172,8 +172,9 @@ public class SessionActivity extends BaseActivity{
 	}
 	
 	private int[] resImg = { R.drawable.sweep, R.drawable.sweep, R.drawable.sweep };
+//	private String[] addContent = { getResources().getString(R.string.start_chat), getResources().getString(R.string.add_friends), getResources().getString(R.string.scan_to_scan) };
 	private String[] addContent = { "发起聊天", "添加朋友", "扫一扫" };
-
+	
 	private void showWindow(View parent) {
 
 		if (pw == null) {
@@ -305,7 +306,7 @@ public class SessionActivity extends BaseActivity{
 				@Override
 				protected void onPreExecute() {
 					super.onPreExecute();
-					getWaitDialog().setMessage("删除列表");
+					getWaitDialog().setMessage(getResources().getString(R.string.delete_list));
 					getWaitDialog().show();
 				}
 
@@ -313,10 +314,10 @@ public class SessionActivity extends BaseActivity{
 				protected void onPostExecute(Boolean result) {
 					super.onPostExecute(result);
 					if (result) {
-						getWaitDialog().setMessage("删除成功!");
+						getWaitDialog().setMessage(getResources().getString(R.string.delete_successed));
 						adapter.removeSession(sessionVo);
 					} else {
-						getWaitDialog().setMessage("删除失败!");
+						getWaitDialog().setMessage(getResources().getString(R.string.delete_failed));
 					}
 
 					getWaitDialog().cancel();
@@ -330,8 +331,9 @@ public class SessionActivity extends BaseActivity{
 
 			}.execute();
 		} else {
-			showToast("删除失败!");
+			showToast(getResources().getString(R.string.delete_failed));
 		}
+		listDialog.dismiss();
 	}
 
 	private void initAdaperView() {
@@ -406,7 +408,7 @@ public class SessionActivity extends BaseActivity{
 			if (listDialog == null) {
 				AlertDialog.Builder builder = new AlertDialog.Builder(
 						SessionActivity.this);
-				builder.setTitle("删除列表");
+				builder.setTitle(getResources().getString(R.string.delete_list));
 				View view = LayoutInflater.from(getBaseContext()).inflate(
 						R.layout.alert_session_action, null);
 				builder.setView(view);
