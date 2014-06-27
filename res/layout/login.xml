@@ -2,8 +2,22 @@
 <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginBottom="@dimen/layout_size_20" android:src="@drawable/logo" />
-    <EditText android:id="@+id/userName" android:background="@drawable/input" android:paddingLeft="@dimen/layout_size_10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_30" android:layout_marginTop="@dimen/layout_size_20" android:layout_marginRight="@dimen/layout_size_30" android:hint="输入约架帐号" />
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="@dimen/layout_size_20"
+        android:layout_marginTop="@dimen/layout_size_10"
+        android:src="@drawable/ic_launch" />
+
+    <EditText android:id="@+id/userName" 
+        android:background="@drawable/input"
+         android:paddingLeft="@dimen/layout_size_10" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:layout_marginLeft="@dimen/layout_size_30" 
+         android:layout_marginTop="@dimen/layout_size_20" 
+         android:layout_marginRight="@dimen/layout_size_30"
+          android:hint="输入手机号码" />
 
     <EditText
         android:id="@+id/userPsw"
