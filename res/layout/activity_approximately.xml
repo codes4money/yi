@@ -77,7 +77,7 @@
                     android:scaleType="centerInside"
                     android:layout_centerVertical="true"
                     android:layout_marginLeft="10dp"
-                    android:src="@drawable/profile_changpassword"
+                    android:src="@drawable/discover_scan"
                     />
                 <TextView 
                     android:layout_marginLeft="60dp"

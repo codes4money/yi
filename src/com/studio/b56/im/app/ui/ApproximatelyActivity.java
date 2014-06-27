@@ -116,7 +116,7 @@ public class ApproximatelyActivity extends Activity   {
 //
 	private void setTop() {
 		topLeft.setVisibility(View.GONE);
-		topMiddle.setText("开放功能");
+		topMiddle.setText("发现");
 		//topRight.setBackgroundResource(R.drawable.add_btn);
 		topRight.setVisibility(View.GONE);
 	}
