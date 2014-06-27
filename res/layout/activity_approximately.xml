@@ -2,5 +2,120 @@
 <LinearLayout android:orientation="vertical" android:background="@drawable/bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <include layout="@layout/title_bar" />
-    <ListView android:id="@id/aList" android:background="#00000000" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/layout_size_10" android:cacheColorHint="#00000000" android:divider="#00000000" android:dividerHeight="10.0dip" />
+    
+    <RelativeLayout 
+                android:id="@+id/btnAlbum"
+                android:onClick="ButtonClick"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView 
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/profile_myalbum"
+                    />
+                <TextView 
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="我的圈子"
+					android:textColor="@color/profile_text_color"
+					android:textSize="@dimen/profile_text_size"
+                    />
+            </RelativeLayout>
+            
+            <RelativeLayout 
+                android:id="@+id/btnLocation"
+                android:onClick="ButtonClick"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView 
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/profile_location"
+                    />
+                <TextView 
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="谁在附近"
+					android:textColor="@color/profile_text_color"
+					android:textSize="@dimen/profile_text_size"
+                    />
+            </RelativeLayout>
+            
+            <RelativeLayout 
+                android:id="@+id/btnScan"
+                android:onClick="ButtonClick"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView 
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/profile_changpassword"
+                    />
+                <TextView 
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="扫一扫"
+					android:textColor="@color/profile_text_color"
+					android:textSize="@dimen/profile_text_size"
+                    />
+            </RelativeLayout>
+            
+            <!-- <RelativeLayout 
+                android:id="@+id/btnScan"
+                android:onClick="ButtonClick"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#ffffff"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                >
+                <ImageView 
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:scaleType="centerInside"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:src="@drawable/profile_changpassword"
+                    />
+                <TextView 
+                    android:layout_marginLeft="60dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="扫一扫"
+					android:textColor="@color/profile_text_color"
+					android:textSize="@dimen/profile_text_size"
+                    />
+            </RelativeLayout> -->
 </LinearLayout>

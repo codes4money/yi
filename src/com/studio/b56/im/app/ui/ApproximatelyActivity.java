@@ -18,13 +18,10 @@ import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ApproximatelyActivity extends Activity implements OnClickListener {
+public class ApproximatelyActivity extends Activity   {
 
 	private ImageButton topLeft, topRight;
 	private TextView topMiddle;
-
-	private ListView aList;
-	private ApproximatelyAdapter aAdapter;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -50,68 +47,86 @@ public class ApproximatelyActivity extends Activity implements OnClickListener {
 		topLeft = (ImageButton) this.findViewById(R.id.topLeft);
 		topRight = (ImageButton) this.findViewById(R.id.topRight);
 		topMiddle = (TextView) this.findViewById(R.id.topMiddle);
-		aList = (ListView) this.findViewById(R.id.aList);
-		setListener();
-	}
-
-	private void setListener() {
 		setTop();
-		topRight.setOnClickListener(this);
-		aAdapter = new ApproximatelyAdapter(this, getArr());
-		aList.setAdapter(aAdapter);
-		aList.setOnItemClickListener(new OnItemClickListener() {
-			@Override
-			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
-					long arg3) {
-				
-				if(arg2==0)
-				{
-					Intent intent = new Intent(ApproximatelyActivity.this, weibo_main.class);
-					startActivity(intent);
-				}
-				else if(arg2==1)
-				{
-					Intent intent = new Intent(ApproximatelyActivity.this, LocationActivity.class);
-					startActivity(intent);
-				}
-				else  if(arg2==2)
-				{
-					Intent intent = new Intent(ApproximatelyActivity.this,CaptureActivity.class);
-					startActivity(intent);
-				}
-				
-			}
-		});
 	}
 
-	private int[] resImg = { R.drawable.me_img, R.drawable.wholocal,
-			R.drawable.sweep, R.drawable.game };
-	private String[] aContent = { "我的圈子", "谁在附近", "扫一扫", "功能有待上线，请关注我们的官方" };
-
-	private ArrayList<ApproximatelyBean> getArr() {
-		ArrayList<ApproximatelyBean> arr = new ArrayList<ApproximatelyBean>();
-		for (int i = 0; i < resImg.length; i++) {
-			ApproximatelyBean ab = new ApproximatelyBean();
-			ab.setResImg(resImg[i]);
-			ab.setTitle(aContent[i]);
-			arr.add(ab);
+	public void ButtonClick(View v) {
+		switch (v.getId()) {
+		case R.id.btnAlbum:
+			startActivity(new Intent(ApproximatelyActivity.this, weibo_main.class));
+			break;
+			
+		case R.id.btnLocation:
+			startActivity(new Intent(ApproximatelyActivity.this, LocationActivity.class));
+			break;
+			
+		case R.id.btnScan:
+			startActivity(new Intent(ApproximatelyActivity.this,CaptureActivity.class));
+			break;
+			
+			default:
+				break;
 		}
-		return arr;
 	}
-
+	
+//	private void setListener() {
+//		
+//		topRight.setOnClickListener(this);
+//		aAdapter = new ApproximatelyAdapter(this, getArr());
+//		aList.setAdapter(aAdapter);
+//		aList.setOnItemClickListener(new OnItemClickListener() {
+//			@Override
+//			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+//					long arg3) {
+//				
+//				if(arg2==0)
+//				{
+//					Intent intent = new Intent(ApproximatelyActivity.this, weibo_main.class);
+//					startActivity(intent);
+//				}
+//				else if(arg2==1)
+//				{
+//					Intent intent = new Intent(ApproximatelyActivity.this, LocationActivity.class);
+//					startActivity(intent);
+//				}
+//				else  if(arg2==2)
+//				{
+//					Intent intent = new Intent(ApproximatelyActivity.this,CaptureActivity.class);
+//					startActivity(intent);
+//				}
+//				
+//			}
+//		});
+//	}
+//
+//	private int[] resImg = { R.drawable.me_img, R.drawable.wholocal,
+//			R.drawable.sweep, R.drawable.game };
+//	private String[] aContent = { "我的圈子", "谁在附近", "扫一扫", "功能有待上线，请关注我们的官方" };
+//
+//	private ArrayList<ApproximatelyBean> getArr() {
+//		ArrayList<ApproximatelyBean> arr = new ArrayList<ApproximatelyBean>();
+//		for (int i = 0; i < resImg.length; i++) {
+//			ApproximatelyBean ab = new ApproximatelyBean();
+//			ab.setResImg(resImg[i]);
+//			ab.setTitle(aContent[i]);
+//			arr.add(ab);
+//		}
+//		return arr;
+//	}
+//
 	private void setTop() {
 		topLeft.setVisibility(View.GONE);
 		topMiddle.setText("开放功能");
 		//topRight.setBackgroundResource(R.drawable.add_btn);
 		topRight.setVisibility(View.GONE);
 	}
-
-	@Override
-	public void onClick(View v) {
-		switch (v.getId()) {
-		case R.id.topRight:
-			Toast.makeText(getBaseContext(), "add",1).show();
-			break;
-		}
-	}
+//
+//	@Override
+//	public void onClick(View v) {
+//		switch (v.getId()) {
+//		case R.id.topRight:
+//			Toast.makeText(getBaseContext(), "add",1).show();
+//			break;
+//		}
+//	}
 }

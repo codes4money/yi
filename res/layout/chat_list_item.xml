@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
-    android:layout_height="70dp"
+    android:layout_height="wrap_content"
     android:orientation="vertical" 
     android:background="@color/white"
     android:descendantFocusability="blocksDescendants"
@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/list_item_img_head"
-        android:layout_width="@dimen/pl_head_image_width_h"
-        android:layout_height="@dimen/pl_head_image_height_h"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
         android:layout_alignParentLeft="true"
         android:src="@drawable/head_man"
         android:scaleType="centerCrop"
@@ -27,19 +27,18 @@
 
     <RelativeLayout
         android:layout_width="fill_parent"
-        android:layout_height="70dp"
+        android:layout_height="wrap_content"
         android:layout_toRightOf="@+id/list_item_img_head"
         android:layout_marginLeft="13dp"
           >
         <!-- 一列 -->
         <TextView
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="8dp"
             android:id="@+id/list_txt_title"
             style="@style/list_item_txt_username"
             android:layout_width="wrap_content"
             android:singleLine="true"
              />
-
 
         <TextView
             android:id="@+id/list_txt_message_info"
@@ -51,7 +50,7 @@
              />
         <!-- 右列 -->
         <TextView
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="10dp"
             android:id="@+id/list_txt_time"
             style="@style/list_item_txt_tag"
             android:layout_alignParentRight="true"
