@@ -51,13 +51,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="记住密码" />
+            android:text="@string/remeber_password" />
 
         <TextView android:textColor="@color/black" 
             android:layout_gravity="center" 
             android:layout_width="wrap_content" 
             android:layout_height="wrap_content" 
-            android:text="记住密码" />
+            android:text="@string/remeber_password" />
         
         <TextView
             android:id="@+id/login_unremember_password"
@@ -70,8 +70,25 @@
 
     </LinearLayout>
 
-    <Button android:textSize="@dimen/txt_size_max_20" android:textColor="@color/white" android:id="@+id/loginBtn" android:background="@drawable/login_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_30" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginRight="@dimen/layout_size_30" android:layout_marginBottom="@dimen/layout_size_10" android:text="登录" />
+    <Button android:textSize="@dimen/txt_size_max_20"
+         android:textColor="@color/white" android:id="@+id/loginBtn"
+          android:background="@drawable/login_btn" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content" 
+          android:layout_marginLeft="@dimen/layout_size_30" 
+          android:layout_marginTop="@dimen/layout_size_10" 
+          android:layout_marginRight="@dimen/layout_size_30" 
+          android:layout_marginBottom="@dimen/layout_size_10"
+           android:text="@string/login" />
 
-    <Button android:layout_gravity="right" android:id="@+id/regBtn" android:background="@drawable/noaccounttxt_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/layout_size_30" android:layout_marginTop="@dimen/layout_size_10" android:layout_marginRight="@dimen/layout_size_40" android:layout_marginBottom="@dimen/layout_size_10" />
+    <Button android:layout_gravity="right"
+         android:id="@+id/regBtn" 
+         android:background="@drawable/noaccounttxt_btn" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content"
+          android:layout_marginLeft="@dimen/layout_size_30" 
+          android:layout_marginTop="@dimen/layout_size_10"
+           android:layout_marginRight="@dimen/layout_size_40" 
+        android:layout_marginBottom="@dimen/layout_size_10" />
 
 </LinearLayout>

@@ -13,21 +13,21 @@
         style="@style/PLButton5"
         android:layout_width="250dp"
         android:layout_height="52dp"
-        android:text="复制"
+        android:text="@string/copy"
         />
     
     <Button android:id="@+id/alert_chat_main_btn_delmsg"
         style="@style/PLButton5"
         android:layout_width="250dp"
         android:layout_height="52dp"
-        android:text="删除消息"
+        android:text="@string/delete_message"
         />
     
     <Button android:id="@+id/alert_chat_main_btn_resend"
         style="@style/PLButton5"
         android:layout_width="250dp"
         android:layout_height="52dp"
-        android:text="重新发送"
+        android:text="@string/resend"
         />
     
      <Button 
@@ -36,7 +36,7 @@
         style="@style/PLButton5"
         android:layout_width="250dp"
         android:layout_height="52dp"
-        android:text="取消"
+        android:text="@string/cancel_message"
         />
 
 </LinearLayout>

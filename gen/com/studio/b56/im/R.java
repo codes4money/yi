@@ -2785,6 +2785,7 @@ public final class R {
         public static final int accout_chatiing=0x7f0b00c8;
         public static final int accout_withchat=0x7f0b00c9;
         public static final int add_friend=0x7f0b00f3;
+        public static final int add_friends=0x7f0b04a0;
         public static final int add_photo=0x7f0b00d7;
         public static final int add_room_mem_err=0x7f0b02b1;
         public static final int add_room_mem_memberExits=0x7f0b02b4;
@@ -2792,6 +2793,10 @@ public final class R {
         public static final int addcontact_fail=0x7f0b0332;
         public static final int addcontact_fail_blacklist=0x7f0b0333;
         public static final int adding_room_mem=0x7f0b02b0;
+        /**  main_tab_contact.java 
+ main_tab_contact.java 
+         */
+        public static final int address_book=0x7f0b04a5;
         public static final int address_delcontact=0x7f0b0175;
         public static final int address_delgroupcard=0x7f0b0176;
         public static final int address_empty_blacklist_tip=0x7f0b0177;
@@ -2819,6 +2824,14 @@ public final class R {
         public static final int app_name=0x7f0b001a;
         public static final int app_zh_CN=0x7f0b0013;
         public static final int app_zh_TW=0x7f0b0014;
+        /**  alert_chat_main_more.xml 
+ alert_chat_main_more.xml 
+         */
+        public static final int apply_look=0x7f0b04c8;
+        /**  friend_add.xml 
+ friend_add.xml 
+         */
+        public static final int around_person=0x7f0b04be;
         public static final int authed_customer=0x7f0b008d;
         public static final int authorize_title=0x7f0b0029;
         public static final int auto_disabled=0x7f0b03ca;
@@ -2933,12 +2946,14 @@ public final class R {
         public static final int cancel=0x7f0b0476;
         public static final int cancel_install_alipay=0x7f0b047d;
         public static final int cancel_install_msp=0x7f0b047c;
+        public static final int cancel_message=0x7f0b04c7;
         public static final int card_title_call_ended=0x7f0b043d;
         public static final int card_title_dialing=0x7f0b043a;
         public static final int card_title_ended_no_codec=0x7f0b043e;
         public static final int card_title_in_progress=0x7f0b043b;
         public static final int card_title_incoming_call=0x7f0b043c;
         public static final int card_title_on_hold=0x7f0b043f;
+        public static final int change_password=0x7f0b049a;
         public static final int chat_box_expra_camera=0x7f0b0053;
         public static final int chat_box_expra_expression=0x7f0b0052;
         public static final int chat_box_expra_location=0x7f0b0055;
@@ -2990,7 +3005,12 @@ public final class R {
         public static final int chatting_status_voice_typing=0x7f0b0187;
         public static final int chatting_toast_sdk_fail=0x7f0b0185;
         public static final int chatting_use_handset=0x7f0b018e;
+        public static final int choose_pic_error=0x7f0b04ab;
         public static final int cities=0x7f0b03a2;
+        public static final int clear_chat=0x7f0b04c9;
+        public static final int clear_content=0x7f0b04b8;
+        public static final int clear_failed=0x7f0b04ba;
+        public static final int clear_successed=0x7f0b04b9;
         public static final int codecs=0x7f0b0445;
         public static final int codecs_move=0x7f0b0447;
         public static final int codecs_move_down=0x7f0b0449;
@@ -3023,9 +3043,11 @@ public final class R {
         public static final int conditionfilter_tallone=0x7f0b00a9;
         public static final int conditionfilter_threedday=0x7f0b00b2;
         /**  条件筛选页面 
+ 条件筛选页面 
          */
         public static final int conditionfilter_title=0x7f0b009d;
         /**  vip条件筛选 
+ vip条件筛选 
          */
         public static final int conditionfilter_vip=0x7f0b00bb;
         public static final int conditionfilter_weight=0x7f0b00aa;
@@ -3034,6 +3056,7 @@ public final class R {
         public static final int confirm_title=0x7f0b0474;
         public static final int contact_default_note=0x7f0b045d;
         /**  contact info begin 
+ contact info begin 
          */
         public static final int contact_group=0x7f0b044c;
         public static final int contact_info_add=0x7f0b0225;
@@ -3129,6 +3152,10 @@ public final class R {
         public static final int contact_search_account_hint=0x7f0b0278;
         public static final int contact_search_title=0x7f0b0277;
         public static final int content_description_icon=0x7f0b0477;
+        /**  alert_chat_main_action.xml 
+ alert_chat_main_action.xml 
+         */
+        public static final int copy=0x7f0b04c4;
         public static final int country_code=0x7f0b01f8;
         public static final int country_normal_code=0x7f0b01f9;
         public static final int country_normal_name=0x7f0b01fa;
@@ -3137,9 +3164,14 @@ public final class R {
         public static final int cropimage_save=0x7f0b02a7;
         public static final int cropimage_saved=0x7f0b02aa;
         public static final int cropimage_use=0x7f0b02a8;
+        public static final int default_dial_number=0x7f0b049c;
         public static final int del_contact_warning=0x7f0b0233;
         public static final int del_groupcard_warning=0x7f0b0234;
         public static final int del_room_mem_comfirm=0x7f0b02b3;
+        public static final int delete_failed=0x7f0b04a4;
+        public static final int delete_list=0x7f0b04a2;
+        public static final int delete_message=0x7f0b04c5;
+        public static final int delete_successed=0x7f0b04a3;
         public static final int detail_info_albums=0x7f0b0080;
         public static final int detail_info_job=0x7f0b0084;
         public static final int detail_info_mobilephone=0x7f0b0085;
@@ -3174,6 +3206,8 @@ public final class R {
         public static final int dial_waiting_back_call_connect=0x7f0b0471;
         /**   contact info end 
  dial activity 
+  contact info end 
+ dial activity 
          */
         public static final int dialer_and_call_logs_title=0x7f0b0464;
         public static final int dialog_default=0x7f0b03e5;
@@ -3182,15 +3216,19 @@ public final class R {
         public static final int dialog_register_txt_title_tag=0x7f0b0050;
         public static final int discard=0x7f0b045c;
         public static final int discard_contact_confirm=0x7f0b045f;
+        public static final int display_deploy=0x7f0b049d;
         public static final int dontask=0x7f0b03ea;
         public static final int download=0x7f0b047a;
         public static final int download_fail=0x7f0b047b;
+        public static final int download_video=0x7f0b04af;
+        public static final int download_video_error=0x7f0b04b0;
         public static final int editdata_birthday=0x7f0b00bf;
         public static final int editdata_name=0x7f0b00be;
         public static final int editdata_salary_day=0x7f0b00c2;
         public static final int editdata_salary_hour=0x7f0b00c1;
         public static final int editdata_service=0x7f0b00c0;
         /**  编辑资料页面 
+ 编辑资料页面 
          */
         public static final int editdata_title=0x7f0b00bd;
         public static final int empty=0x7f0b03cd;
@@ -3200,6 +3238,7 @@ public final class R {
         public static final int errcode_nouser=0x7f0b0155;
         public static final int errcode_password=0x7f0b0154;
         /**  相册 
+ 相册 
          */
         public static final int falbum_title=0x7f0b00cf;
         public static final int find_friends_by_micromsg=0x7f0b02d4;
@@ -3211,6 +3250,8 @@ public final class R {
         public static final int friend_info_qq=0x7f0b029c;
         public static final int friend_not_added=0x7f0b029b;
         public static final int friend_photo_no=0x7f0b00dd;
+        public static final int get_lon_lat_error=0x7f0b04aa;
+        public static final int get_userinfo_error=0x7f0b04bd;
         public static final int getback_password=0x7f0b007e;
         public static final int hello_world=0x7f0b0031;
         public static final int help_speakerphone=0x7f0b0481;
@@ -3226,10 +3267,19 @@ public final class R {
         public static final int individual_centerActivity_point_tag=0x7f0b007b;
         public static final int individual_centerActivity_sms_tag=0x7f0b007a;
         public static final int individual_centerActivity_title=0x7f0b0074;
+        public static final int init=0x7f0b0486;
         /** 登录页面  
+登录页面  
          */
         public static final int input_accountmobile=0x7f0b0482;
+        public static final int input_nick_name=0x7f0b048c;
         public static final int input_password=0x7f0b0483;
+        /**  add_friend_mod.xml 
+ add_friend_mod.xml 
+         */
+        public static final int input_phonenumber_or_email=0x7f0b04c1;
+        public static final int input_surepassword=0x7f0b048f;
+        public static final int input_telphone=0x7f0b048a;
         public static final int install_alipay=0x7f0b0480;
         public static final int install_msp=0x7f0b047f;
         public static final int intro_create_account_qq=0x7f0b0122;
@@ -3253,9 +3303,11 @@ public final class R {
         public static final int license_agree=0x7f0b0127;
         public static final int license_detail=0x7f0b0128;
         public static final int link_no_such_group=0x7f0b02d2;
+        public static final int loading=0x7f0b0487;
         public static final int location_comprehensivescore=0x7f0b0023;
         public static final int location_distance=0x7f0b0022;
         public static final int location_fwpf=0x7f0b0006;
+        public static final int location_info=0x7f0b04b7;
         public static final int location_left=0x7f0b0027;
         public static final int location_load=0x7f0b0048;
         public static final int location_right=0x7f0b0026;
@@ -3263,6 +3315,7 @@ public final class R {
         public static final int location_title=0x7f0b0025;
         public static final int location_wmpf=0x7f0b0007;
         public static final int location_zhpf=0x7f0b0004;
+        public static final int login=0x7f0b0485;
         public static final int login_account_hint=0x7f0b0156;
         public static final int login_err_mailnotverify=0x7f0b015b;
         public static final int login_err_title=0x7f0b015a;
@@ -3271,6 +3324,9 @@ public final class R {
         public static final int login_logining=0x7f0b0159;
         public static final int login_password_hint=0x7f0b0157;
         public static final int login_title=0x7f0b0019;
+        public static final int logout=0x7f0b049e;
+        public static final int logout_restart=0x7f0b04bc;
+        public static final int loudspeaker_model=0x7f0b04b3;
         public static final int main_addcontact=0x7f0b015f;
         public static final int main_contact=0x7f0b015e;
         public static final int main_create_shortcut=0x7f0b016c;
@@ -3291,6 +3347,7 @@ public final class R {
         public static final int main_title=0x7f0b015d;
         public static final int map_customloc=0x7f0b00e4;
         /**  地图定位 
+ 地图定位 
          */
         public static final int map_myloc=0x7f0b00e3;
         public static final int map_send=0x7f0b00e5;
@@ -3309,6 +3366,7 @@ public final class R {
         public static final int menu_speaker=0x7f0b0435;
         public static final int menu_transfer=0x7f0b0434;
         public static final int menu_video=0x7f0b0430;
+        public static final int message_more=0x7f0b04b2;
         public static final int mobile_friend_err=0x7f0b0291;
         public static final int mobile_friend_loading=0x7f0b0290;
         public static final int mobile_friend_mobile_not_bind=0x7f0b0292;
@@ -3326,17 +3384,30 @@ public final class R {
         public static final int more_title=0x7f0b0008;
         public static final int more_user_protocol=0x7f0b000a;
         public static final int more_validate_update=0x7f0b000c;
+        public static final int my_crowd=0x7f0b04a7;
         public static final int my_evaluate=0x7f0b0037;
+        public static final int my_location=0x7f0b0499;
+        /**  profile 
+ profile 
+         */
+        public static final int my_photoAlbum=0x7f0b0497;
+        /**  discover 
+ discover 
+         */
+        public static final int my_qunzi=0x7f0b0494;
+        public static final int my_weibo=0x7f0b0498;
         public static final int mypoint_auth=0x7f0b0095;
         public static final int mypoint_eg=0x7f0b009c;
         public static final int mypoint_point=0x7f0b0099;
         public static final int mypoint_tocashpoint=0x7f0b009a;
         /**  充值页面 
+ 充值页面 
          */
         public static final int mypoint_vipbuy=0x7f0b0096;
         public static final int mypoint_vipdeadline=0x7f0b0098;
         public static final int mypoint_viprecharge=0x7f0b0097;
         public static final int mypoint_zhu=0x7f0b009b;
+        public static final int near_me=0x7f0b0495;
         public static final int nearby_friend_city_select=0x7f0b036e;
         public static final int nearby_friend_clear_location_exit=0x7f0b037e;
         public static final int nearby_friend_clear_location_exit_hint=0x7f0b037f;
@@ -3367,12 +3438,15 @@ public final class R {
         public static final int net_warn_server_failed=0x7f0b0343;
         public static final int net_warn_show_page=0x7f0b0340;
         public static final int new_album=0x7f0b00d0;
+        public static final int new_friend=0x7f0b04a6;
         public static final int new_password_hint=0x7f0b001e;
         public static final int new_repassword_hint=0x7f0b001f;
         public static final int new_repassword_title=0x7f0b0020;
+        public static final int nick_name=0x7f0b048b;
         public static final int no=0x7f0b03e9;
         public static final int no_album=0x7f0b00d4;
         /**  相片 
+ 相片 
          */
         public static final int no_photo=0x7f0b00d6;
         public static final int noaccount=0x7f0b00ef;
@@ -3393,22 +3467,28 @@ public final class R {
         public static final int onHold=0x7f0b0444;
         public static final int ongoing=0x7f0b0443;
         /**  提现申请 
+ 提现申请 
          */
         public static final int openbankname=0x7f0b00e9;
         public static final int openmobile=0x7f0b00ec;
         public static final int openname=0x7f0b00ea;
+        public static final int pass_word=0x7f0b048d;
         public static final int phoneworng=0x7f0b00f1;
         public static final int photo_auth=0x7f0b00db;
         public static final int photo_del=0x7f0b00dc;
         public static final int photo_name=0x7f0b00d9;
         public static final int photo_privacy=0x7f0b00da;
+        public static final int pic=0x7f0b04b5;
+        public static final int please_input=0x7f0b04c2;
         public static final int point_apply=0x7f0b00e8;
         /**  我的积分弹出框 
+ 我的积分弹出框 
          */
         public static final int point_record=0x7f0b00e6;
         public static final int point_rule=0x7f0b00e7;
         public static final int privacy_albums=0x7f0b0090;
         /**  隐私设置 
+ 隐私设置 
          */
         public static final int privacy_all=0x7f0b00df;
         public static final int privacy_friend=0x7f0b00e1;
@@ -3472,9 +3552,16 @@ public final class R {
         public static final int qq_sync_upload=0x7f0b0348;
         public static final int qq_sync_upload_hint=0x7f0b0349;
         public static final int qq_sync_uploading=0x7f0b0344;
+        public static final int receiver_model=0x7f0b04b4;
         /**  充值页面 
+ 充值页面 
          */
         public static final int recharge_pay=0x7f0b00c4;
+        public static final int record_error=0x7f0b04ac;
+        /**  chatmainactivity.java 
+ chatmainactivity.java 
+         */
+        public static final int record_short=0x7f0b04a8;
         public static final int redo=0x7f0b047e;
         public static final int refresh=0x7f0b0478;
         public static final int reg=0x7f0b03c4;
@@ -3524,6 +3611,7 @@ public final class R {
         public static final int regbyqq_secimg_title=0x7f0b0133;
         public static final int regclick=0x7f0b03c6;
         public static final int regfailed=0x7f0b03c7;
+        public static final int register=0x7f0b0493;
         public static final int register_grzl_accout_type=0x7f0b0058;
         public static final int register_grzl_body=0x7f0b005f;
         public static final int register_grzl_brith=0x7f0b005b;
@@ -3550,11 +3638,13 @@ public final class R {
         public static final int register_protocol_confirm_toast=0x7f0b00c3;
         public static final int register_title=0x7f0b002f;
         public static final int register_validate_txt_validate_tag=0x7f0b0051;
-        public static final int regok=0x7f0b0485;
         public static final int regpref=0x7f0b03c5;
         public static final int regsuccess_nick_title=0x7f0b0153;
         public static final int remeber_password=0x7f0b003e;
         public static final int remember_password=0x7f0b0484;
+        public static final int resend=0x7f0b04c6;
+        public static final int resend_error=0x7f0b04ae;
+        public static final int resending=0x7f0b04ad;
         public static final int room_add_member=0x7f0b02c8;
         public static final int room_add_member_hint=0x7f0b02cd;
         public static final int room_add_member_info_tip=0x7f0b02cf;
@@ -3585,7 +3675,11 @@ public final class R {
         public static final int room_share_friend=0x7f0b02d0;
         public static final int save_contact=0x7f0b045b;
         public static final int saving_contact_progress=0x7f0b0460;
+        public static final int scan=0x7f0b0496;
+        public static final int scan_to_scan=0x7f0b04a1;
         public static final int scroll_bar_search=0x7f0b0369;
+        public static final int search_by_email_or_phone=0x7f0b04c0;
+        public static final int search_by_id=0x7f0b04bf;
         public static final int select_call_number=0x7f0b0473;
         public static final int select_login_by_qq_num=0x7f0b0120;
         public static final int select_login_hint=0x7f0b011e;
@@ -3842,8 +3936,13 @@ public final class R {
         public static final int settings_weibo_address=0x7f0b01aa;
         public static final int settings_wireless_options=0x7f0b0425;
         public static final int settings_wlan=0x7f0b03df;
+        public static final int sever_loading=0x7f0b04a9;
+        public static final int sever_resp_error=0x7f0b04b1;
+        public static final int sex=0x7f0b0490;
         public static final int sex_female=0x7f0b0017;
         public static final int sex_male=0x7f0b0016;
+        public static final int sex_man=0x7f0b0491;
+        public static final int sex_woman=0x7f0b0492;
         public static final int shake_a_friend=0x7f0b03a4;
         public static final int shake_click_to_change_bg=0x7f0b03a8;
         public static final int shake_finding=0x7f0b03a5;
@@ -3883,17 +3982,29 @@ public final class R {
         public static final int skin_getting_list=0x7f0b0383;
         public static final int slide_hint_down_to_end_call=0x7f0b0441;
         public static final int slide_hint_up_to_answer=0x7f0b0442;
+        public static final int sound=0x7f0b04b6;
+        /**  SessionActivity 
+ SessionActivity 
+         */
+        public static final int start_chat=0x7f0b049f;
         public static final int stopping_decode=0x7f0b0463;
         public static final int stopping_rec=0x7f0b0462;
+        public static final int sure=0x7f0b04c3;
+        public static final int sure_password=0x7f0b048e;
+        public static final int system_not=0x7f0b049b;
+        /**  注册界面 
+ 注册界面 
+         */
+        public static final int tel_phone=0x7f0b0489;
         public static final int title_activity_main=0x7f0b0034;
         public static final int title_activity_preview=0x7f0b0033;
         public static final int title_activity_showzooming=0x7f0b03c0;
-        public static final int title_btn_back=0x7f0b0488;
-        public static final int title_btn_bz=0x7f0b0489;
-        public static final int title_btn_next=0x7f0b0487;
+        public static final int title_btn_back=0x7f0b04cc;
+        public static final int title_btn_bz=0x7f0b04cd;
+        public static final int title_btn_next=0x7f0b04cb;
         public static final int title_content_individual_center=0x7f0b003d;
         public static final int title_content_login=0x7f0b003c;
-        public static final int title_grzl=0x7f0b0486;
+        public static final int title_grzl=0x7f0b04ca;
         public static final int title_more=0x7f0b0021;
         public static final int title_mypoint=0x7f0b002e;
         public static final int toast_album=0x7f0b00ca;
@@ -3937,6 +4048,7 @@ public final class R {
         public static final int update_tip_critical=0x7f0b00f5;
         public static final int update_tip_recommended_down=0x7f0b00f4;
         public static final int upload_photo=0x7f0b00d8;
+        public static final int url_null=0x7f0b04bb;
         public static final int verify_account_err_chinese=0x7f0b0102;
         public static final int verify_account_err_other=0x7f0b0104;
         public static final int verify_account_err_space=0x7f0b0103;
@@ -3954,6 +4066,7 @@ public final class R {
         public static final int verify_seccode_fail_tip=0x7f0b010d;
         public static final int verify_seccode_tip=0x7f0b010c;
         public static final int verify_username_null_tip=0x7f0b0108;
+        public static final int vertify_success=0x7f0b0488;
         public static final int video_compress_fail=0x7f0b033d;
         public static final int video_compress_ok=0x7f0b0339;
         public static final int video_compressing=0x7f0b0338;
@@ -3972,12 +4085,12 @@ public final class R {
         public static final int whats_news_item3=0x7f0b03bd;
         public static final int whats_news_item_add_tip=0x7f0b03be;
         public static final int whats_news_item_tip=0x7f0b03bf;
-        public static final int xlistview_footer_hint_normal=0x7f0b048e;
-        public static final int xlistview_footer_hint_ready=0x7f0b048f;
-        public static final int xlistview_header_hint_loading=0x7f0b048c;
-        public static final int xlistview_header_hint_normal=0x7f0b048a;
-        public static final int xlistview_header_hint_ready=0x7f0b048b;
-        public static final int xlistview_header_last_time=0x7f0b048d;
+        public static final int xlistview_footer_hint_normal=0x7f0b04d2;
+        public static final int xlistview_footer_hint_ready=0x7f0b04d3;
+        public static final int xlistview_header_hint_loading=0x7f0b04d0;
+        public static final int xlistview_header_hint_normal=0x7f0b04ce;
+        public static final int xlistview_header_hint_ready=0x7f0b04cf;
+        public static final int xlistview_header_last_time=0x7f0b04d1;
         public static final int yes=0x7f0b03e8;
     }
     public static final class style {

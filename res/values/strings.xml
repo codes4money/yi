@@ -1311,9 +1311,96 @@ QQ号：%s
     <string name="help_speakerphone">Press and hold volume buttons to force talk</string>
     
     
-    
     <!--登录页面  -->
     <string name="input_accountmobile">请输入手机号码</string>
     <string name="input_password">请输入密码</string>
     <string name="remember_password">记住密码</string>
+    <string name="login">登录</string>
+    <string name="init">初始化...</string>
+    <string name="loading">加载中...</string>
+    <string name="vertify_success">验证成功</string>
+     <!-- 注册界面 -->
+    <string name="tel_phone">手机号码:</string>
+    <string name="input_telphone">请输入手机号码!</string>
+    <string name="nick_name">昵称:</string>
+    <string name="input_nick_name">请输入昵称!</string>
+    <string name="pass_word">密码:</string>
+    <string name="sure_password">确认密码:</string>
+    <string name="input_surepassword">请输入确认密码!</string>
+    <string name="sex">性别:</string>
+    <string name="sex_man">男</string>
+    <string name="sex_woman">女</string>
+    <string name="register">注册</string>
+    
+    <!-- discover -->
+    <string name="my_qunzi">我的圈子</string>
+    <string name="near_me">谁在附近</string>
+    <string name="scan">扫一扫</string>
+    
+     <!-- profile -->
+    <string name="my_photoAlbum">我的相册</string>
+    <string name="my_weibo">我的微博</string>
+    <string name="my_location">我的位置</string>
+    <string name="change_password">修改密码</string>
+    <string name="system_not">系统通知</string>
+    <string name="default_dial_number">默认拨号方式</string>
+    <string name="display_deploy">显号配置</string>
+    <string name="logout">退出登录</string>
+    
+    <!-- SessionActivity -->
+   	<string name="start_chat">发起聊天</string>
+   	<string name="add_friends">添加朋友</string>
+   	<string name="scan_to_scan">扫一扫</string>
+   	<string name="delete_list">删除列表</string>
+   	<string name="delete_successed">删除成功!</string>
+   	<string name="delete_failed">删除失败!</string>
+   	
+   	<!-- main_tab_contact.java -->
+   	<string name="address_book">通讯录</string>
+   	<string name="new_friend">新约朋友</string>
+   	<string name="my_crowd">我的群组</string>
+   	
+   	<!-- chatmainactivity.java -->
+   	<string name="record_short">录制时间太短!</string>
+   	<string name="sever_loading">正在连接聊天服务器!</string>
+   	<string name="get_lon_lat_error">获取经纬度错误!</string>
+   	<string name="choose_pic_error">选择图片错误!</string>
+   	<string name="record_error">录音失败!</string>
+   	<string name="resending">重新发送....:</string>
+   	<string name="resend_error">重发失败!</string>
+   	<string name="download_video">下载音频</string>
+   	<string name="download_video_error">下载音频出错：</string>
+   	<string name="sever_resp_error">服务器响应失败</string>
+   	<string name="message_more">更多</string>
+   	<string name="loudspeaker_model">扬声器模式</string>
+   	<string name="receiver_model">听筒模式</string>
+   	<string name="pic">图片</string>
+   	<string name="sound">语音</string>
+   	<string name="location_info">位置信息</string>
+   	<string name="clear_content">清空内容.</string>
+   	<string name="clear_successed">清除成功</string>
+   	<string name="clear_failed">清除失败</string>
+   	<string name="url_null">URL 为空</string>
+   	<string name="logout_restart">无法聊天，不妨注销后重试!</string>
+   	<string name="get_userinfo_error">用户登录信息认证失败!</string>
+   	
+   	<!-- friend_add.xml -->
+   	<string name="around_person">附近的人</string>
+   	<string name="search_by_id">通过ID号查找</string>
+   	<string name="search_by_email_or_phone">通过手机号或邮箱查找</string>
+   	
+   	<!-- add_friend_mod.xml -->
+   	<string name="input_phonenumber_or_email">输入手机号或邮箱:</string>
+   	<string name="please_input">请输入</string>
+   	<string name="sure">确定</string>
+   	
+   	<!-- alert_chat_main_action.xml -->
+   	<string name="copy">复制</string>
+   	<string name="delete_message">删除消息</string>
+   	<string name="resend">重新发送</string>
+   	<string name="cancel_message">取消</string>
+   	
+   	<!-- alert_chat_main_more.xml -->
+   	<string name="apply_look">申请查看</string>
+   	<string name="clear_chat">清空聊天</string>
 </resources>
