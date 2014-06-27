@@ -17,7 +17,7 @@
          android:layout_marginLeft="@dimen/layout_size_30" 
          android:layout_marginTop="@dimen/layout_size_20" 
          android:layout_marginRight="@dimen/layout_size_30"
-          android:hint="输入手机号码" />
+          android:hint="@string/input_accountmobile" />
 
     <EditText
         android:id="@+id/userPsw"
@@ -28,7 +28,7 @@
         android:layout_marginTop="10dp"
         android:background="@drawable/input"
         android:ems="10"
-        android:hint="输入密码"
+        android:hint="@string/input_password"
         android:inputType="textPassword"
         android:paddingLeft="@dimen/layout_size_10" >
 
@@ -53,7 +53,11 @@
             android:checked="true"
             android:text="记住密码" />
 
-        <TextView android:textColor="@color/black" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="记住密码" />
+        <TextView android:textColor="@color/black" 
+            android:layout_gravity="center" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:text="记住密码" />
         
         <TextView
             android:id="@+id/login_unremember_password"

@@ -1309,4 +1309,11 @@ QQ号：%s
     <string name="install_msp">你尚未安装支付宝移动快捷支付服务，请立即安装</string>
     <string name="install_alipay">你尚未安装支付宝钱包，请立即安装</string>
     <string name="help_speakerphone">Press and hold volume buttons to force talk</string>
+    
+    
+    
+    <!--登录页面  -->
+    <string name="input_accountmobile">请输入手机号码</string>
+    <string name="input_password">请输入密码</string>
+    <string name="remember_password">记住密码</string>
 </resources>

@@ -3226,6 +3226,10 @@ public final class R {
         public static final int individual_centerActivity_point_tag=0x7f0b007b;
         public static final int individual_centerActivity_sms_tag=0x7f0b007a;
         public static final int individual_centerActivity_title=0x7f0b0074;
+        /** 登录页面  
+         */
+        public static final int input_accountmobile=0x7f0b0482;
+        public static final int input_password=0x7f0b0483;
         public static final int install_alipay=0x7f0b0480;
         public static final int install_msp=0x7f0b047f;
         public static final int intro_create_account_qq=0x7f0b0122;
@@ -3546,10 +3550,11 @@ public final class R {
         public static final int register_protocol_confirm_toast=0x7f0b00c3;
         public static final int register_title=0x7f0b002f;
         public static final int register_validate_txt_validate_tag=0x7f0b0051;
-        public static final int regok=0x7f0b0482;
+        public static final int regok=0x7f0b0485;
         public static final int regpref=0x7f0b03c5;
         public static final int regsuccess_nick_title=0x7f0b0153;
         public static final int remeber_password=0x7f0b003e;
+        public static final int remember_password=0x7f0b0484;
         public static final int room_add_member=0x7f0b02c8;
         public static final int room_add_member_hint=0x7f0b02cd;
         public static final int room_add_member_info_tip=0x7f0b02cf;
@@ -3883,12 +3888,12 @@ public final class R {
         public static final int title_activity_main=0x7f0b0034;
         public static final int title_activity_preview=0x7f0b0033;
         public static final int title_activity_showzooming=0x7f0b03c0;
-        public static final int title_btn_back=0x7f0b0485;
-        public static final int title_btn_bz=0x7f0b0486;
-        public static final int title_btn_next=0x7f0b0484;
+        public static final int title_btn_back=0x7f0b0488;
+        public static final int title_btn_bz=0x7f0b0489;
+        public static final int title_btn_next=0x7f0b0487;
         public static final int title_content_individual_center=0x7f0b003d;
         public static final int title_content_login=0x7f0b003c;
-        public static final int title_grzl=0x7f0b0483;
+        public static final int title_grzl=0x7f0b0486;
         public static final int title_more=0x7f0b0021;
         public static final int title_mypoint=0x7f0b002e;
         public static final int toast_album=0x7f0b00ca;
@@ -3967,12 +3972,12 @@ public final class R {
         public static final int whats_news_item3=0x7f0b03bd;
         public static final int whats_news_item_add_tip=0x7f0b03be;
         public static final int whats_news_item_tip=0x7f0b03bf;
-        public static final int xlistview_footer_hint_normal=0x7f0b048b;
-        public static final int xlistview_footer_hint_ready=0x7f0b048c;
-        public static final int xlistview_header_hint_loading=0x7f0b0489;
-        public static final int xlistview_header_hint_normal=0x7f0b0487;
-        public static final int xlistview_header_hint_ready=0x7f0b0488;
-        public static final int xlistview_header_last_time=0x7f0b048a;
+        public static final int xlistview_footer_hint_normal=0x7f0b048e;
+        public static final int xlistview_footer_hint_ready=0x7f0b048f;
+        public static final int xlistview_header_hint_loading=0x7f0b048c;
+        public static final int xlistview_header_hint_normal=0x7f0b048a;
+        public static final int xlistview_header_hint_ready=0x7f0b048b;
+        public static final int xlistview_header_last_time=0x7f0b048d;
         public static final int yes=0x7f0b03e8;
     }
     public static final class style {
