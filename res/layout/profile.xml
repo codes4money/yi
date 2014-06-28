@@ -69,7 +69,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="我的相册"
+                    android:text="@string/my_photoAlbum"
 					android:textColor="@color/profile_text_color"
 					android:textSize="@dimen/profile_text_size"
                     />
@@ -98,7 +98,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="我的微博"
+                    android:text="@string/my_weibo"
 					android:textColor="@color/profile_text_color"
 					android:textSize="@dimen/profile_text_size"
                     />
@@ -127,7 +127,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="我的位置"
+                    android:text="@string/my_location"
 					android:textColor="@color/profile_text_color"
 					android:textSize="@dimen/profile_text_size"
                     />
@@ -156,7 +156,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="修改密码"
+                    android:text="@string/change_password"
 					android:textColor="@color/profile_text_color"
 					android:textSize="@dimen/profile_text_size"
                     />
@@ -185,7 +185,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="系统通知"
+                    android:text="@string/system_not"
 					android:textColor="@color/profile_text_color"
 					android:textSize="@dimen/profile_text_size"
                     />
@@ -200,6 +200,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="10dp"
+                android:visibility="gone"
                 >
                 <ImageView 
                     android:layout_width="40dp"
@@ -214,7 +215,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="默认拨号方式"
+                    android:text="@string/default_dial_number"
 					android:textColor="@color/profile_text_color"
 					android:textSize="@dimen/profile_text_size"
                     />
@@ -229,6 +230,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="10dp"
                 android:layout_marginTop="1dp"
+                 android:visibility="gone"
                 >
                 <ImageView 
                     android:layout_width="40dp"
@@ -243,7 +245,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:text="显号配置"
+                    android:text="@string/display_deploy"
 					android:textColor="@color/profile_text_color"
 					android:textSize="@dimen/profile_text_size"
                     />
@@ -255,7 +257,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="44dp"
                 android:layout_margin="10dp"
-                android:text="退出登录"
+                android:text="@string/logout"
                 android:textColor="@color/white"
                 android:textSize="@dimen/profile_text_size"
                 android:background="#f06358"

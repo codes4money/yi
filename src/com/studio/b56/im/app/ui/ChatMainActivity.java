@@ -215,7 +215,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			@Override
 			public void stop(String path) {
 				if (TextUtils.isEmpty(path)) {
-					showToast("录制时间太短!");
+					showToast(getResources().getString(R.string.record_short));
 					return;
 				}
 				File file = new File(path);
@@ -268,7 +268,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		showBitmap = new DialogBitmap(ChatMainActivity.this);
 		
 		if(!opconnectState){
-			showToast("正在连接聊天服务器!");
+			showToast(getResources().getString(R.string.sever_loading));
 		}
 		
 		editSendText.setOnFocusChangeListener(sendTextFocusChangeListener);
@@ -294,7 +294,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 					String lng = bundle.getString("lon");
 					
 					if(TextUtils.isEmpty(lat) || TextUtils.isEmpty(lng)){
-						showToast("获取经纬度错误!");
+						showToast(getResources().getString(R.string.get_lon_lat_error));
 						return;
 					}
 					
@@ -392,7 +392,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			msg.setPullTime(System.currentTimeMillis() + "");
 			uploadBitmap(msg, bitmap);
 		}else{
-			showToast("选择图片错误!");
+			showToast(getResources().getString(R.string.choose_pic_error));
 		}
 	}
 	// 发送音频文件
@@ -411,7 +411,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			msg.setPullTime(System.currentTimeMillis() + "");
 			uploadVoice(msg, filePath);
 		}else{
-			showToast("录音失败!");
+			showToast(getResources().getString(R.string.record_error));
 		}
 	}
 	
@@ -424,12 +424,12 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				sendBroad2Update(messageInfo);
 			}else{
 				File file = new File(ReaderImpl.getAudioPath(getBaseContext()), url);
-				System.out.println("重新发送....:" + file.getAbsolutePath());
+				System.out.println(getResources().getString(R.string.resending) + file.getAbsolutePath());
 				uploadVoice(messageInfo, file);
 			}
 		} catch (Exception e) {
 			Log.d(TAG, "resendVoice:", e);
-			showToast("重发失败!");
+			showToast(getResources().getString(R.string.resend_error));
 		}
 		
 	}
@@ -446,12 +446,12 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				if(bitmap != null){
 					uploadBitmap(messageInfo, bitmap);
 				}else{
-					showToast("重发失败!");
+					showToast(getResources().getString(R.string.resend_error));
 				}
 			}
 		} catch (Exception e) {
 			Log.d(TAG, "resendVoice:", e);
-			showToast("重发失败!");
+			showToast(getResources().getString(R.string.resend_error));
 		}
 	}
 	
@@ -462,7 +462,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		}
 		
 		if(downVoiceList.contains(msg.getContent())){
-			showToast("下载音频");
+			showToast(getResources().getString(R.string.download_video));
 			return;
 		}
 		downVoiceList.add(msg.getContent());
@@ -481,7 +481,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			@Override
 			public void onFailure(Throwable t, String strMsg) {
 				super.onFailure(t, strMsg);
-				showToast("下载音频出错：" + strMsg);
+				showToast(getResources().getString(R.string.download_video_error) + strMsg);
 				downVoiceList.remove(msg.getContent());
 			}
 			
@@ -572,7 +572,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 							addMessageInfo(msg);
 						}
 					});
-					showToast("服务器响应失败");
+					showToast(getResources().getString(R.string.sever_resp_error));
 					try {
 						getFinalDb().update(msg);
 					} catch (Exception e) {
@@ -663,7 +663,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 						addMessageInfo(msg);
 					}
 				});
-				showToast("服务器响应失败");
+				showToast(getResources().getString(R.string.sever_resp_error));
 				try {
 					getFinalDb().update(msg);
 				} catch (Exception e) {
@@ -703,7 +703,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		
 		if(moreDialog == null){
 			AlertDialog.Builder builder = new AlertDialog.Builder(ChatMainActivity.this);
-			builder.setMessage("更多");
+			builder.setMessage(getResources().getString(R.string.message_more));
 			View view = LayoutInflater.from(getBaseContext()).inflate(R.layout.alert_chat_main_more, null);
 			builder.setView(view);
 			
@@ -713,10 +713,10 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
 			boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
 			if (mode) {
-				btnModeAction.setText("扬声器模式");
+				btnModeAction.setText(getResources().getString(R.string.loudspeaker_model));
 			}
 			else {
-				btnModeAction.setText("听筒模式");
+				btnModeAction.setText(getResources().getString(R.string.receiver_model));
 			}
 			Button btnClear = (Button) view.findViewById(R.id.alert_chat_main_more_btn_clear);
 			try {
@@ -739,10 +739,10 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			SharedPreferences sharedPre = getApplicationContext().getSharedPreferences(Constants.ListenMode, Context.MODE_PRIVATE);
 			boolean mode = sharedPre.getBoolean(Constants.ListenMode, true);
 			if (mode) {
-				btnModeAction.setText("扬声器模式");
+				btnModeAction.setText(getResources().getString(R.string.loudspeaker_model));
 			}
 			else {
-				btnModeAction.setText("听筒模式");
+				btnModeAction.setText(getResources().getString(R.string.receiver_model));
 			}
 		}
 		moreDialog.show();
@@ -968,13 +968,13 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			sessionList.setLastContent(info.getContent());
 			break;
 		case MessageType.PICTURE:
-			sessionList.setLastContent("图片");
+			sessionList.setLastContent(getResources().getString(R.string.pic));
 			break;
 		case MessageType.VOICE:
-			sessionList.setLastContent("语音");
+			sessionList.setLastContent(getResources().getString(R.string.sound));
 			break;
 		case MessageType.MAP:
-			sessionList.setLastContent("位置信息");
+			sessionList.setLastContent(getResources().getString(R.string.location_info));
 			break;
 
 		default:
@@ -1127,7 +1127,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			@Override
 			protected void onPreExecute() {
 				super.onPreExecute();
-				getWaitDialog().setMessage("清空内容.");
+				getWaitDialog().setMessage(getResources().getString(R.string.clear_content));
 				getWaitDialog().show();
 			}
 
@@ -1135,11 +1135,11 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			protected void onPostExecute(Boolean result) {
 				super.onPostExecute(result);
 				if(result){
-					getWaitDialog().setMessage("清除成功");
+					getWaitDialog().setMessage(getResources().getString(R.string.clear_successed));
 					messageInfos.clear();
 					adapter.notifyDataSetChanged();
 				}else{
-					getWaitDialog().setMessage("清除失败");
+					getWaitDialog().setMessage(getResources().getString(R.string.clear_failed));
 				}
 				
 				getWaitDialog().dismiss();
@@ -1163,7 +1163,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			@Override
 			protected void onPreExecute() {
 				super.onPreExecute();
-				getWaitDialog().setMessage("删除内容");
+				getWaitDialog().setMessage(getResources().getString(R.string.clear_content));
 				getWaitDialog().show();
 			}
 
@@ -1171,11 +1171,11 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 			protected void onPostExecute(Boolean result) {
 				super.onPostExecute(result);
 				if(result){
-					getWaitDialog().setMessage("删除成功");
+					getWaitDialog().setMessage(getResources().getString(R.string.clear_successed));
 					messageInfos.remove(messageInfo);
 					adapter.notifyDataSetInvalidated();
 				}else{
-					getWaitDialog().setMessage("删除失败");
+					getWaitDialog().setMessage(getResources().getString(R.string.clear_failed));
 				}
 				
 				getWaitDialog().dismiss();
@@ -1357,7 +1357,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 		public void onClick(View v) {
 			String content = (String) v.getTag();
 			if(TextUtils.isEmpty(content)){
-				showToast("URL 为空");
+				showToast(getResources().getString(R.string.url_null));
 			}else{
 				Intent intent = new Intent(ChatMainActivity.this, ShowChatPhotoActivity.class);
 				intent.putExtra("data", content);
@@ -1796,7 +1796,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				}else if(XmppType.XMPP_STATE_AUTHERR.equals(type)){
 					// 认证失败
 					opconnectState = false;
-					showToast("无法聊天，不妨注销后重试!");
+					showToast(getResources().getString(R.string.logout_restart));
 				}else if(XmppType.XMPP_STATE_REAUTH.equals(type)){
 					// 未认证
 					opconnectState = false;
@@ -1918,7 +1918,7 @@ public class ChatMainActivity extends BaseActivity implements OnBitmapListener{
 				}else if(XmppType.XMPP_STATE_AUTHERR.equals(type)){
 					// 认证失败
 					opconnectState = false;
-					showToast("用户登录信息认证失败!");
+					showToast(getResources().getString(R.string.get_userinfo_error));
 				}else if(XmppType.XMPP_STATE_REAUTH.equals(type)){
 					// 未认证
 					opconnectState = false;

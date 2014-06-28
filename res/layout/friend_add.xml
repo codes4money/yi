@@ -31,7 +31,7 @@
                         style="@style/PLIndividualCenterLayoutItemTextView"
                         android:layout_alignBaseline="@+id/individual_center_img_addfriend1"
                         android:layout_toRightOf="@+id/individual_center_img_addfriend1"
-                        android:text="附近的人" />
+                        android:text="@string/around_person" />
 
                     <Button
                         android:id="@+id/individual_center_btn_addfriend1"
@@ -60,7 +60,7 @@
                         style="@style/PLIndividualCenterLayoutItemTextView"
                         android:layout_alignBaseline="@+id/individual_center_item_addfriend1"
                         android:layout_toRightOf="@+id/individual_center_item_addfriend2"
-                        android:text="通过ID号查找" />
+                        android:text="@string/search_by_id" />
 
                     <Button
                         android:id="@+id/individual_center_item_addfriend2_bnt"
@@ -89,7 +89,7 @@
                         style="@style/PLIndividualCenterLayoutItemTextView"
                         android:layout_alignBaseline="@+id/individual_center_img_addfriend2"
                         android:layout_toRightOf="@+id/individual_center_img_addfriend3"
-                        android:text="通过手机号或邮箱查找" />
+                        android:text="@string/search_by_email_or_phone" />
 
                     <Button
                         android:id="@+id/individual_center_btn_addfriend3"

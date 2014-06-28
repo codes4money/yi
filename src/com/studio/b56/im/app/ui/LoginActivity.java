@@ -149,13 +149,13 @@ public class LoginActivity extends BaseRegisterActivity{
 		String password = editPassword.getText().toString();
 		
 		if(TextUtils.isEmpty(username)){
-			Toast.makeText(getBaseContext(), "输入帐号", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getBaseContext(), R.string.input_accountmobile, Toast.LENGTH_SHORT).show();
 			enableLoginOrEdit(true);
 			return;
 		}
 		
 		if(TextUtils.isEmpty(password)){
-			Toast.makeText(getBaseContext(), "输入密码", Toast.LENGTH_SHORT).show();
+			Toast.makeText(getBaseContext(), R.string.input_password, Toast.LENGTH_SHORT).show();
 			enableLoginOrEdit(true);
 			return;
 		}
@@ -245,7 +245,7 @@ public class LoginActivity extends BaseRegisterActivity{
 				handler.post(new Runnable() {
 					@Override
 					public void run() {
-						getWaitDialog().setMessage("加载数据..");
+						getWaitDialog().setMessage(getResources().getString(R.string.loading));
 					}
 				});
 
@@ -347,7 +347,7 @@ public class LoginActivity extends BaseRegisterActivity{
 			super.onPreExecute();
 			
 			getWaitDialog().show();
-			getWaitDialog().setMessage("初始化中...");
+			getWaitDialog().setMessage(getResources().getString(R.string.loading));
 		}
 
 
@@ -378,7 +378,7 @@ public class LoginActivity extends BaseRegisterActivity{
 		@Override
 		public void onStart() {
 			super.onStart();
-			getWaitDialog().setMessage("验证中..");
+			getWaitDialog().setMessage(getResources().getString(R.string.loading));
 			getWaitDialog().show();
 		}
 
@@ -396,7 +396,7 @@ public class LoginActivity extends BaseRegisterActivity{
 					String uid = JSON.parseObject(data).getString("uid");
 				
 					userInfoVo.setUid(uid);
-					getWaitDialog().setMessage("验证成功..");
+					getWaitDialog().setMessage(getResources().getString(R.string.vertify_success));
 					loginSuccess();
 				}else{
 					enableLoginOrEdit(true);

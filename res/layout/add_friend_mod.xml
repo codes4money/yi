@@ -24,7 +24,7 @@
 		        android:layout_marginLeft="15dip"
 		        android:layout_marginRight="15dip"
 		        android:layout_marginTop="20dip"
-		        android:text="输入手机号或邮箱:" />
+		        android:text="@string/input_phonenumber_or_email" />
 
 			<!-- input number -->
 
@@ -34,7 +34,7 @@
 		        android:layout_marginLeft="40dip"
 		        android:layout_marginRight="40dip"
 		        android:layout_marginTop="25dip"
-		        android:hint="请输入"
+		        android:hint="@string/please_input"
 		        android:inputType="text"
 		        android:maxLength="12" />
 
@@ -45,7 +45,7 @@
 		        android:layout_marginTop="25dip"
 		        android:layout_marginLeft="88dip"
 		        android:layout_marginRight="88dip"
-		        android:text="确定"
+		        android:text="@string/sure"
 		        android:textColor="@android:color/background_light" />
 
     		

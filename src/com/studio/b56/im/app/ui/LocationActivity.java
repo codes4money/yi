@@ -394,7 +394,8 @@ public class LocationActivity extends BaseActivity implements IXListViewListener
 	@Override
 	protected void initTitle() {
 		setTitleContent(R.string.location_title);
-		setTitleLeft("返回");
+//		setTitleLeft(R.string.);
+		setBtnBack();
 		setTitleRight(R.string.location_right);
 	}
 
