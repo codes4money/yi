@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /Users/donal/Downloads/yi/src/com/android/internal/telephony/ITelephony.aidl
+ * Original file: /Users/md313/Documents/yi/src/com/android/internal/telephony/ITelephony.aidl
  */
 package com.android.internal.telephony;
 /**
