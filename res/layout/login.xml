@@ -83,12 +83,14 @@
 
     <Button android:layout_gravity="right"
          android:id="@+id/regBtn" 
-         android:background="@drawable/noaccounttxt_btn" 
+         android:background="@null" 
          android:layout_width="wrap_content" 
          android:layout_height="wrap_content"
           android:layout_marginLeft="@dimen/layout_size_30" 
           android:layout_marginTop="@dimen/layout_size_10"
            android:layout_marginRight="@dimen/layout_size_40" 
-        android:layout_marginBottom="@dimen/layout_size_10" />
+        android:layout_marginBottom="@dimen/layout_size_10"
+        android:text="@string/no_account"
+         />
 
 </LinearLayout>

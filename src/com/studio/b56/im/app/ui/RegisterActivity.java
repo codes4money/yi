@@ -153,7 +153,7 @@ public class RegisterActivity extends BaseRegisterActivity {
 	protected void initTitle() {
 		//setTitleContent(R.string.register_title);
 		//setTitleRight(R.string.title_btn_next);
-		topTitle.setText("注册账号");
+		topTitle.setText(R.string.register);
 		topRight.setBackgroundResource(R.drawable.reg_hook);
 		topRight.setOnClickListener(new View.OnClickListener() {
 			@Override

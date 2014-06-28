@@ -338,6 +338,11 @@
             android:screenOrientation="portrait" >
         </activity>
         <activity
+            android:name=".app.ui.SessionMore"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
             android:name=".app.ui.PrivacyActivity"
             android:screenOrientation="portrait" >
         </activity>

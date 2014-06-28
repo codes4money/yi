@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Observable;
 
+import tools.ImageUtils;
+import tools.Logger;
 import net.tsz.afinal.annotation.view.ViewInject;
 import android.app.AlertDialog;
 import android.content.BroadcastReceiver;
@@ -176,7 +178,6 @@ public class SessionActivity extends BaseActivity{
 	private String[] addContent = { "发起聊天", "添加朋友", "扫一扫" };
 	
 	private void showWindow(View parent) {
-
 		if (pw == null) {
 			LayoutInflater layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
@@ -200,9 +201,8 @@ public class SessionActivity extends BaseActivity{
 
 		pw.setBackgroundDrawable(new BitmapDrawable());
 		WindowManager windowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
-		int xPos = windowManager.getDefaultDisplay().getWidth() / 2
+		int xPos = ImageUtils.getDisplayWidth(this)/2
 				- pw.getWidth() / 2;
-
 		pw.showAsDropDown(parent, xPos, 20);
 
 		afPopuList.setOnItemClickListener(new OnItemClickListener() {

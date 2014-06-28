@@ -22,7 +22,6 @@ import android.widget.ListView;
 
 public class SessionMore extends BaseActivity implements OnItemClickListener{
 	
-	private MoreDialogAdapter xAdapter;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -32,8 +31,12 @@ public class SessionMore extends BaseActivity implements OnItemClickListener{
 	
 	
 	private void initUI() {
-		ListView listview = (ListView) findViewById(R.id.title_list);
-		listview.setAdapter(xAdapter);
+		List<String> addContent = new ArrayList<String>();
+		addContent.add("发起聊天");
+		addContent.add("发起聊天");
+		addContent.add("发起聊天");
+		ListView listview = (ListView) findViewById(R.id.afPopuList);
+		listview.setAdapter(new MoreDialogAdapter(this, addContent));
 		listview.setOnItemClickListener(this);
 	}
 	

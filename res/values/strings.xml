@@ -1312,6 +1312,7 @@ Not yet verified。"</string>
     <string name="init">init...</string>
     <string name="loading">loading...</string>
     <string name="vertify_success">vertify success</string>
+    <string name="no_account">No Account, Register Now</string>
      <!-- 注册界面 -->
     <string name="tel_phone">mobile:</string>
     <string name="input_telphone">mobile!</string>
