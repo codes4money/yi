@@ -32,16 +32,17 @@ public class SessionMore extends BaseActivity implements OnItemClickListener{
 	
 	private void initUI() {
 		List<String> addContent = new ArrayList<String>();
-		addContent.add("发起聊天");
-		addContent.add("发起聊天");
-		addContent.add("发起聊天");
-		ListView listview = (ListView) findViewById(R.id.afPopuList);
+		addContent.add(getResources().getString(R.string.start_chat));
+		addContent.add(getResources().getString(R.string.add_friends));
+		addContent.add(getResources().getString(R.string.scan));
+		ListView listview = (ListView) findViewById(R.id.title_list);
 		listview.setAdapter(new MoreDialogAdapter(this, addContent));
 		listview.setOnItemClickListener(this);
 	}
 	
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
+		finish();
 		return super.onTouchEvent(event);
 	}
 
@@ -50,7 +51,7 @@ public class SessionMore extends BaseActivity implements OnItemClickListener{
 		Intent intent = new Intent();
 		intent.putExtra("position", position);
 		setResult(RESULT_OK, intent);
-		
+		finish();
 	}
 
 	@Override

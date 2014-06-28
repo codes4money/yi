@@ -178,61 +178,62 @@ public class SessionActivity extends BaseActivity{
 	private String[] addContent = { "发起聊天", "添加朋友", "扫一扫" };
 	
 	private void showWindow(View parent) {
-		if (pw == null) {
-			LayoutInflater layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+		startActivityForResult(new Intent(this, SessionMore.class), 1001);
+//		if (pw == null) {
+//			LayoutInflater layoutInflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+//
+//			view = layoutInflater.inflate(R.layout.add_popu, null);
+//
+//			afPopuList = (ListView) view.findViewById(R.id.afPopuList);
+//			groups = new ArrayList<AddBean>();
+//			for (int i = 0; i < resImg.length; i++) {
+//				AddBean ab = new AddBean();
+//				ab.setResImg(resImg[i]);
+//				ab.setContent(addContent[i]);
+//				groups.add(ab);
+//			}
+//			AddAdapter groupAdapter = new AddAdapter(this, groups);
+//			afPopuList.setAdapter(groupAdapter);
+//			pw = new PopupWindow(view, 180, 220);
+//		}
 
-			view = layoutInflater.inflate(R.layout.add_popu, null);
-
-			afPopuList = (ListView) view.findViewById(R.id.afPopuList);
-			groups = new ArrayList<AddBean>();
-			for (int i = 0; i < resImg.length; i++) {
-				AddBean ab = new AddBean();
-				ab.setResImg(resImg[i]);
-				ab.setContent(addContent[i]);
-				groups.add(ab);
-			}
-			AddAdapter groupAdapter = new AddAdapter(this, groups);
-			afPopuList.setAdapter(groupAdapter);
-			pw = new PopupWindow(view, 180, 220);
-		}
-
-		pw.setFocusable(true);
-		pw.setOutsideTouchable(true);
-
-		pw.setBackgroundDrawable(new BitmapDrawable());
-		WindowManager windowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
-		int xPos = ImageUtils.getDisplayWidth(this)/2
-				- pw.getWidth() / 2;
-		pw.showAsDropDown(parent, xPos, 20);
-
-		afPopuList.setOnItemClickListener(new OnItemClickListener() {
-
-			@Override
-			public void onItemClick(AdapterView<?> adapterView, View view,
-					int position, long id) {
-				Intent intent;
-				if(position==0)
-				{
-				    intent = new Intent(SessionActivity.this,SelectFriendList.class);
-				    //intent.putExtra("userNum", 1);
-				    startActivityForResult(intent, REQUESTCODE); 
-				}
-				else if(position==1)
-				{
-					intent = new Intent(SessionActivity.this,friend_add.class);
-					startActivity(intent);
-				}
-				else
-				{
-					intent = new Intent(SessionActivity.this,CaptureActivity.class);
-					startActivity(intent);
-				}
-				
-				if (pw != null) {
-					pw.dismiss();
-				}
-			}
-		});
+//		pw.setFocusable(true);
+//		pw.setOutsideTouchable(true);
+//
+//		pw.setBackgroundDrawable(new BitmapDrawable());
+//		WindowManager windowManager = (WindowManager) getSystemService(Context.WINDOW_SERVICE);
+//		int xPos = ImageUtils.getDisplayWidth(this)/2
+//				- pw.getWidth() / 2;
+//		pw.showAsDropDown(parent, xPos, 20);
+//
+//		afPopuList.setOnItemClickListener(new OnItemClickListener() {
+//
+//			@Override
+//			public void onItemClick(AdapterView<?> adapterView, View view,
+//					int position, long id) {
+//				Intent intent;
+//				if(position==0)
+//				{
+//				    intent = new Intent(SessionActivity.this,SelectFriendList.class);
+//				    //intent.putExtra("userNum", 1);
+//				    startActivityForResult(intent, REQUESTCODE); 
+//				}
+//				else if(position==1)
+//				{
+//					intent = new Intent(SessionActivity.this,friend_add.class);
+//					startActivity(intent);
+//				}
+//				else
+//				{
+//					intent = new Intent(SessionActivity.this,CaptureActivity.class);
+//					startActivity(intent);
+//				}
+//				
+//				if (pw != null) {
+//					pw.dismiss();
+//				}
+//			}
+//		});
 	}
 	
 	    @Override 
