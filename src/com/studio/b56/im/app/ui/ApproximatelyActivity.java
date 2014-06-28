@@ -47,6 +47,7 @@ public class ApproximatelyActivity extends Activity   {
 		topLeft = (ImageButton) this.findViewById(R.id.topLeft);
 		topRight = (ImageButton) this.findViewById(R.id.topRight);
 		topMiddle = (TextView) this.findViewById(R.id.topMiddle);
+		topMiddle.setText(getResources().getString(R.string.discover));
 		setTop();
 	}
 

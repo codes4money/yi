@@ -111,8 +111,8 @@ public class NotifyActivity extends BaseActivity {
 	@Override
 	protected void initTitle() {
 		setTitleContent(R.string.notify_title);
-		setTitleRight(EDIT);
-		setTitleLeft("返回");
+		setTitleRight(R.string.edit);
+		setBtnBack();
 	}
 	@Override
 	protected void titleBtnLeft() {

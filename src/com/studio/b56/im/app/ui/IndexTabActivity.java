@@ -90,7 +90,7 @@ public class IndexTabActivity extends TabActivity  implements TabHost.OnTabChang
 	private TabHost mTabHost;
 	private FriendListAction friendListAction;
 	private String[] tabTags = new String[]{ "chat", "friend", "notation","grzx"};
-	private String[] tabDescs = new String[]{"会话","通讯录","发现","我"};
+	private String[] tabDescs = new String[]{};
 	private int[] tabImgIds = new int[]{R.drawable.bottom_home_bn_style, R.drawable.bottom_style_bn_style, R.drawable.bottom_cam_bn_style,R.drawable.bottom_shopping_bn_style};
 	
 	private String currTag = tabTags[0];
@@ -159,6 +159,7 @@ public class IndexTabActivity extends TabActivity  implements TabHost.OnTabChang
 		super.onCreate(savedInstanceState);
 		instance = this;
 		setContentView(R.layout.index_tab_mini);
+		tabDescs = new String[]{getResources().getString(R.string.conversation), getResources().getString(R.string.contact), getResources().getString(R.string.discover), getResources().getString(R.string.personal)};
 		String sharedPrefsFile = "com.studio.b56.im_preferences";
 		mSettings = getSharedPreferences(sharedPrefsFile, MODE_PRIVATE);
 		application = (PeibanApplication) getApplication();

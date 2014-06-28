@@ -61,7 +61,7 @@ public class ChatMessageNotifiy extends AbstractNotifiy{
 			
 			// Notification
 			Notification notification = new Notification();
-			notification.icon = R.drawable.notiicon; // 设置通知的图标
+			notification.icon = R.drawable.ic_launch; // 设置通知的图标
 //			notification.defaults |= Notification.DEFAULT_SOUND;
 			notification.sound = Uri.parse("android.resource://com.studio.b56.im/" +R.raw.phonering);
 			notification.defaults |= Notification.DEFAULT_VIBRATE;

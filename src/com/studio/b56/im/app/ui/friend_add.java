@@ -48,8 +48,9 @@ public class friend_add extends BaseActivity{
 	@Override
 	protected void initTitle() {
 		// TODO Auto-generated method stub
-		setTitleContent("查找好友");
-		setTitleLeft("返回");
+		setTitleContent(R.string.main_addcontact);
+//		setTitleLeft("返回");
+		setBtnBack();
 	}
 	
 	@Override

@@ -1404,4 +1404,11 @@ QQ号：%s
    	<!-- alert_chat_main_more.xml -->
    	<string name="apply_look">申请查看</string>
    	<string name="clear_chat">清空聊天</string>
+   	
+   	<string name="conversation">会话</string>
+   	<string name="contact">通讯录</string>
+   	<string name="discover">发现</string>
+   	<string name="personal">我的</string>
+   	
+   	<string name="edit">编辑</string>
 </resources>

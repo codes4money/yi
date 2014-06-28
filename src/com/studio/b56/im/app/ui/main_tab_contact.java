@@ -283,7 +283,7 @@ public class main_tab_contact  extends BaseActivity{
 		topMiddle = (TextView) this.findViewById(R.id.topMiddle);
 		
 		topLeft.setVisibility(View.GONE);
-		topMiddle.setText(getResources().getString(R.string.address_book));
+		topMiddle.setText(getResources().getString(R.string.contact));
 		topRight.setBackgroundResource(R.drawable.add_btn);
 		topRight.setOnClickListener(new OnClickListener() {
 			@Override
