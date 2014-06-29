@@ -259,7 +259,33 @@ public class SessionActivity extends BaseActivity{
 	            default: 
 	                break; 
 	            } 
-	        } 
+	        }
+	        else if (requestCode == 1001) {
+	        	 switch (resultCode) { 
+		            case RESULT_OK: 
+		            	Intent intent;
+						int position = data.getIntExtra("position", 0);
+						if(position==0)
+						{
+						    intent = new Intent(SessionActivity.this,SelectFriendList.class);
+						    //intent.putExtra("userNum", 1);
+						    startActivityForResult(intent, REQUESTCODE); 
+						}
+						else if(position==1)
+						{
+							intent = new Intent(SessionActivity.this,friend_add.class);
+							startActivity(intent);
+						}
+						else
+						{
+							intent = new Intent(SessionActivity.this,CaptureActivity.class);
+							startActivity(intent);
+						}
+		                break; 
+		            default: 
+		                break; 
+		            } 
+	        }
 	        super.onActivityResult(requestCode, resultCode, data); 
 	    } 
 	
@@ -567,12 +593,12 @@ public class SessionActivity extends BaseActivity{
 
 			viewHolder.txtUsername.setText(userName);
 //			viewHolder.txtLocation.setText(location);
-//			if (0 != noReadNum) {
-//				viewHolder.txtNoreadNum.setVisibility(View.VISIBLE);
-//				viewHolder.txtNoreadNum.setText(noReadNum + "");
-//			} else {
-//				viewHolder.txtNoreadNum.setVisibility(View.GONE);
-//			}
+			if (0 != noReadNum) {
+				viewHolder.txtNoreadNum.setVisibility(View.VISIBLE);
+				viewHolder.txtNoreadNum.setText(noReadNum + "");
+			} else {
+				viewHolder.txtNoreadNum.setVisibility(View.GONE);
+			}
 
 			if (isEdit) {
 				viewHolder.txtTime.setVisibility(View.GONE);
@@ -611,7 +637,7 @@ public class SessionActivity extends BaseActivity{
 		ImageView imgHead;
 
 		TextView txtUsername;
-//		TextView txtNoreadNum; // 未读条数
+		TextView txtNoreadNum; // 未读条数
 		TextView txtSign;
 
 		TextView txtTime;
@@ -626,8 +652,8 @@ public class SessionActivity extends BaseActivity{
 
 			viewHolder.txtUsername = (TextView) view
 					.findViewById(R.id.list_txt_title);
-//			viewHolder.txtNoreadNum = (TextView) view
-//					.findViewById(R.id.list_txt_type);
+			viewHolder.txtNoreadNum = (TextView) view
+					.findViewById(R.id.tvNotReadNum);
 			viewHolder.txtSign = (TextView) view
 					.findViewById(R.id.list_txt_message_info);
 			viewHolder.txtTime = (TextView) view

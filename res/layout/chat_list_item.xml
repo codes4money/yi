@@ -17,6 +17,22 @@
         android:layout_marginTop="10dp"
         android:layout_marginLeft="15dp"
          />
+    
+    <TextView 
+        android:id="@+id/tvNotReadNum"
+		android:layout_width="20dp"
+		android:layout_height="20dp"
+		android:textSize="13dp"
+        android:layout_alignBottom="@+id/list_item_img_head"
+        android:layout_toRightOf="@+id/list_item_img_head"
+        android:layout_marginLeft="-15dp"
+        android:background="@drawable/chat_not_read_num_bg"
+        android:visibility="visible"
+        android:textColor="@color/white"
+        android:minWidth="20dp"
+        android:gravity="center"
+        android:maxHeight="20dp"
+        />
 
     <ImageView
         android:id="@+id/list_item_img_subscript"
